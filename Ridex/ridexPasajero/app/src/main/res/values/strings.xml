@@ -7,6 +7,10 @@
     <string name="onboarding_secondary_2">Ridex te conecta con el transporte que necesitas, cuando lo necesitas. Olvídate de las esperas innecesarias y haz que cada viaje sea una experiencia cómoda y eficiente.</string>
     <string name="onboarding_main_3">Reserva tu auto</string>
     <string name="onboarding_secondary_3">Ridex pone a tu disposición una variedad de vehículos para adaptarse a tus necesidades de viaje.</string>
+    <string name="welcome_main">Bienvenido</string>
+    <string name="welcome_secondary">Optimiza tu experiencia de compartir viajes con nuestra aplicación</string>
+    <string name="textLogin">Iniciar Sesión</string>
+    <string name="textCreateAccount">Crear Cuenta</string>
 
 
 
