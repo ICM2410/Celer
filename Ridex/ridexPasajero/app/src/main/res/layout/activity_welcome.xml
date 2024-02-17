@@ -73,7 +73,9 @@
             android:background="@drawable/btn_background_primary"
             android:textColor="@color/white"
             android:fontFamily="@font/poppinsmedium"
-            android:text="@string/textLogin" />
+            android:text="@string/textLogin"
+            android:textSize="16dp"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="match_parent"
@@ -84,7 +86,9 @@
             android:textColor="@color/greenPrimary"
             android:fontFamily="@font/poppinsmedium"
             android:text="@string/textCreateAccount"
-            android:layout_marginTop="15dp"/>
+            android:layout_marginTop="15dp"
+            android:textSize="16dp"
+            android:textAllCaps="false"/>
 
 
 

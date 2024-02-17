@@ -2,6 +2,7 @@
     <string name="app_name">ridexPasajero</string>
     <string name="onboarding_main_1">Donde sea que estes</string>
     <string name="skip">Saltar</string>
+    <string name="back">Atrás</string>
     <string name="onboarding_secondary_1">La aplicación que redefine la movilidad urbana. Olvídate de lo convencional, Ridex te conecta con el transporte que necesitas en un instante.</string>
     <string name="onboarding_main_2">En cualquier momento</string>
     <string name="onboarding_secondary_2">Ridex te conecta con el transporte que necesitas, cuando lo necesitas. Olvídate de las esperas innecesarias y haz que cada viaje sea una experiencia cómoda y eficiente.</string>
@@ -11,6 +12,46 @@
     <string name="welcome_secondary">Optimiza tu experiencia de compartir viajes con nuestra aplicación</string>
     <string name="textLogin">Iniciar Sesión</string>
     <string name="textCreateAccount">Crear Cuenta</string>
+    <string name="signUpMain">Regístrate con tu email o número de celular</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintCelular">Tu número de celular</string>
+    <string name="privacy">Al registrarte, aceptas los Términos de servicio y la Política de privacidad.</string>
+    <string name="signupgoogle">Registrarse con Google</string>
+    <string name="signupface">Registrarse con Facebook</string>
+    <string name="signupapple">Registrarse con Apple</string>
+    <string name="haveanaccount">¿Ya tienes una cuenta?</string>
+    <string name="otpver">Verificación OTP</string>
+    <string name="enterotp">Ingresa tu código OTP</string>
+    <string name="norecieveopt">No recibiste el código</string>
+    <string name="reenviar">Volver a enviar</string>
+    <string name="verify">Verificar</string>
+    <string name="setpassword">Establecer contraseña</string>
+    <string name="setyourpassword">Establece tu contraseña</string>
+    <string name="enterpassword">Ingresar Contraseña</string>
+    <string name="confirmpassword">Confirmar Contraseña</string>
+    <string name="validatepassword">Al menos un numero o caracter especial</string>
+    <string name="register">Registrar</string>
+    <string name="signinMain">Inicia sesión con tu email o número de celular</string>
+    <string name="hintLoginCelular">Email o número de celular</string>
+    <string name="hintLoginPassword">Ingresa tu contraseña</string>
+    <string name="donthaveanaccount">¿No tienes una cuenta?</string>
+    <string name="forgotpassword">¿Olvidaste tu contraseña?</string>
+    <string name="signingoogle">Ingresar con Google</string>
+    <string name="signinface">Ingresar con Facebook</string>
+    <string name="signinapple">Ingresar con Apple</string>
+    <string name="verificationpasswordotp">Ingresar email o número de celular</string>
+    <string name="enviarotp">Enviar OTP</string>
+    <string name="setnewpassword">Establecer nueva contraseña</string>
+    <string name="setyoutnewpassword">Establece tu nueva contraseña</string>
+    <string name="save">Guardar</string>
+    <string name="profile">Perfil</string>
+
+    <string name="fullname">Nombre Completo</string>
+    <string name="street">Dirección</string>
+    <string name="city">Ciudad</string>
+
+    <string name="cancel">Cancelar</string>
 
 
 

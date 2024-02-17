@@ -26,6 +26,7 @@
             android:textColor="@color/gray"
             android:text="@string/skip"
             android:textSize="16sp"
+            android:textAllCaps="false"
             android:fontFamily="@font/poppinsmedium"
 
             />
