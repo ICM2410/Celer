@@ -132,6 +132,16 @@ This Privacy Policy applies only to our online activities and is valid for visit
     <string name="sendfeedback">Enviar Feedback</string>
     <string name="writecomment">Envia tu comentario</string>
     <string name="thanksfeedback">Gracias por tu comentario, lo tendremos en cuenta</string>
+    <string name="home">Home</string>
+    <string name="wallet">Wallet</string>
+    <string name="config">Config</string>
+    <string name="transactions">Transacciones</string>
+    <string name="addmethodpay">Añadir metodo de pago</string>
+    <string name="savingmethods">Metodos de Pago</string>
+    <string name="numberaccount">Numero de Cuenta</string>
+    <string name="savepaymethod">Guardar Metodo de Pago</string>
+    <string name="methodadded">Metodo Añadido</string>
+    <string name="methodadded_desc">Metodo Añadido Exitosamente</string>
 
 
 

@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginHorizontal="16dp"
-        app:layout_constraintVertical_bias="0.03"
-        android:orientation="horizontal"
-        android:gravity="start|center"
-        >
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/transparent"
-            android:textColor="@color/gray"
-            android:text="@string/back"
-            android:textSize="16sp"
-            android:textAllCaps="false"
-            android:drawableStart="@drawable/back"
-            android:fontFamily="@font/poppinsmedium"
-
-            />
-    </LinearLayout>
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView"
@@ -38,84 +12,42 @@
         android:layout_marginHorizontal="16dp"
         android:fontFamily="@font/poppinsmedium"
         android:gravity="center"
-        android:text="@string/historial"
+        android:text="@string/wallet"
         android:textColor="@color/gray"
         android:textSize="20sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout2"
-        app:layout_constraintVertical_bias="0.02" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout15"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.02"
-        android:orientation="horizontal"
-        android:background="@drawable/background_especification"
-        android:layout_marginHorizontal="16dp">
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:fontFamily="@font/poppinsregular"
-            android:background="@color/transparent"
-
-            android:textSize="12sp"
-            android:radius ="10dp"
-            android:textAllCaps="false"
-            android:text="@string/upcoming"
-            android:textColor="@color/gray"/>
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@color/transparent"
-
-            android:fontFamily="@font/poppinsregular"
-            android:textSize="12sp"
-            android:text="@string/completed"
-            android:textAllCaps="false"
-
-            android:textColor="@color/gray"/>
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/btn_background_primary"
-            android:fontFamily="@font/poppinsregular"
-            android:textSize="12sp"
-            android:text="@string/cancelled"
-            android:textAllCaps="false"
-            android:textColor="@color/white"/>
-
-    </LinearLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"/>
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_addWallet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout15">
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.1">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/popinsbold"
+                android:text="@string/transactions"
+                android:textColor="@color/gray"
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -145,7 +77,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
+                        android:text="Hoy a las 12:30 pm"
                         android:textColor="@color/lightGray"
                         android:textSize="12sp" />
 
@@ -156,59 +88,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
+                    android:fontFamily="@font/popinsbold"
                     android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
-                    android:textSize="14sp" />
-
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/btn_background_secondary"
-                android:orientation="horizontal"
-                android:paddingHorizontal="20dp"
-                android:paddingVertical="15dp">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:text="Welton"
-                        android:textColor="@color/gray"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
-                        android:textColor="@color/lightGray"
-                        android:textSize="12sp" />
-
-                </LinearLayout>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
                     android:textSize="14sp" />
 
 
@@ -242,7 +125,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
+                        android:text="Hoy a las 12:30 pm"
                         android:textColor="@color/lightGray"
                         android:textSize="12sp" />
 
@@ -253,59 +136,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
+                    android:fontFamily="@font/popinsbold"
                     android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
-                    android:textSize="14sp" />
-
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/btn_background_secondary"
-                android:orientation="horizontal"
-                android:paddingHorizontal="20dp"
-                android:paddingVertical="15dp">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:text="Welton"
-                        android:textColor="@color/gray"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
-                        android:textColor="@color/lightGray"
-                        android:textSize="12sp" />
-
-                </LinearLayout>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
                     android:textSize="14sp" />
 
 
@@ -339,7 +173,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
+                        android:text="Hoy a las 12:30 pm"
                         android:textColor="@color/lightGray"
                         android:textSize="12sp" />
 
@@ -350,10 +184,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
+                    android:fontFamily="@font/popinsbold"
                     android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
                     android:textSize="14sp" />
 
 
@@ -387,7 +221,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
+                        android:text="Hoy a las 12:30 pm"
                         android:textColor="@color/lightGray"
                         android:textSize="12sp" />
 
@@ -398,10 +232,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
+                    android:fontFamily="@font/popinsbold"
                     android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
                     android:textSize="14sp" />
 
 
@@ -435,7 +269,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
+                        android:text="Hoy a las 12:30 pm"
                         android:textColor="@color/lightGray"
                         android:textSize="12sp" />
 
@@ -446,10 +280,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
+                    android:fontFamily="@font/popinsbold"
                     android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
                     android:textSize="14sp" />
 
 
@@ -483,7 +317,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
+                        android:text="Hoy a las 12:30 pm"
                         android:textColor="@color/lightGray"
                         android:textSize="12sp" />
 
@@ -494,10 +328,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
+                    android:fontFamily="@font/popinsbold"
                     android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
                     android:textSize="14sp" />
 
 
@@ -531,7 +365,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
+                        android:text="Hoy a las 12:30 pm"
                         android:textColor="@color/lightGray"
                         android:textSize="12sp" />
 
@@ -542,10 +376,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
+                    android:fontFamily="@font/popinsbold"
                     android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
                     android:textSize="14sp" />
 
 
@@ -579,7 +413,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
+                        android:text="Hoy a las 12:30 pm"
                         android:textColor="@color/lightGray"
                         android:textSize="12sp" />
 
@@ -590,10 +424,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
+                    android:fontFamily="@font/popinsbold"
                     android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
                     android:textSize="14sp" />
 
 
@@ -627,7 +461,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsregular"
-                        android:text="Chevrolet Spark Gt"
+                        android:text="Hoy a las 12:30 pm"
                         android:textColor="@color/lightGray"
                         android:textSize="12sp" />
 
@@ -638,10 +472,106 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:fontFamily="@font/poppinsmedium"
+                    android:fontFamily="@font/popinsbold"
                     android:gravity="end"
-                    android:text="Cancelado"
-                    android:textColor="@color/redPrimary"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_background_secondary"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="15dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Welton"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Hoy a las 12:30 pm"
+                        android:textColor="@color/lightGray"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/popinsbold"
+                    android:gravity="end"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_background_secondary"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="15dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Welton"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Hoy a las 12:30 pm"
+                        android:textColor="@color/lightGray"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/popinsbold"
+                    android:gravity="end"
+                    android:text="-$21"
+                    android:textColor="@color/gray"
                     android:textSize="14sp" />
 
 
@@ -653,4 +583,161 @@
 
     </ScrollView>
 
+    <Button
+        android:id="@+id/btn_addWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_weight="1"
+        android:width="0dp"
+        android:background="@drawable/btn_background_primary"
+        android:fontFamily="@font/poppinsmedium"
+        android:paddingVertical="15dp"
+        android:text="@string/addmethodpay"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+        <LinearLayout
+            android:id="@+id/btn_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/home" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:gravity="center"
+                android:text="@string/home"
+                android:textColor="@color/gray" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btn_historial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/historial" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:gravity="center"
+                android:text="@string/historial"
+                android:textColor="@color/gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_wallet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/wallet" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:gravity="center"
+                android:text="@string/wallet"
+                android:textColor="@color/gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:gravity="center"
+                android:text="@string/profile"
+                android:textColor="@color/gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_config"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/settings" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:gravity="center"
+                android:text="@string/config"
+                android:textColor="@color/gray" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

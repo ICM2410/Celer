@@ -11,14 +11,14 @@ import android.widget.Button
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.acitivity_confirm_ride)
+        setContentView(R.layout.activity_wallet)
 
-        val btnPago : Button  = findViewById(R.id.btnConfirmPay);
+        //val btnPago : Button  = findViewById(R.id.btnConfirmPay);
 
-        btnPago.setOnClickListener{
-            showCustomDialogBox()
+        //btnPago.setOnClickListener{
+          //  showCustomDialogBox()
 
-        }
+        //}
 
 
 
