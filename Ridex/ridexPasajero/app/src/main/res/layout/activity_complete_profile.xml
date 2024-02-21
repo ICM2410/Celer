@@ -18,6 +18,7 @@
         android:gravity="start|center"
         >
         <Button
+            android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -184,22 +185,28 @@
         app:layout_constraintVertical_bias="0.97">
 
         <Button
+            android:id="@+id/btnCancel"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
+            android:paddingVertical="15dp"
+
             android:background="@drawable/btn_background_secondary"
             android:text="@string/cancel"
             android:fontFamily="@font/poppinsmedium"
             android:textAllCaps="false"/>
 
         <Button
+            android:id="@+id/btnGuardar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/btn_background_primary"
             android:text="@string/save"
             android:textColor="@color/white"
+            android:paddingVertical="15dp"
+
             android:fontFamily="@font/poppinsmedium"
             android:textAllCaps="false"/>
     </LinearLayout>
