@@ -119,6 +119,19 @@ This Privacy Policy applies only to our online activities and is valid for visit
     <string name="upcoming">Próximos</string>
     <string name="completed">Completados</string>
     <string name="cancelled">Cancelados</string>
+    <string name="enableLocation">Habilitar Ubicación</string>
+    <string name="enableLocation_desc">Elige tu ubicación para comenzar a buscar la solicitud cerca de ti.</string>
+    <string name="allowLocation">Usar mi ubicación</string>
+    <string name="chat">Chat</string>
+    <string name="paysuccess">Pago Exitoso</string>
+    <string name="paysuccess_desc">El pago se ha realizado exitosamente</string>
+    <string name="amount">Cantidad</string>
+    <string name="howwasthetrip">¿Cómo estuvo el viaje?</string>
+    <string name="howwasthetrip_desc">Tu retroalimentación nos ayudará a mejorar tu experiencia de viaje.</string>
+    <string name="feedback">Feedback</string>
+    <string name="sendfeedback">Enviar Feedback</string>
+    <string name="writecomment">Envia tu comentario</string>
+    <string name="thanksfeedback">Gracias por tu comentario, lo tendremos en cuenta</string>
 
 
 
