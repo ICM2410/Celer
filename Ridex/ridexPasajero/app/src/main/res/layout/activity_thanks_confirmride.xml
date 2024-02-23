@@ -83,6 +83,7 @@
 
 
         <Button
+            android:id="@+id/btnConfirm"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -90,6 +91,8 @@
             android:fontFamily="@font/poppinsmedium"
             android:text="@string/confirmpayment"
             android:textAllCaps="false"
+            android:paddingVertical="15dp"
+
             android:textColor="@color/white" />
 
 

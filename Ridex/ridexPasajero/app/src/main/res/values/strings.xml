@@ -142,6 +142,11 @@ This Privacy Policy applies only to our online activities and is valid for visit
     <string name="savepaymethod">Guardar Metodo de Pago</string>
     <string name="methodadded">Metodo Añadido</string>
     <string name="methodadded_desc">Metodo Añadido Exitosamente</string>
+    <string name="selectAddress">Seleccionar Dirección</string>
+    <string name="recentplaces">Lugares Recientes</string>
+    <string name="confirmtrip">Confirmar Viaje</string>
+    <string name="call">Llamar</string>
+    <string name="message">Chat</string>
 
 
 </resources>

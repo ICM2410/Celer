@@ -13,6 +13,37 @@ class SigninActivity : AppCompatActivity() {
         binding = ActivitySigninBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.btnBack.setOnClickListener{
+            var intent = Intent(baseContext, WelcomeActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnLogin.setOnClickListener{
+            var intent = Intent(baseContext, HomeTransportActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnLoginFace.setOnClickListener{
+            var intent = Intent(baseContext, HomeTransportActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnLoginGoogle.setOnClickListener{
+            var intent = Intent(baseContext, HomeTransportActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.idBtnLoginApple.setOnClickListener{
+            var intent = Intent(baseContext, HomeTransportActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.idBtnGotoCreateAccount.setOnClickListener{
+            var intent = Intent(baseContext, SignupActivity::class.java)
+            startActivity(intent)
+        }
+
+
 
 
     }

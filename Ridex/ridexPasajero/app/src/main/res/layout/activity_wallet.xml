@@ -29,7 +29,7 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_addWallet"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddWallet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -584,7 +584,7 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/btn_addWallet"
+        android:id="@+id/btnAddWallet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
@@ -610,7 +610,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:orientation="horizontal"
-        android:paddingVertical="10dp"
+        android:paddingVertical="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -669,7 +669,7 @@
         <LinearLayout
             android:id="@+id/btn_wallet"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="43dp"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="center"
@@ -678,7 +678,7 @@
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/wallet" />
+                android:src="@drawable/greenwallet" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -686,7 +686,7 @@
                 android:fontFamily="@font/poppinsmedium"
                 android:gravity="center"
                 android:text="@string/wallet"
-                android:textColor="@color/gray" />
+                android:textColor="@color/greenPrimary" />
 
         </LinearLayout>
 

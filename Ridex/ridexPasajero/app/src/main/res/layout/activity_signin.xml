@@ -18,6 +18,7 @@
         android:gravity="start|center"
         >
         <Button
+            android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -103,6 +104,7 @@
                     />
 
             <Button
+                android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -125,6 +127,7 @@
 
 
             <Button
+                android:id="@+id/btnLoginGoogle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input_background"
@@ -141,6 +144,7 @@
                 />
 
             <Button
+                android:id="@+id/btnLoginFace"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input_background"
@@ -157,6 +161,7 @@
                 />
 
             <Button
+                android:id="@+id/idBtnLoginApple"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input_background"
@@ -191,6 +196,7 @@
                     />
 
                 <Button
+                    android:id="@+id/idBtnGotoCreateAccount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@color/transparent"

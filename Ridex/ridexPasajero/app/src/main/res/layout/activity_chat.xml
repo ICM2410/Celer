@@ -16,8 +16,10 @@
         app:layout_constraintVertical_bias="0.03"
         android:orientation="horizontal"
         android:gravity="start|center"
+        android:layout_marginHorizontal="16dp"
         >
         <Button
+            android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -39,6 +41,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.03"
+        android:layout_marginHorizontal="16dp"
         android:layout_marginBottom="30dp">
 
         <LinearLayout
@@ -232,6 +235,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1"
+        android:layout_marginHorizontal="16dp"
 android:paddingVertical="20dp"
         android:background="@color/white">
 

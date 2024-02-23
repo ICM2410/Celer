@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnContinue.setOnClickListener{
-            var intent = Intent(baseContext, InduccionDosActivity::class.java)
+            var intent = Intent(baseContext, HomeTransportActivity::class.java)
             startActivity(intent)
         }
 
@@ -30,21 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun showCustomDialogBox() {
-        val dialog = Dialog(this)
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
-        dialog.setCancelable(false)
-        dialog.setContentView(R.layout.custom_dialog_confirmpayment)
-        dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
-        val btnFeedback: Button = dialog.findViewById(R.id.btn_feedback)
-        btnFeedback.setOnClickListener {
-            dialog.dismiss()
-            showCustomDialogFeedback()
-        }
-
-        dialog.show()
-    }
 
     private fun showCustomDialogFeedback() {
         val dialog = Dialog(this)

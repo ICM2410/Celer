@@ -10,5 +10,7 @@
     <color name="greenPrimary">#008955</color>
     <color name="greenSecondary">#E2F5ED</color>
     <color name="redPrimary">#F44336</color>
+    <color name="greenThird">#B9E5D1</color>
+    <color name="gray2">#5a5a5a</color>
 
 </resources>
