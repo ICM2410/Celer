@@ -20,6 +20,31 @@ class WalletActivity : AppCompatActivity() {
 
 
 
+        binding.btnHistorial.setOnClickListener{
+            var intent = Intent(baseContext, HistoryUpcoming::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnProfile.setOnClickListener{
+            var intent = Intent(baseContext, ProfileActivity::class.java)
+            startActivity(intent)
+
+        }
+
+        binding.btnConfig.setOnClickListener{
+            var intent = Intent(baseContext, SettingsMain::class.java)
+            startActivity(intent)
+
+        }
+
+        binding.btnHome.setOnClickListener{
+            var intent = Intent(baseContext, HomeTransportActivity::class.java)
+            startActivity(intent)
+
+        }
+
+
+
 
 
     }

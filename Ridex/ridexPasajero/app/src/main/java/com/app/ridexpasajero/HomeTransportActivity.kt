@@ -30,6 +30,19 @@ class HomeTransportActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnProfile.setOnClickListener{
+            var intent = Intent(baseContext, ProfileActivity::class.java)
+            startActivity(intent)
+
+        }
+
+        binding.btnConfig.setOnClickListener{
+            var intent = Intent(baseContext, SettingsMain::class.java)
+            startActivity(intent)
+
+        }
+
+
 
 
 

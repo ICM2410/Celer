@@ -147,6 +147,15 @@ This Privacy Policy applies only to our online activities and is valid for visit
     <string name="confirmtrip">Confirmar Viaje</string>
     <string name="call">Llamar</string>
     <string name="message">Chat</string>
+    <string name="title_activity_deleteaccount">DeleteaccountActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 
 
 </resources>

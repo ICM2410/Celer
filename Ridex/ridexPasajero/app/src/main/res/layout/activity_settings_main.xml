@@ -18,6 +18,8 @@
         android:gravity="start|center"
         >
         <Button
+            android:id="@+id/btnBack"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -61,6 +63,7 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/btnCambiarContra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -94,6 +97,8 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/btnPoliticaPrivacidad"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -127,6 +132,8 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/btnContactanos"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -160,6 +167,8 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/btnDeleteCuenta"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"

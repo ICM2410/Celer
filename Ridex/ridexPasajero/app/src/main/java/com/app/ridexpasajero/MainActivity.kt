@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnContinue.setOnClickListener{
-            var intent = Intent(baseContext, HomeTransportActivity::class.java)
+            var intent = Intent(baseContext, InduccionDosActivity::class.java)
             startActivity(intent)
         }
 

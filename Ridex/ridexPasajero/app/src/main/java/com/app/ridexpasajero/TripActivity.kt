@@ -22,6 +22,11 @@ class TripActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnShowSlideUp.setOnClickListener{
+            bottomSheet.show(supportFragmentManager, "BottomSheetrip")
+
+        }
+
 
     }
 }

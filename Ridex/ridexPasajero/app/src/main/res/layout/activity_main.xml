@@ -47,12 +47,9 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="92dp"
-            tools:layout_editor_absoluteY="103dp"
-            tools:src="@drawable/onboarding" />
+            android:src="@drawable/onboarding"/>
 
         <TextView
             android:layout_width="match_parent"
