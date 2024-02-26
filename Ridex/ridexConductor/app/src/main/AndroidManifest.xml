@@ -13,6 +13,42 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".ThanksLicensePhotoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TakeLicensePhotoFrontalConfirmationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TakeLicensePhotoBackConfirmationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TakeLicensePhotoInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThanksProfilePhotoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TakeProfilePhotoConfirmationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TakeProfilePhotoInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RequiredStepsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhoneVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
