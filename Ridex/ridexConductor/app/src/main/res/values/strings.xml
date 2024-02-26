@@ -1,3 +1,84 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">RideXConductor</string>
+    <string name="skip">Saltar</string>
+    <string name="back">Atrás</string>
+    <string name="welcome_main">Bienvenido</string>
+    <string name="welcome_secondary">Trabaja cuando quieras y el tiempo que desees</string>
+    <string name="textLogin">Iniciar Sesión</string>
+    <string name="textCreateAccount">Crear Cuenta</string>
+    <string name="signUpMain">Regístrate con tu email o número de celular</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintCelular">Tu número de celular</string>
+    <string name="privacy">Al registrarte, aceptas los Términos de servicio y la Política de privacidad.</string>
+    <string name="signupgoogle">Registrarse con Google</string>
+    <string name="signupface">Registrarse con Facebook</string>
+    <string name="signupapple">Registrarse con Apple</string>
+    <string name="haveanaccount">¿Ya tienes una cuenta?</string>
+    <string name="otpver">Verificación OTP</string>
+    <string name="enterotp">Ingresa tu código OTP</string>
+    <string name="norecieveopt">No recibiste el código</string>
+    <string name="reenviar">Volver a enviar</string>
+    <string name="verify">Verificar</string>
+    <string name="setpassword">Establecer contraseña</string>
+    <string name="setyourpassword">Establece tu contraseña</string>
+    <string name="enterpassword">Ingresar Contraseña</string>
+    <string name="confirmpassword">Confirmar Contraseña</string>
+    <string name="validatepassword">Al menos un numero o caracter especial</string>
+    <string name="register">Registrar</string>
+    <string name="signinMain">Inicia sesión con tu email o número de celular</string>
+    <string name="hintLoginCelular">Email o número de celular</string>
+    <string name="hintLoginPassword">Ingresa tu contraseña</string>
+    <string name="donthaveanaccount">¿No tienes una cuenta?</string>
+    <string name="forgotpassword">¿Olvidaste tu contraseña?</string>
+    <string name="signingoogle">Ingresar con Google</string>
+    <string name="signinface">Ingresar con Facebook</string>
+    <string name="signinapple">Ingresar con Apple</string>
+    <string name="verificationpasswordotp">Ingresar email o número de celular</string>
+    <string name="enviarotp">Enviar OTP</string>
+    <string name="setnewpassword">Establecer nueva contraseña</string>
+    <string name="setyoutnewpassword">Establece tu nueva contraseña</string>
+    <string name="save">Guardar</string>
+    <string name="profile">Perfil</string>
+
+    <string name="fullname">Nombre Completo</string>
+    <string name="street">Dirección</string>
+    <string name="city">Ciudad</string>
+
+    <string name="cancel">Cancelar</string>
+
+    <string name="stepsrequiredmain">Por favor llena todos los pasos requeridos</string>
+    <string name="stepsrequiredsecondary">Esto es lo que debes hacer para terminar de configurar tu cuenta</string>
+    <string name="profilephoto">Foto de Perfil</string>
+    <string name="driverslicense">Licencia de Conducción</string>
+    <string name="vehicleensurance">Seguro de Vehículo</string>
+    <string name="vehiclecertificate">Certificado de Registro del Vehículo</string>
+    <string name="profilephotomain">Toma tu Foto de Perfil</string>
+    <string name="profilephotosecondary">La foto de perfil nos ayuda a reconocerte. Por favor ten en cuenta que una vez aceptes tu foto de perfil no podrá ser cambiada</string>
+    <string name="profilephotostep1">1. Pon tu rostro en frente de la cámara con tus ojos y boca visibles</string>
+    <string name="profilephotostep2">2. Asegúrate de que tu foto este sin reflejos y enfocada.</string>
+    <string name="profilephotostep3">3. No tomar foto de una foto, filtros o alguna alteración a la misma.</string>
+
+    <string name="licensephotomain">Toma una foto de tu licencia de conducción por ambos lados</string>
+    <string name="licensephotosecondary">La foto de tu licencia nos ayuda a validar que seas una persona apta para conducir. Por favor ten en cuenta que una vez aceptes las fotos de tu licencia no podrá ser cambiada</string>
+    <string name="licensephotostep1">1. Tomale foto primero a la parte trasera de tu licencia y guardala antes que la parte frontal</string>
+    <string name="licensephotostep2">2. Asegúrate que tu licencia de conducción es válida para conducir el vehículo que piensas manejar en RideX..</string>
+    <string name="licensephotostep3">3. Asegúrate que todos tus datos sean completamente legibles, que la foto no este borrosa y que no haya ningún tipo de reflejo..</string>
+    <string name="licensephotoconfirmationsecondary">Asegúrate que todos los datos sean legibles.</string>
+    <string name="licensephotoconfirmationback">Añadir Parte Trasera</string>
+    <string name="licensephotoconfirmationfrontal">Añadir Parte Delantera</string>
+
+    <string name="next">Siguiente</string>
+
+    <string name="profilephotoconfirmationmain">¿Quieres usar esta foto?</string>
+    <string name="profilephotoconfirmationsecondary">Oprimiendo en “Guardar” aceptas que RideX collecte y procese tu foto para verificar tu identidad</string>
+
+    <string name="btn_retake">Tomar de Nuevo</string>
+    <string name="btn_save">Guardar</string>
+
+    <string name="thanks_profilephotomain">Gracias por tu Foto</string>
+    <string name="thanks_licensephotomain">Gracias por proporcionar tu Licencia de Conducción</string>
+    <string name="next_step">Ir al siguiente paso</string>
+
+
 </resources>
