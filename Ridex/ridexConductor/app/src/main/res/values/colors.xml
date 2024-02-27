@@ -11,5 +11,6 @@
     <color name="greenSecondary">#E2F5ED</color>
     <color name="redPrimary">#F44336</color>
     <color name="greenThird">#B9E5D1</color>
-    <color name="gray2">#5a5a5a</color>
+    <color name="gray2">#5a5a5a</color>#4A5A4E
+    <color name="gray3">#4A5A4E</color>
 </resources>
