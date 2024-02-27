@@ -3,7 +3,7 @@
     android:shape="rectangle">
 
     <!-- Establece el color de fondo -->
-    <solid android:color="@color/greenSecondary" />
+    <solid android:color="@color/gray3" />
 
     <!-- Establece el radio del borde -->
     <corners android:radius="400dp" /> <!-- Puedes ajustar el valor según tu preferencia -->
