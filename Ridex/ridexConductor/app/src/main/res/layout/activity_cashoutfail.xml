@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_cashoutfail">
+    tools:context=".CashoutFailActivity">
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="249dp"

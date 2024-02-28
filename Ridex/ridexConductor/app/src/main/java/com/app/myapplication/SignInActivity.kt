@@ -3,6 +3,7 @@ package com.app.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.app.myapplication.databinding.ActivityDisconnectedBinding
 import com.app.myapplication.databinding.ActivityMainBinding
 import com.app.myapplication.databinding.ActivitySignInBinding
 import com.app.myapplication.databinding.ActivitySignUpBinding
@@ -17,7 +18,12 @@ class SignInActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnBack.setOnClickListener {
-            var intent = Intent(baseContext, ActivityMainBinding::class.java)
+            var intent = Intent(baseContext, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnLogin.setOnClickListener {
+            var intent = Intent(baseContext, DisconnectedActivity::class.java)
             startActivity(intent)
         }
 

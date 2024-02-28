@@ -49,8 +49,43 @@
             android:name=".SignInActivity"
             android:exported="false" />
         <activity
+            android:name=".WalletActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".RideCancelActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".EarningsActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".EarningDetailsActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".DisconnectedActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ConnectedActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".CashoutSuccesfullActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".CashoutFailActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".CashoutActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".BottomSheetOffertActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".BottomsSheetRideActivity"
+            android:exported="false"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

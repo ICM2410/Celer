@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.app.myapplication.databinding.ActivityRidecancelBinding
 
-class activity_ridecancel : AppCompatActivity() {
+class RideCancelActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRidecancelBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -13,7 +13,7 @@ class activity_ridecancel : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.bAceptar.setOnClickListener {
-            intent = Intent(this, activity_connected::class.java)
+            intent = Intent(this, ConnectedActivity::class.java)
             startActivity(intent)
         }
     }
