@@ -9,7 +9,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import android.content.Intent
 import android.widget.Button
 
-class BottomsSheetRide : BottomSheetDialogFragment(){
+class BottomsSheetRideActivity : BottomSheetDialogFragment(){
     private lateinit var binding: ActivityConnectedBinding
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -29,12 +29,12 @@ class BottomsSheetRide : BottomSheetDialogFragment(){
 
         btncancel.setOnClickListener {
             dismiss()
-            val intent = Intent(activity, activity_ridecancel::class.java)
+            val intent = Intent(activity, RideCancelActivity::class.java)
             startActivity(intent)
         }
         btnaccept.setOnClickListener {
             dismiss()
-            val intent = Intent(activity, activity_earnings::class.java)
+            val intent = Intent(activity, EarningsActivity::class.java)
             startActivity(intent)
         }
     }
