@@ -31,7 +31,10 @@ class RequiredStepsActivity : AppCompatActivity() {
             var intent = Intent(baseContext, TakeProfilePhotoInfoActivity::class.java)
             startActivity(intent)
         }
-
+        binding.btnBack.setOnClickListener {
+            val intent = Intent(baseContext, SetPasswordActivity::class.java)
+            startActivity(intent)
+        }
 
 
 

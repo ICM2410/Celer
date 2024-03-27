@@ -12,20 +12,24 @@ class CashoutActivity : AppCompatActivity() {
         binding = ActivityCashoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btnBack.setOnClickListener {
-            intent = Intent(this, WalletActivity::class.java)
+            val intent = Intent(baseContext, WalletActivity::class.java)
             startActivity(intent)
         }
         //if{
         binding.bAceptar.setOnClickListener {
-            intent = Intent(this, CashoutSuccesfullActivity::class.java)
+            val intent = Intent(baseContext, CashoutSuccesfullActivity::class.java)
             startActivity(intent)
         }
         //}
         //else{
         binding.bAceptar.setOnClickListener {
-            intent = Intent(this, CashoutFailActivity::class.java)
+            val intent = Intent(baseContext, CashoutFailActivity::class.java)
             startActivity(intent)
         }
         //}
+        binding.btnBack.setOnClickListener {
+            val intent = Intent(baseContext, EarningsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

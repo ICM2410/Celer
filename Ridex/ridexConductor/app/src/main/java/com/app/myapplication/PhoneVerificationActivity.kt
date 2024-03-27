@@ -18,6 +18,7 @@ class PhoneVerificationActivity : AppCompatActivity() {
 
         binding.btnBack.setOnClickListener {
             var intent  = Intent(baseContext, SignUpActivity::class.java)
+            startActivity(intent)
         }
 
         binding.BtnPhoneVerification.setOnClickListener {

@@ -12,7 +12,7 @@ class CashoutFailActivity : AppCompatActivity() {
         binding = ActivityCashoutfailBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.bRegresar.setOnClickListener {
-            intent = Intent(this, CashoutActivity::class.java)
+            val intent = Intent(baseContext, CashoutActivity::class.java)
             startActivity(intent)
         }
     }

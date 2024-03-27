@@ -19,5 +19,9 @@ class TakeLicensePhotoInfoActivity : AppCompatActivity() {
             var intent = Intent(baseContext, TakeLicensePhotoBackConfirmationActivity::class.java)
             startActivity(intent)
         }
+        binding.btnBack.setOnClickListener {
+            val intent = Intent(baseContext, RequiredStepsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
