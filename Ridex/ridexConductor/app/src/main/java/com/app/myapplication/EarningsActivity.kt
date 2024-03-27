@@ -12,11 +12,15 @@ class EarningsActivity : AppCompatActivity() {
         binding = ActivityEarningsBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.detalles.setOnClickListener {
-            intent = Intent(this, CashoutActivity::class.java)
+            val intent = Intent(baseContext, CashoutActivity::class.java)
             startActivity(intent)
         }
         binding.cashout.setOnClickListener {
-            intent = Intent(this, EarningDetailsActivity::class.java)
+            val intent = Intent(baseContext, EarningDetailsActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnBack.setOnClickListener {
+            val intent = Intent(baseContext, ConnectedActivity::class.java)
             startActivity(intent)
         }
     }

@@ -1,5 +1,6 @@
 package com.app.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.app.myapplication.databinding.ActivityConnectedBinding
@@ -11,10 +12,21 @@ class ConnectedActivity : AppCompatActivity() {
         binding = ActivityConnectedBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val bottomsheet = BottomsSheetRideActivity()
-
         binding.slideup.setOnClickListener {
-            bottomsheet.show(supportFragmentManager, "BottomSheeOffert")
+            val bottomsheet = BottomSheetOffertActivity()
+            bottomsheet.show(supportFragmentManager, "BottomSheetOffert2")
+        }
+        binding.button2.setOnClickListener {
+            val intent = Intent(baseContext, DisconnectedActivity:: class.java)
+            startActivity(intent)
+        }
+        binding.btnBack.setOnClickListener {
+            val intent = Intent(baseContext,DisconnectedActivity::class.java)
+            startActivity(intent)
+        }
+        binding.perfil.setOnClickListener {
+            val intent = Intent(baseContext, EarningsActivity::class.java)
+            startActivity(intent)
         }
     }
 }

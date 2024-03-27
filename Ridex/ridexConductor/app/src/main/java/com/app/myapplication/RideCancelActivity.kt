@@ -13,7 +13,7 @@ class RideCancelActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.bAceptar.setOnClickListener {
-            intent = Intent(this, ConnectedActivity::class.java)
+            val intent = Intent(baseContext, ConnectedActivity::class.java)
             startActivity(intent)
         }
     }

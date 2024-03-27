@@ -12,7 +12,7 @@ class EarningDetailsActivity : AppCompatActivity() {
         binding = ActivityEarningdetailsBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btnBack.setOnClickListener {
-            intent = Intent(this, EarningsActivity::class.java)
+            val intent = Intent(baseContext, EarningsActivity::class.java)
             startActivity(intent)
         }
     }
