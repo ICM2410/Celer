@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="gray">#414141</color>
+    <color name="lightGray">#A0A0A0</color>
+    <color name="lightGray2">#E8E8E8</color>
+    <color name="lightGray3">#B8B8B8</color>
+    <color name="greenPrimary">#008955</color>
+    <color name="greenSecondary">#E2F5ED</color>
+    <color name="redPrimary">#F44336</color>
+    <color name="greenThird">#B9E5D1</color>
+    <color name="gray2">#5a5a5a</color>#4A5A4E
+    <color name="gray3">#4A5A4E</color>
 </resources>
