@@ -49,8 +49,11 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView"
         app:layout_constraintVertical_bias="0.02">
@@ -58,51 +61,52 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp"
             android:layout_marginHorizontal="16dp"
-            >
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
 
             <EditText
+                android:id="@+id/txtEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:fontFamily="@font/poppinsregular"
                 android:hint="@string/hintLoginCelular"
-                android:textColorHint="@color/lightGray"
-                android:background="@drawable/input_background"
-                android:fontFamily="@font/poppinsregular"
-                android:paddingHorizontal="20dp"
-                android:paddingVertical="15dp"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/hintLoginPassword"
-                android:textColorHint="@color/lightGray"
-                android:background="@drawable/input_background"
-                android:fontFamily="@font/poppinsregular"
                 android:paddingHorizontal="20dp"
                 android:paddingVertical="15dp"
-                android:layout_marginTop="20dp"/>
+                android:textColorHint="@color/lightGray" />
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_background"
+                android:fontFamily="@font/poppinsregular"
+                android:hint="@string/hintLoginPassword"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="15dp"
+                android:textColorHint="@color/lightGray" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/input_background"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/input_background"
 
                 />
-
 
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="end"
                 android:background="@color/transparent"
-                android:textColor="@color/redPrimary"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="end"
                 android:text="@string/forgotpassword"
                 android:textAllCaps="false"
-                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/redPrimary"
 
                 />
 
@@ -110,40 +114,39 @@
                 android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:width="0dp"
                 android:background="@drawable/btn_background_primary"
-                android:textColor="@color/white"
                 android:fontFamily="@font/poppinsmedium"
+                android:paddingVertical="15dp"
                 android:text="@string/textLogin"
-                android:layout_marginTop="10dp"
-                android:textSize="16dp"
                 android:textAllCaps="false"
-                android:paddingVertical="15dp"/>
+                android:textColor="@color/white"
+                android:textSize="16dp" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/or"/>
-
+                android:src="@drawable/or" />
 
 
             <Button
                 android:id="@+id/btnLoginGoogle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/input_background"
-                android:textColor="@color/gray"
-                android:text="@string/signingoogle"
-
-                android:textSize="16sp"
-                android:textAllCaps="false"
-                android:drawableLeft="@drawable/gmail"
-                android:fontFamily="@font/poppinsmedium"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/input_background"
+                android:drawableLeft="@drawable/gmail"
+
+                android:fontFamily="@font/poppinsmedium"
                 android:paddingHorizontal="70dp"
                 android:paddingVertical="15dp"
+                android:text="@string/signingoogle"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
 
                 />
 
@@ -151,17 +154,17 @@
                 android:id="@+id/btnLoginFace"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/input_background"
-                android:textColor="@color/gray"
-                android:text="@string/signinface"
-
-                android:textSize="16sp"
-                android:textAllCaps="false"
-                android:drawableLeft="@drawable/facebook"
-                android:fontFamily="@font/poppinsmedium"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/input_background"
+                android:drawableLeft="@drawable/facebook"
+
+                android:fontFamily="@font/poppinsmedium"
                 android:paddingHorizontal="70dp"
                 android:paddingVertical="15dp"
+                android:text="@string/signinface"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
 
                 />
 
@@ -169,34 +172,34 @@
                 android:id="@+id/idBtnLoginApple"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/input_background"
-                android:textColor="@color/gray"
-                android:text="@string/signinapple"
-                android:textSize="16sp"
-                android:textAllCaps="false"
                 android:drawableLeft="@drawable/apple"
                 android:fontFamily="@font/poppinsmedium"
-                android:layout_marginTop="20dp"
                 android:paddingHorizontal="80dp"
                 android:paddingVertical="15dp"
+                android:text="@string/signinapple"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
 
                 />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/donthaveanaccount"
-                    android:textSize="16dp"
                     android:layout_marginRight="20dp"
                     android:fontFamily="@font/poppinsmedium"
+                    android:text="@string/donthaveanaccount"
+                    android:textSize="16dp"
 
                     />
 
@@ -205,11 +208,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@color/transparent"
+                    android:fontFamily="@font/poppinsmedium"
                     android:text="@string/textCreateAccount"
+                    android:textAllCaps="false"
                     android:textColor="@color/greenPrimary"
                     android:textSize="16dp"
-                    android:textAllCaps="false"
-                    android:fontFamily="@font/poppinsmedium"
 
                     />
 

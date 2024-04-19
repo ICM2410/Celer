@@ -231,52 +231,203 @@
             android:textColor="@color/gray"
             android:fontFamily="@font/poppinsmedium"/>
 
-        <LinearLayout
+
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp">
+            android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/background_especification"
-                android:orientation="horizontal"
-                android:paddingHorizontal="20dp"
-                android:paddingVertical="10dp"
-                android:layout_marginBottom="15dp"
-                >
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:src="@drawable/visa">
-
-                </ImageView>
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="10dp">
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_especification"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    android:layout_marginBottom="15dp"
+                    >
 
-                    <TextView
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/visa">
+
+                    </ImageView>
+
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="16dp"
-                        android:text="@string/paymentnumber"
-                        />
-                    <TextView
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textSize="16dp"
+                            android:text="@string/paymentnumber"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textSize="14dp"
+                            android:textColor="@color/lightGray"
+                            android:text="@string/expire"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_especification"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    android:layout_marginBottom="15dp"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/mastercard">
+
+                    </ImageView>
+
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="14dp"
-                        android:textColor="@color/lightGray"
-                        android:text="@string/expire"
-                        />
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textSize="16dp"
+                            android:text="@string/paymentnumber"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textSize="14dp"
+                            android:textColor="@color/lightGray"
+                            android:text="@string/expire"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_especification"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    android:layout_marginBottom="15dp"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/paypal">
+
+                    </ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textSize="16dp"
+                            android:text="@string/email_desc"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textSize="14dp"
+                            android:textColor="@color/lightGray"
+                            android:text="@string/expire"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_especification"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/cash">
+
+                    </ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textSize="16dp"
+                            android:text="@string/cash"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textSize="14dp"
+                            android:textColor="@color/lightGray"
+                            android:text="@string/expire"
+                            />
+
+                    </LinearLayout>
+
+
 
                 </LinearLayout>
 
@@ -284,151 +435,8 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/background_especification"
-                android:orientation="horizontal"
-                android:paddingHorizontal="20dp"
-                android:paddingVertical="10dp"
-                android:layout_marginBottom="15dp"
+        </ScrollView>
 
-                >
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:src="@drawable/mastercard">
-
-                </ImageView>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="10dp">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="16dp"
-                        android:text="@string/paymentnumber"
-                        />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="14dp"
-                        android:textColor="@color/lightGray"
-                        android:text="@string/expire"
-                        />
-
-                </LinearLayout>
-
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/background_especification"
-                android:orientation="horizontal"
-                android:paddingHorizontal="20dp"
-                android:paddingVertical="10dp"
-                android:layout_marginBottom="15dp"
-
-                >
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:src="@drawable/paypal">
-
-                </ImageView>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="10dp">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="16dp"
-                        android:text="@string/email_desc"
-                        />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="14dp"
-                        android:textColor="@color/lightGray"
-                        android:text="@string/expire"
-                        />
-
-                </LinearLayout>
-
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/background_especification"
-                android:orientation="horizontal"
-                android:paddingHorizontal="20dp"
-                android:paddingVertical="10dp"
-                >
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:src="@drawable/cash">
-
-                </ImageView>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="10dp">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="16dp"
-                        android:text="@string/cash"
-                        />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="14dp"
-                        android:textColor="@color/lightGray"
-                        android:text="@string/expire"
-                        />
-
-                </LinearLayout>
-
-
-
-            </LinearLayout>
-
-
-
-        </LinearLayout>
 
 
 

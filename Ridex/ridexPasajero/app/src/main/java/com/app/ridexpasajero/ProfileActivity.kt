@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.app.ridexpasajero.databinding.ActivityProfileBinding
-import com.app.ridexpasajero.databinding.ActivityThanksConfirmrideBinding
 
 class ProfileActivity : AppCompatActivity() {
     private  lateinit var binding: ActivityProfileBinding

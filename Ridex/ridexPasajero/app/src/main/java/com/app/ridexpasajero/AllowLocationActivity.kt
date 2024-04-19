@@ -9,7 +9,6 @@ import android.os.Bundle
 import android.view.Window
 import android.widget.Button
 import com.app.ridexpasajero.databinding.ActivityAllowLocationBinding
-import com.app.ridexpasajero.databinding.ActivityInduccionTresBinding
 
 class AllowLocationActivity : AppCompatActivity() {
     private  lateinit var binding: ActivityAllowLocationBinding

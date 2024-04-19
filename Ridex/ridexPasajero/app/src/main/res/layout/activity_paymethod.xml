@@ -19,6 +19,7 @@
         android:gravity="start|center"
         >
         <Button
+            android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -66,7 +67,8 @@
             android:layout_height="wrap_content"
             android:paddingHorizontal="20dp"
             android:paddingVertical="19dp"
-            android:textColorHint="@color/lightGray" />
+            android:textColorHint="@color/lightGray"
+            android:entries="@array/metododepago"/>
     </LinearLayout>
 
     <EditText
@@ -106,27 +108,32 @@
         app:layout_constraintTop_toBottomOf="@+id/editText"
         app:layout_constraintVertical_bias="0.05" />
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginHorizontal="16dp"
         app:layout_constraintTop_toBottomOf="@+id/btnAddMethod"
         app:layout_constraintVertical_bias="0.1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_especification"
                 android:orientation="horizontal"
                 android:paddingHorizontal="20dp"
-                android:paddingVertical="10dp"
-                android:layout_marginBottom="15dp"
-                >
+                android:paddingVertical="10dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -139,27 +146,25 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="10dp">
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsmedium"
-                        android:textSize="16dp"
                         android:text="@string/paymentnumber"
-                        />
+                        android:textSize="16dp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsmedium"
-                        android:textSize="14dp"
-                        android:textColor="@color/lightGray"
                         android:text="@string/expire"
-                        />
+                        android:textColor="@color/lightGray"
+                        android:textSize="14dp" />
 
                 </LinearLayout>
-
 
 
             </LinearLayout>
@@ -167,12 +172,12 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_especification"
                 android:orientation="horizontal"
                 android:paddingHorizontal="20dp"
                 android:paddingVertical="10dp"
-                android:layout_marginBottom="15dp"
 
                 >
 
@@ -187,27 +192,25 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="10dp">
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsmedium"
-                        android:textSize="16dp"
                         android:text="@string/paymentnumber"
-                        />
+                        android:textSize="16dp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsmedium"
-                        android:textSize="14dp"
-                        android:textColor="@color/lightGray"
                         android:text="@string/expire"
-                        />
+                        android:textColor="@color/lightGray"
+                        android:textSize="14dp" />
 
                 </LinearLayout>
-
 
 
             </LinearLayout>
@@ -215,12 +218,12 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_especification"
                 android:orientation="horizontal"
                 android:paddingHorizontal="20dp"
                 android:paddingVertical="10dp"
-                android:layout_marginBottom="15dp"
 
                 >
 
@@ -235,27 +238,25 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="10dp">
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsmedium"
-                        android:textSize="16dp"
                         android:text="@string/email_desc"
-                        />
+                        android:textSize="16dp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsmedium"
-                        android:textSize="14dp"
-                        android:textColor="@color/lightGray"
                         android:text="@string/expire"
-                        />
+                        android:textColor="@color/lightGray"
+                        android:textSize="14dp" />
 
                 </LinearLayout>
-
 
 
             </LinearLayout>
@@ -267,8 +268,7 @@
                 android:background="@drawable/background_especification"
                 android:orientation="horizontal"
                 android:paddingHorizontal="20dp"
-                android:paddingVertical="10dp"
-                >
+                android:paddingVertical="10dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -281,30 +281,33 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="10dp">
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsmedium"
-                        android:textSize="16dp"
                         android:text="@string/cash"
-                        />
+                        android:textSize="16dp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppinsmedium"
-                        android:textSize="14dp"
-                        android:textColor="@color/lightGray"
                         android:text="@string/expire"
-                        />
+                        android:textColor="@color/lightGray"
+                        android:textSize="14dp" />
 
                 </LinearLayout>
 
 
+            </LinearLayout>
+        </LinearLayout>
 
-    </LinearLayout>
-    </LinearLayout>
+
+    </ScrollView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

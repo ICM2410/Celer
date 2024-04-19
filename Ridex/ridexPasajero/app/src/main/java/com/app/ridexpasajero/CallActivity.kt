@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.app.ridexpasajero.databinding.ActivityCallBinding
-import com.app.ridexpasajero.databinding.ActivityChatBinding
 
 class CallActivity : AppCompatActivity() {
     private  lateinit var binding: ActivityCallBinding

@@ -35,13 +35,5 @@ class BottomSheetOntrip :  BottomSheetDialogFragment() {
 
         }
 
-
-
-
-
-
-
-
-
     }
 }

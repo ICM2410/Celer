@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.app.ridexpasajero.databinding.ActivityWalletBinding
-import com.app.ridexpasajero.databinding.ActivityWelcomeBinding
 
 class WalletActivity : AppCompatActivity() {
     private  lateinit var binding: ActivityWalletBinding

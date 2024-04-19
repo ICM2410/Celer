@@ -3,7 +3,6 @@ package com.app.ridexpasajero
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.app.ridexpasajero.databinding.ActivityOnrideBinding
-import com.app.ridexpasajero.databinding.ActivityTripBinding
 
 class OnrideActivity : AppCompatActivity() {
     private  lateinit var binding: ActivityOnrideBinding

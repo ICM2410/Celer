@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.app.ridexpasajero.databinding.ActivityOtpVerificationBinding
-import com.app.ridexpasajero.databinding.ActivityWelcomeBinding
 
 class OtpVerificationActivity : AppCompatActivity() {
     private  lateinit var binding: ActivityOtpVerificationBinding

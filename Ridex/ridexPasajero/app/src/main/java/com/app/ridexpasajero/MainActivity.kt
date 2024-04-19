@@ -9,9 +9,11 @@ import android.os.Bundle
 import android.view.Window
 import android.widget.Button
 import com.app.ridexpasajero.databinding.ActivityMainBinding
+import com.app.ridexpasajero.providers.AuthProvider
 
 class MainActivity : AppCompatActivity() {
     private  lateinit var binding: ActivityMainBinding
+    val authProvider = AuthProvider();
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -28,6 +30,15 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        if(authProvider.existSession()){
+            var intent = Intent(baseContext, HomeTransportActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 

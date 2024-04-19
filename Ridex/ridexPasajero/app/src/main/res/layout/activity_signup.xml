@@ -64,6 +64,7 @@
             android:orientation="vertical">
 
             <EditText
+                android:id="@+id/txtNombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input_background"
@@ -74,6 +75,7 @@
                 android:textColorHint="@color/lightGray" />
 
             <EditText
+                android:id="@+id/txtEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -93,15 +95,11 @@
                 android:paddingHorizontal="20dp"
                 android:paddingVertical="15dp">
 
-                <Spinner
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textColorHint="@color/lightGray"
 
-                    />
 
                 <EditText
+                    android:id="@+id/txtNumero"
+                    android:inputType="number"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
@@ -114,21 +112,20 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <EditText
+                android:id="@+id/txtPassword"
                 android:layout_width="match_parent"
+                android:inputType="textPassword"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/input_background"
+                android:fontFamily="@font/poppinsregular"
+                android:hint="Password"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="15dp"
+                android:textColorHint="@color/lightGray" />
 
-                >
 
-                <Spinner
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingHorizontal="20dp"
-                    android:paddingVertical="19dp"
-                    android:textColorHint="@color/lightGray" />
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -205,23 +202,6 @@
                 android:paddingHorizontal="60dp"
                 android:paddingVertical="15dp"
                 android:text="@string/signupface"
-                android:textAllCaps="false"
-                android:textColor="@color/gray"
-                android:textSize="16sp"
-
-                />
-
-            <Button
-                android:id="@+id/btnSignUpApple"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/input_background"
-                android:drawableLeft="@drawable/apple"
-                android:fontFamily="@font/poppinsmedium"
-                android:paddingHorizontal="70dp"
-                android:paddingVertical="15dp"
-                android:text="@string/signupapple"
                 android:textAllCaps="false"
                 android:textColor="@color/gray"
                 android:textSize="16sp"

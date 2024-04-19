@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">ridexPasajero</string>
     <string name="onboarding_main_1">Donde sea que estes</string>
     <string name="skip">Saltar</string>
@@ -156,6 +156,69 @@ This Privacy Policy applies only to our online activities and is valid for visit
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+
+
+
+    <string-array name="numeros">
+        <item>+1 (Estados Unidos)</item>
+        <item>+44 (Reino Unido)</item>
+        <item>+81 (Japón)</item>
+        <item>+86 (China)</item>
+        <item>+91 (India)</item>
+        <item>+33 (Francia)</item>
+        <item>+49 (Alemania)</item>
+        <item>+39 (Italia)</item>
+        <item>+34 (España)</item>
+        <item>+55 (Brasil)</item>
+        <item>+7 (Rusia)</item>
+        <item>+20 (Egipto)</item>
+        <item>+27 (Sudáfrica)</item>
+        <item>+82 (Corea del Sur)</item>
+        <item>+61 (Australia)</item>
+        <item>+52 (México)</item>
+        <item>+55 (Brasil)</item>
+        <item>+234 (Nigeria)</item>
+        <item>+971 (Emiratos Árabes Unidos)</item>
+        <item>+62 (Indonesia)</item>
+        <!-- Agrega más elementos según sea necesario -->
+    </string-array>
+
+    <string-array name="ciudades">
+        <item>Bogotá</item>
+        <item>Medellín</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Cartagena</item>
+        <item>Cúcuta</item>
+        <item>Bucaramanga</item>
+        <item>Santa Marta</item>
+        <item>Ibagué</item>
+        <item>Pereira</item>
+        <item>Manizales</item>
+        <item>Neiva</item>
+        <item>Armenia</item>
+        <item>Villavicencio</item>
+        <item>Popayán</item>
+        <item>Valledupar</item>
+        <item>Montería</item>
+        <item>Riohacha</item>
+        <item>Sincelejo</item>
+        <item>Quibdó</item>
+        <!-- Agrega más ciudades según sea necesario -->
+    </string-array>
+
+    <string-array name="metododepago">
+        <item>Tarjeta</item>
+        <item>Paypal</item>
+        <item>Efectivo</item>
+        <!-- Agrega más ciudades según sea necesario -->
+    </string-array>
+
+
+
+
+
+
 
 
 </resources>

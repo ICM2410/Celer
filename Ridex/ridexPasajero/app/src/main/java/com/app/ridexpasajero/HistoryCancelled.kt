@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.app.ridexpasajero.databinding.ActivityHistoryCancelledBinding
-import com.app.ridexpasajero.databinding.ActivityHistoryUpcomingBinding
 
 class HistoryCancelled : AppCompatActivity() {
     private  lateinit var binding: ActivityHistoryCancelledBinding

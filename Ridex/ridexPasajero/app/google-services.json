@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252415296280",
+    "project_id": "ridex-6d392",
+    "storage_bucket": "ridex-6d392.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252415296280:android:a61cbabb4ec5f11ce1946d",
+        "android_client_info": {
+          "package_name": "com.app.ridexpasajero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDiR5Zqplebr6Oc5BopJpskP8QsCHiqM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

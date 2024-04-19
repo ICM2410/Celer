@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.app.ridexpasajero.databinding.ActivityChatBinding
-import com.app.ridexpasajero.databinding.ActivityWelcomeBinding
 
 class ChatActivity : AppCompatActivity() {
     private  lateinit var binding: ActivityChatBinding

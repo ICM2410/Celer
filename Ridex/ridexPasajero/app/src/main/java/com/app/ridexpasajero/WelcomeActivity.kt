@@ -3,7 +3,6 @@ package com.app.ridexpasajero
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.app.ridexpasajero.databinding.ActivityInduccionTresBinding
 import com.app.ridexpasajero.databinding.ActivityWelcomeBinding
 
 class WelcomeActivity : AppCompatActivity() {

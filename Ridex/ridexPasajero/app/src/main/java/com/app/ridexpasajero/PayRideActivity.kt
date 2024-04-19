@@ -9,7 +9,6 @@ import android.os.Bundle
 import android.view.Window
 import android.widget.Button
 import com.app.ridexpasajero.databinding.ActivityPayRideBinding
-import com.app.ridexpasajero.databinding.ActivityTripBinding
 
 class PayRideActivity : AppCompatActivity() {
     private  lateinit var binding: ActivityPayRideBinding

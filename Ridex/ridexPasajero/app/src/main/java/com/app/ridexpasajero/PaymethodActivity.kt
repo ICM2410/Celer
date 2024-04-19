@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Window
 import android.widget.Button
-import com.app.ridexpasajero.databinding.ActivityPayRideBinding
 import com.app.ridexpasajero.databinding.ActivityPaymethodBinding
 
 class PaymethodActivity : AppCompatActivity() {
@@ -20,6 +19,11 @@ class PaymethodActivity : AppCompatActivity() {
 
         binding.btnAddMethod.setOnClickListener{
             showCustomDialogBox()
+        }
+
+        binding.btnBack.setOnClickListener{
+            var intent = Intent(baseContext, WalletActivity::class.java)
+            startActivity(intent)
         }
 
 
