@@ -109,4 +109,6 @@
     <string name="aclaraciones">Recuerda que tardara unos minutos para que el dinero llegue a tu cuenta,
     dado que utilizamosun sello de seguridad para validar todas las transacciones, con el fin de evitar robos</string>
 
+    <string name="google_maps_key">AIzaSyDM9AgnDU3RQjmSaTAM1BI_aS0HVyHnZBo</string>
+    
 </resources>

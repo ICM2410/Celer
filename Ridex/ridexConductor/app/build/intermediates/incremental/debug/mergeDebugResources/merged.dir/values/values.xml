@@ -645,6 +645,10 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="browser_actions_bg_grey">#F5F5F5</color>
+    <color name="browser_actions_divider_color">#1E000000</color>
+    <color name="browser_actions_text_color">#DE000000</color>
+    <color name="browser_actions_title_color">#646464</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="call_notification_answer_color">#1d873b</color>
@@ -653,6 +657,14 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -696,8 +708,17 @@
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="gray">#414141</color>
+    <color name="gray2">#5a5a5a</color>
+    <color name="gray3">#4A5A4E</color>
+    <color name="greenPrimary">#008955</color>
+    <color name="greenSecondary">#E2F5ED</color>
+    <color name="greenThird">#B9E5D1</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="lightGray">#A0A0A0</color>
+    <color name="lightGray2">#E8E8E8</color>
+    <color name="lightGray3">#B8B8B8</color>
     <color name="m3_ref_palette_black">#ff000000</color>
     <color name="m3_ref_palette_error0">#ff000000</color>
     <color name="m3_ref_palette_error10">#ff410e0b</color>
@@ -945,6 +966,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="redPrimary">#F44336</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -957,6 +979,7 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
@@ -1040,6 +1063,8 @@
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="appcompat_dialog_background_inset">16dp</dimen>
+    <dimen name="browser_actions_context_menu_max_width">500dp</dimen>
+    <dimen name="browser_actions_context_menu_min_padding">20dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -1795,6 +1820,7 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="amu_text" type="id"/>
     <item name="fragment_container_view_tag" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
@@ -1874,6 +1900,7 @@
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="google_play_services_version">12451000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="m3_badge_max_number">999</integer>
     <integer name="m3_btn_anim_delay_ms">100</integer>
@@ -1965,15 +1992,23 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="accept">Aceptar</string>
+    <string name="aclaraciones">Recuerda que tardara unos minutos para que el dinero llegue a tu cuenta,
+    dado que utilizamosun sello de seguridad para validar todas las transacciones, con el fin de evitar robos</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
-    <string name="app_name">My Application</string>
+    <string name="app_name">RideXConductor</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="back">Atrás</string>
+    <string name="balance">Balance</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an accessibility action to collapse the bottom sheet [CHAR LIMIT=NONE]" name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
     <string description="A description of an accessibility action to expand the bottom sheet [CHAR LIMIT=NONE]" name="bottomsheet_action_expand">Expand the bottom sheet</string>
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string description="An accessibility feedback when the bottom sheet drag handle is clicked [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
     <string description="The content description of bottom sheet drag handles [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_content_description">Drag handle</string>
+    <string name="breakdown">Resultados</string>
+    <string name="btn_retake">Tomar de Nuevo</string>
+    <string name="btn_save">Guardar</string>
     <string name="call_notification_answer_action">Answer</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Decline</string>
@@ -1981,10 +2016,72 @@
     <string name="call_notification_incoming_text">Incoming call</string>
     <string name="call_notification_ongoing_text">Ongoing call</string>
     <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="cancel">Cancelar</string>
+    <string name="canceldetails">Cuentanos cual es el motico por el cual cancelas el viaje</string>
+    <string name="carreras">Carrera</string>
+    <string name="cashout">Retiro</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
+    <string name="city">Ciudad</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="config">Configuracion</string>
+    <string name="confirmpassword">Confirmar Contraseña</string>
+    <string name="connected">Conectado</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="destino">Destino</string>
+    <string name="detallesccartera">Detalles de carreras</string>
+    <string name="detallescomision">Recuerde que puede visitar la politica de comisiones en nuestra pagina</string>
+    <string name="deviceLocationUtil_default_rationale_request_messageBody">
+        This app requires location permissions in order to provide location-aware functionality.
+        If the permission is not granted any features that rely on such functionality may not work correctly.
+    </string>
+    <string name="deviceLocationUtil_default_rationale_request_title">Location Permission Required</string>
+    <string name="deviceLocationUtil_geocoder_address_not_found">No address found for this location</string>
+    <string name="deviceLocationUtil_geocoder_invalid_element">Invalid element code</string>
+    <string name="deviceLocationUtil_geocoder_invalid_latLong">Invalid latitude or longitude</string>
+    <string name="deviceLocationUtil_geocoder_not_available">Geocoder not available. Check network connection.</string>
+    <string name="deviceLocationUtil_location_provided_by_lastLocation">
+        Location provided by mLocationClient.getLastLocation()
+    </string>
+    <string name="deviceLocationUtil_location_provided_by_locationUpdates">
+        Location provided by mLocationClient.requestLocationUpdates()
+    </string>
+    <string name="deviceLocationUtil_location_settings_not_satisfied">
+        Location settings not satisfied. Attempting to resolve…
+    </string>
+    <string name="deviceLocationUtil_location_settings_satisfied">
+        Location settings satisfied
+    </string>
+    <string name="deviceLocationUtil_location_updates_removed">Location updates removed</string>
+    <string name="deviceLocationUtil_location_updates_resumed">Location updates resumed</string>
+    <string name="deviceLocationUtil_request_returned_null">Location request returned null</string>
+    <string name="deviceLocationUtil_requests_currently_active">Device is already receiving location updates</string>
+    <string name="disconnected">Desconectado</string>
+    <string name="donthaveanaccount">¿No tienes una cuenta?</string>
+    <string name="driverslicense">Licencia de Conducción</string>
+    <string name="earn">Ganancia</string>
+    <string name="enterotp">Ingresa tu código OTP</string>
+    <string name="enterpassword">Ingresar Contraseña</string>
+    <string name="enviarotp">Enviar OTP</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
   </string>
@@ -1992,9 +2089,37 @@
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fail">La operacion no ha posido ser completada</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="fee">Comision - 0.00$</string>
+    <string name="forgotpassword">¿Olvidaste tu contraseña?</string>
+    <string name="fullname">Nombre Completo</string>
+    <string name="gcm_defaultSenderId" translatable="false">252415296280</string>
+    <string name="google_api_key" translatable="false">AIzaSyBDiR5Zqplebr6Oc5BopJpskP8QsCHiqM0</string>
+    <string name="google_app_id" translatable="false">1:252415296280:android:656240e62cbc0883e1946d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBDiR5Zqplebr6Oc5BopJpskP8QsCHiqM0</string>
+    <string name="google_maps_key">AIzaSyDM9AgnDU3RQjmSaTAM1BI_aS0HVyHnZBo</string>
+    <string name="google_storage_bucket" translatable="false">ridex-6d392.appspot.com</string>
+    <string name="haveanaccount">¿Ya tienes una cuenta?</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hintCelular">Tu número de celular</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintLoginCelular">Email o número de celular</string>
+    <string name="hintLoginPassword">Ingresa tu contraseña</string>
+    <string name="hintNombre">Nombre</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
+    <string name="inicio">Origen</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="licensephotoconfirmationback">Añadir Parte Trasera</string>
+    <string name="licensephotoconfirmationfrontal">Añadir Parte Delantera</string>
+    <string name="licensephotoconfirmationsecondary">Asegúrate que todos los datos sean legibles.</string>
+    <string name="licensephotomain">Toma una foto de tu licencia de conducción por ambos lados</string>
+    <string name="licensephotosecondary">La foto de tu licencia nos ayuda a validar que seas una persona apta para conducir. Por favor ten en cuenta que una vez aceptes las fotos de tu licencia no podrá ser cambiada</string>
+    <string name="licensephotostep1">1. Tomale foto primero a la parte trasera de tu licencia y guardala antes que la parte frontal</string>
+    <string name="licensephotostep2">2. Asegúrate que tu licencia de conducción es válida para conducir el vehículo que piensas manejar en RideX..</string>
+    <string name="licensephotostep3">3. Asegúrate que todos tus datos sean completamente legibles, que la foto no este borrosa y que no haya ningún tipo de reflejo..</string>
     <string name="m3_exceed_max_badge_text_suffix" translatable="false"><ns2:g example="Some te" id="part of a long text">%1$s</ns2:g><ns2:g example="…" id="suffix">%2$s</ns2:g></string>
     <string name="m3_ref_typeface_brand_medium" translatable="false">sans-serif-medium</string>
     <string name="m3_ref_typeface_brand_regular" translatable="false">sans-serif</string>
@@ -2101,20 +2226,76 @@
     <string name="mtrl_switch_track_path" translatable="false">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
     <string description="Button text to indicate that the widget will ignore the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_cancel">Cancel</string>
     <string description="Button text to indicate that the widget will save the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_confirm">OK</string>
+    <string name="muestradinero">0.00$</string>
+    <string name="next">Siguiente</string>
+    <string name="next_step">Ir al siguiente paso</string>
+    <string name="nombre">Jaimito</string>
+    <string name="norecieveopt">No recibiste el código</string>
+    <string name="ok">OK</string>
+    <string name="otpver">Verificación OTP</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="popupcarrera">Carrera</string>
+    <string name="privacy">Al registrarte, aceptas los Términos de servicio y la Política de privacidad.</string>
+    <string name="profile">Perfil</string>
+    <string name="profilephoto">Foto de Perfil</string>
+    <string name="profilephotoconfirmationmain">¿Quieres usar esta foto?</string>
+    <string name="profilephotoconfirmationsecondary">Oprimiendo en “Guardar” aceptas que RideX collecte y procese tu foto para verificar tu identidad</string>
+    <string name="profilephotomain">Toma tu Foto de Perfil</string>
+    <string name="profilephotosecondary">La foto de perfil nos ayuda a reconocerte. Por favor ten en cuenta que una vez aceptes tu foto de perfil no podrá ser cambiada</string>
+    <string name="profilephotostep1">1. Pon tu rostro en frente de la cámara con tus ojos y boca visibles</string>
+    <string name="profilephotostep2">2. Asegúrate de que tu foto este sin reflejos y enfocada.</string>
+    <string name="profilephotostep3">3. No tomar foto de una foto, filtros o alguna alteración a la misma.</string>
+    <string name="project_id" translatable="false">ridex-6d392</string>
+    <string name="reenviar">Volver a enviar</string>
+    <string name="register">Registrar</string>
+    <string name="regresar">Regresar</string>
+    <string name="ride">Carreras</string>
+    <string name="rundetails">Detalles de carrera</string>
+    <string name="save">Guardar</string>
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">
     com.google.android.material.search.SearchBar$ScrollingViewBehavior
   </string>
     <string description="Content description for the X button to clear text [CHAR_LIMIT=NONE]" name="searchview_clear_text_content_description">Clear text</string>
     <string description="Content description for the navigation button to return to the previous screen [CHAR_LIMIT=NONE]" name="searchview_navigation_content_description">Back</string>
+    <string name="setnewpassword">Establecer nueva contraseña</string>
+    <string name="setpassword">Establecer contraseña</string>
+    <string name="setyourpassword">Establece tu contraseña</string>
+    <string name="setyoutnewpassword">Establece tu nueva contraseña</string>
     <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="signUpMain">Regístrate con tu email o número de celular</string>
+    <string name="signinMain">Inicia sesión con tu email o número de celular</string>
+    <string name="signinapple">Ingresar con Apple</string>
+    <string name="signinface">Ingresar con Facebook</string>
+    <string name="signingoogle">Ingresar con Google</string>
+    <string name="signupapple">Registrarse con Apple</string>
+    <string name="signupface">Registrarse con Facebook</string>
+    <string name="signupgoogle">Registrarse con Google</string>
+    <string name="skip">Saltar</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepsrequiredmain">Por favor llena todos los pasos requeridos</string>
+    <string name="stepsrequiredsecondary">Esto es lo que debes hacer para terminar de configurar tu cuenta</string>
+    <string name="street">Dirección</string>
+    <string name="success">La operacion ha sido completada con exito</string>
+    <string name="tarjeta">Tarjeta - 0000</string>
+    <string name="textCreateAccount">Crear Cuenta</string>
+    <string name="textLogin">Iniciar Sesión</string>
+    <string name="thanks_licensephotomain">Gracias por proporcionar tu Licencia de Conducción</string>
+    <string name="thanks_profilephotomain">Gracias por tu Foto</string>
+    <string name="tips">Propinas</string>
+    <string name="validatepassword">Al menos un numero o caracter especial</string>
+    <string name="vehiclecertificate">Certificado de Registro del Vehículo</string>
+    <string name="vehicleensurance">Seguro de Vehículo</string>
+    <string name="verificationpasswordotp">Ingresar email o número de celular</string>
+    <string name="verify">Verificar</string>
+    <string name="wallet">Cartera</string>
+    <string name="welcome_main">Bienvenido</string>
+    <string name="welcome_secondary">Trabaja cuando quieras y el tiempo que desees</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -2541,7 +2722,7 @@
     <item name="android:windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>
   </style>
     <style name="Base.Theme.MaterialComponents.Light.DialogWhenLarge" parent="Theme.MaterialComponents.Light"/>
-    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.MyApplication" parent="Theme.AppCompat.DayNight.NoActionBar">
         
         
     </style>
@@ -9153,6 +9334,18 @@
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
+    <style name="amu_Bubble.TextAppearance.Dark" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff7f7f7f</item>
+    </style>
+    <style name="amu_Bubble.TextAppearance.Light" parent="amu_Bubble.TextAppearance.Dark">
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+    <style name="amu_ClusterIcon.TextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">#ffeeeeee</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
     <declare-styleable name="ActionBar">
         
         <attr name="navigationMode">
@@ -11730,6 +11923,82 @@
         
         <attr name="android:dropDownHorizontalOffset"/>
     </declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr>
+
+<attr format="float" name="imageAspectRatio"/>
+
+<attr format="boolean" name="circleCrop"/>
+</declare-styleable>
+    <declare-styleable name="MapAttrs"><attr name="mapType">
+<enum name="none" value="0"/>
+
+<enum name="normal" value="1"/>
+
+<enum name="satellite" value="2"/>
+
+<enum name="terrain" value="3"/>
+
+<enum name="hybrid" value="4"/>
+
+</attr>
+
+<attr format="float" name="cameraBearing"/>
+
+<attr format="float" name="cameraTargetLat"/>
+
+<attr format="float" name="cameraTargetLng"/>
+
+<attr format="float" name="cameraTilt"/>
+
+<attr format="float" name="cameraZoom"/>
+
+<attr format="boolean" name="liteMode"/>
+
+<attr format="boolean" name="uiCompass"/>
+
+<attr format="boolean" name="uiRotateGestures"/>
+
+<attr format="boolean" name="uiScrollGestures"/>
+
+<attr format="boolean" name="uiScrollGesturesDuringRotateOrZoom"/>
+
+<attr format="boolean" name="uiTiltGestures"/>
+
+<attr format="boolean" name="uiZoomControls"/>
+
+<attr format="boolean" name="uiZoomGestures"/>
+
+<attr format="boolean" name="useViewLifecycle"/>
+
+<attr format="boolean" name="zOrderOnTop"/>
+
+<attr format="boolean" name="uiMapToolbar"/>
+
+<attr format="boolean" name="ambientEnabled"/>
+
+<attr format="float" name="cameraMinZoomPreference"/>
+
+<attr format="float" name="cameraMaxZoomPreference"/>
+
+<attr format="float" name="latLngBoundsSouthWestLatitude"/>
+
+<attr format="float" name="latLngBoundsSouthWestLongitude"/>
+
+<attr format="float" name="latLngBoundsNorthEastLatitude"/>
+
+<attr format="float" name="latLngBoundsNorthEastLongitude"/>
+
+<attr format="color" name="backgroundColor"/>
+
+<attr format="string" name="mapId"/>
+</declare-styleable>
     <declare-styleable name="MaterialAlertDialog">
     <attr name="backgroundTint"/>
     <attr format="dimension" name="backgroundInsetStart"/>
@@ -12708,6 +12977,25 @@
     <attr format="reference" name="coplanarSiblingViewId"/>
 
   </declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr>
+<attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr>
+
+<attr format="reference|string" name="scopeUris"/>
+</declare-styleable>
     <declare-styleable name="Slider">
     <attr name="android:value"/>
     <attr name="android:valueFrom"/>

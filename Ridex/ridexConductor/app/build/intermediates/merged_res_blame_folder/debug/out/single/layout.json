@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_cashout.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_cashout.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_phone_verification.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_phone_verification.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_earningdetails.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_earningdetails.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_required_steps.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_required_steps.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_disconnected.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_disconnected.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_take_profile_photo_info.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_take_profile_photo_info.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_take_license_photo_frontal_confirmation.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_take_license_photo_frontal_confirmation.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_connected.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_connected.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_take_license_photo_back_confirmation.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_take_license_photo_back_confirmation.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/bottom_sheet_offert2.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/bottom_sheet_offert2.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_ridecancel.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_ridecancel.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_set_password.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_set_password.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_earnings.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_earnings.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_cashoutsuccesfull.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_cashoutsuccesfull.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_cashoutfail.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_cashoutfail.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_take_license_photo_info.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_take_license_photo_info.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_take_profile_photo_confirmation.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_take_profile_photo_confirmation.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_thanks_profile_photo.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_thanks_profile_photo.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_thanks_license_photo.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_thanks_license_photo.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_sign_up.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_wallet.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_wallet.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-mergeDebugResources-42:/layout/activity_sign_in.xml",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_sign_in.xml"
+    }
+]

@@ -1,70 +1,366 @@
 [
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.app.myapplication.app-main-33:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_earningdetails.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_earningdetails.xml"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.app.myapplication.app-merged_res-43:/font_popinsblack.ttf.flat",
+        "source": "com.app.myapplication.app-main-45:/font/popinsblack.ttf"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_my_location.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/my_location.png"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
-        "source": "com.app.myapplication.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_exitoso.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/exitoso.png"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "com.app.myapplication.app-main-33:/layout/activity_main.xml"
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/xml_backup_rules.xml.flat",
-        "source": "com.app.myapplication.app-main-33:/xml/backup_rules.xml"
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_cashoutfail.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_cashoutfail.xml"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_btn_background_primary.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/btn_background_primary.xml"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_ridecancel.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_ridecancel.xml"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_take_profile_photo_confirmation.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_take_profile_photo_confirmation.xml"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_city.jpg.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/city.jpg"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_btn_background_gray_rounded.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/btn_background_gray_rounded.xml"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_btn_background_red.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/btn_background_red.xml"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_apple3.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/apple3.png"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.app.myapplication.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_background_green_main.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/background_green_main.xml"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.app.myapplication.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_facebook.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_avatar.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/avatar.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_nextarrow.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/nextarrow.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/raw_style.json.flat",
+        "source": "com.app.myapplication.app-main-45:/raw/style.json"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_thanks_license_photo.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_thanks_license_photo.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_usuarioimagen.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/usuarioimagen.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_apple.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/apple.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_welcome.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/welcome.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/xml_backup_rules.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_icon_pin.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/icon_pin.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_required_steps.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_required_steps.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_background_menu.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/background_menu.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_nextarrow_white.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/nextarrow_white.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_cashoutsuccesfull.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_cashoutsuccesfull.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_btn_background_secondary.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/btn_background_secondary.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_sign_in.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_background_especification.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/background_especification.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_uber_car.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/uber_car.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_take_profile_photo_info.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_take_profile_photo_info.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_cashout.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_cashout.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_home_client.jpg.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/home_client.jpg"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_btn_background_green_rounded.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/btn_background_green_rounded.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_grafica.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/grafica.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_connected.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_connected.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_mapa.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/mapa.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_input_background.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/input_background.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_license_back.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/license_back.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_icons_location_person.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/icons_location_person.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_logo.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/logo.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_home.jpg.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/home.jpg"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_bottom_sheet_offert2.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/bottom_sheet_offert2.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_phone_verification.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_phone_verification.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_sign_up.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/font_popinsbold.ttf.flat",
+        "source": "com.app.myapplication.app-main-45:/font/popinsbold.ttf"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_license_front.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/license_front.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_input_background_secondary.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/input_background_secondary.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_my_location_white.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/my_location_white.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_check_circle.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/check_circle.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_thanks.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/thanks.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_earnings.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_earnings.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_avatar_sinborde.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/avatar_sinborde.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_gmail.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/gmail.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/font_poppinsregular.ttf.flat",
+        "source": "com.app.myapplication.app-main-45:/font/poppinsregular.ttf"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_disconnected.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_disconnected.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/xml_data_extraction_rules.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.app.myapplication.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_cancelado.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/cancelado.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_apple2.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/apple2.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/font_poppinsmedium.ttf.flat",
+        "source": "com.app.myapplication.app-main-45:/font/poppinsmedium.ttf"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/font_poppinsextrabold.ttf.flat",
+        "source": "com.app.myapplication.app-main-45:/font/poppinsextrabold.ttf"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_estrellas.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/estrellas.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_wallet.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_wallet.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_take_license_photo_back_confirmation.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_take_license_photo_back_confirmation.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_back.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/back.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_my_location_green.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/my_location_green.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_home2.jpg.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/home2.jpg"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_or.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/or.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_take_license_photo_frontal_confirmation.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_take_license_photo_frontal_confirmation.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_set_password.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_set_password.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_icon_taxi.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/icon_taxi.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_take_license_photo_info.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_take_license_photo_info.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/layout_activity_thanks_profile_photo.xml.flat",
+        "source": "com.app.myapplication.app-main-45:/layout/activity_thanks_profile_photo.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_icons_pin.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/icons_pin.png"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-43:/drawable_lineatrazadapng.png.flat",
+        "source": "com.app.myapplication.app-main-45:/drawable/lineatrazadapng.png"
     }
 ]

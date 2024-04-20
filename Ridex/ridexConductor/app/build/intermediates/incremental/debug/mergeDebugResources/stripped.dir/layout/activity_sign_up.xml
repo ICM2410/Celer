@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintVertical_bias="0.03"
+        android:orientation="horizontal"
+        android:gravity="start|center"
+        >
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textColor="@color/gray"
+            android:text="@string/back"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:drawableStart="@drawable/back"
+            android:fontFamily="@font/poppinsmedium"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titleCashout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/signUpMain"
+        android:textColor="@color/gray"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout2"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleCashout"
+        app:layout_constraintVertical_bias="0.02">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:fontFamily="@font/poppinsregular"
+                android:hint="@string/hintNombre"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="15dp"
+                android:textColorHint="@color/lightGray" />
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_background"
+                android:fontFamily="@font/poppinsregular"
+                android:hint="@string/hintEmail"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="15dp"
+                android:textColorHint="@color/lightGray" />
+
+            <EditText
+                android:id="@+id/txtNumero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_background"
+                android:fontFamily="@font/poppinsregular"
+                android:hint="Numero de Celular"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="15dp"
+                android:textColorHint="@color/lightGray" />
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_background"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="15dp">
+
+
+
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="@drawable/input_background_secondary"
+                    android:fontFamily="@font/poppinsregular"
+                    android:hint="Password"
+                    android:textColorHint="@color/lightGray"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/check_circle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:lineHeight="20dp"
+                    android:text="@string/privacy"
+                    android:textColor="@color/lightGray3"
+
+                    />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:width="0dp"
+                android:background="@drawable/btn_background_primary"
+                android:fontFamily="@font/poppinsmedium"
+                android:paddingVertical="15dp"
+                android:text="@string/textCreateAccount"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/or" />
+
+
+            <Button
+                android:id="@+id/btnSignUpGmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_background"
+                android:drawableStart="@drawable/gmail"
+                android:fontFamily="@font/poppinsmedium"
+                android:paddingHorizontal="70dp"
+                android:paddingVertical="15dp"
+                android:text="@string/signupgoogle"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+
+                />
+
+            <Button
+                android:id="@+id/btnSignUpFace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_background"
+                android:drawableStart="@drawable/facebook"
+                android:fontFamily="@font/poppinsmedium"
+                android:paddingHorizontal="60dp"
+                android:paddingVertical="15dp"
+                android:text="@string/signupface"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="@string/haveanaccount"
+                    android:textSize="16sp"
+
+                    />
+
+                <Button
+                    android:id="@+id/btnGotoLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="@string/textLogin"
+                    android:textAllCaps="false"
+                    android:textColor="@color/greenPrimary"
+                    android:textSize="16sp"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

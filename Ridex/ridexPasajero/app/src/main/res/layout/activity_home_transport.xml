@@ -4,23 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
+    <fragment
+        android:id="@+id/map"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/maptransport"/>
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/placeindicate"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout16"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+
 
 
         <LinearLayout
@@ -49,7 +43,7 @@
                 android:paddingVertical="15dp" />
 
             <Button
-                android:id="@+id/btnShowSlideUp"
+                android:id="@+id/btnRequestTrip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
@@ -57,7 +51,7 @@
                 android:background="@drawable/btn_background_primary"
                 android:fontFamily="@font/poppinsmedium"
                 android:paddingVertical="15dp"
-                android:text="Transporte"
+                android:text="Solicitar Viaje"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="16dp" />

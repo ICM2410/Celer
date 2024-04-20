@@ -8,6 +8,28 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <queries>
+
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
     <permission
         android:name="com.app.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -28,6 +50,72 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
+            android:name="com.app.myapplication.ThanksLicensePhotoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.TakeLicensePhotoFrontalConfirmationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.TakeLicensePhotoBackConfirmationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.TakeLicensePhotoInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.ThanksProfilePhotoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.TakeProfilePhotoConfirmationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.TakeProfilePhotoInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.RequiredStepsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.SetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.PhoneVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.WalletActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.RideCancelActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.EarningsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.EarningDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.DisconnectedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.ConnectedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.CashoutSuccesfullActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.CashoutFailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.CashoutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.myapplication.BottomSheetOffertActivity"
+            android:exported="false" />
+        <activity
             android:name="com.app.myapplication.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -36,6 +124,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDM9AgnDU3RQjmSaTAM1BI_aS0HVyHnZBo" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -51,6 +143,116 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/ga_ad_services_config" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.app.myapplication.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <uses-library
+            android:name="android.ext.adservices"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

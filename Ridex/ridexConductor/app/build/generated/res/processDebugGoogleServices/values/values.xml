@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">252415296280</string>
+    <string name="google_api_key" translatable="false">AIzaSyBDiR5Zqplebr6Oc5BopJpskP8QsCHiqM0</string>
+    <string name="google_app_id" translatable="false">1:252415296280:android:656240e62cbc0883e1946d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBDiR5Zqplebr6Oc5BopJpskP8QsCHiqM0</string>
+    <string name="google_storage_bucket" translatable="false">ridex-6d392.appspot.com</string>
+    <string name="project_id" translatable="false">ridex-6d392</string>
+</resources>
