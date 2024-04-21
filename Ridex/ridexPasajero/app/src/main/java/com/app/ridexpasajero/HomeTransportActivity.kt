@@ -11,6 +11,7 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import com.app.ridexpasajero.databinding.ActivityHomeTransportBinding
@@ -109,6 +110,10 @@ class HomeTransportActivity : AppCompatActivity(), OnMapReadyCallback, Listener 
             var intent = Intent(baseContext, SettingsMain::class.java)
             startActivity(intent)
 
+        }
+
+        binding.btnRequestTrip.setOnClickListener{
+            goToTripInfo();
         }
 
         //val bottomSheet = BottomSheetFragmentLocation();
@@ -218,6 +223,25 @@ class HomeTransportActivity : AppCompatActivity(), OnMapReadyCallback, Listener 
 
 
         })
+
+    }
+
+    private fun goToTripInfo(){
+
+        if(originLatLng != null && destinationLatLng != null){
+            var intent = Intent(baseContext, TripActivity::class.java)
+            intent.putExtra("origin", originName)
+            intent.putExtra("destination", destinationName)
+            intent.putExtra("origin_lat", originLatLng?.latitude)
+            intent.putExtra("origin_lng", originLatLng?.longitude)
+            intent.putExtra("destination_lat", destinationLatLng?.latitude)
+            intent.putExtra("destination_lng", destinationLatLng?.longitude)
+
+            startActivity(intent)
+        }
+        else{
+            Toast.makeText(this, "Debes Seleccionar el origen y el destino", Toast.LENGTH_SHORT).show()
+        }
 
     }
 
