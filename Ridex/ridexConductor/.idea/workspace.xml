@@ -94,6 +94,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2cmj5UTcoUxhECfnVB8gs6arGej" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -106,7 +109,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/MERN/Proyectos/Ridex/Ridex/ridexConductor/app/src/main/java/com/app/myapplication/providers"
+    "last_opened_file_path": "D:/MERN/Proyectos/Ridex2/Celer/Ridex/ridexConductor"
   }
 }]]></component>
   <component name="RecentsManager">

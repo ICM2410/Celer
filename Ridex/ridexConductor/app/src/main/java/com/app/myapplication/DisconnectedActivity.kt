@@ -102,11 +102,12 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
                     connectDriver()
                 }
                 else{
-                    showButtonDisconnect()
+                    showButtonConnect()
                 }
             }
             else{
-                showButtonDisconnect()
+                showButtonConnect()
+
             }
         }
     }
@@ -128,7 +129,7 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
     private fun connectDriver(){
         easyWayLocation?.endUpdates()
         easyWayLocation?.startLocation()
-            showButtonDisconnect()
+        showButtonDisconnect()
 
     }
 

@@ -116,7 +116,7 @@
         </activity>
 
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDM9AgnDU3RQjmSaTAM1BI_aS0HVyHnZBo" />
+            android:value="AIzaSyBxBvr5hOLcZjWkEkwN3FfMAp_e_wwbj7c" />
 
     </application>
 

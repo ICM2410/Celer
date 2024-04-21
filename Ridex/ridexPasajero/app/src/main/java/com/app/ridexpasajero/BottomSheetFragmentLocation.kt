@@ -33,12 +33,5 @@ class BottomSheetFragmentLocation : BottomSheetDialogFragment() {
 
         }
 
-
-
-
-
-
-
-
     }
 }
