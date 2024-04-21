@@ -11,12 +11,15 @@ import android.location.Location
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.CountDownTimer
 import android.util.Log
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.app.myapplication.databinding.ActivityDisconnectedBinding
+import com.app.myapplication.models.Booking
+import com.app.myapplication.providers.BookingProvider
 import com.app.myapplication.providers.GeoProvider
 import com.app.ridexpasajero.providers.AuthProvider
 import com.example.easywaylocation.EasyWayLocation
@@ -34,8 +37,11 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.firebase.firestore.ListenerRegistration
 
 class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
+
+    private var bookingListener: ListenerRegistration? = null
     private lateinit var binding: ActivityDisconnectedBinding
 
     private var googleMap: GoogleMap? = null;
@@ -44,6 +50,22 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
     private var markerDriver: Marker? = null;
     private val geoProvider = GeoProvider();
     private val authProvider = AuthProvider();
+    private val bookingProvider = BookingProvider();
+    private val modalBooking = BottomSheetOffertActivity();
+
+    private val timer = object : CountDownTimer(20000, 1000){
+        override fun onTick(counter: Long) {
+            Log.d("TIMER", "Counter: ${counter}")
+
+        }
+
+        override fun onFinish() {
+            Log.d("TIMER", "ON FINISH")
+            modalBooking.dismiss()
+
+        }
+
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -62,6 +84,8 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
 
         easyWayLocation = EasyWayLocation(this, locationRequest, false, false, this )
         locationPermissions.launch(arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION))
+
+        listenerBooking()
 
         binding.btnConnect.setOnClickListener{
             connectDriver()
@@ -91,6 +115,36 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
                 else ->{
                     Log.d("LOCALIZACION", "Permiso No Concedido")
                 }
+            }
+        }
+    }
+
+    private fun showModalBooking(booking: Booking){
+        val bundle = Bundle()
+        bundle.putString("booking", booking.toJson())
+        modalBooking.arguments = bundle
+
+        modalBooking.show(supportFragmentManager, "BottomSheetOffert2")
+        timer.start()
+    }
+
+    private fun listenerBooking(){
+        bookingListener = bookingProvider.getBooking().addSnapshotListener{
+            snapshot, e ->
+
+            if(e != null){
+                Log.d("FIRESTORE", "Error ${e.message}")
+                return@addSnapshotListener
+
+            }
+
+            if(snapshot != null){
+                if(snapshot.documents.size > 0){
+                    val booking = snapshot.documents[0].toObject(Booking::class.java)
+                    Log.d("FIRESTORE", "Data: ${booking?.toJson()}")
+                    showModalBooking(booking!!)
+                }
+
             }
         }
     }
@@ -181,6 +235,7 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
     override fun onDestroy() {
         super.onDestroy()
         easyWayLocation?.endUpdates();
+        bookingListener?.remove()
 
     }
 

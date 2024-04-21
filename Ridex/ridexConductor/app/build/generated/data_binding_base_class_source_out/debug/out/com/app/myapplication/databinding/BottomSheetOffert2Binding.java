@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -22,59 +21,34 @@ public final class BottomSheetOffert2Binding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button aceptar;
+  public final Button btnCancel;
 
   @NonNull
-  public final Button cancelar;
+  public final Button btnConfirmRequest;
 
   @NonNull
-  public final ImageView imageView25;
+  public final TextView textDestiny;
 
   @NonNull
-  public final ImageView imageView26;
+  public final TextView textOrigin;
 
   @NonNull
-  public final ImageView imageView27;
+  public final TextView textPrice;
 
   @NonNull
-  public final ImageView imageView29;
+  public final TextView textTimeDistance;
 
-  @NonNull
-  public final ImageView imageView30;
-
-  @NonNull
-  public final TextView textView14;
-
-  @NonNull
-  public final TextView textView15;
-
-  @NonNull
-  public final TextView textView16;
-
-  @NonNull
-  public final TextView textView17;
-
-  @NonNull
-  public final TextView textView18;
-
-  private BottomSheetOffert2Binding(@NonNull LinearLayout rootView, @NonNull Button aceptar,
-      @NonNull Button cancelar, @NonNull ImageView imageView25, @NonNull ImageView imageView26,
-      @NonNull ImageView imageView27, @NonNull ImageView imageView29,
-      @NonNull ImageView imageView30, @NonNull TextView textView14, @NonNull TextView textView15,
-      @NonNull TextView textView16, @NonNull TextView textView17, @NonNull TextView textView18) {
+  private BottomSheetOffert2Binding(@NonNull LinearLayout rootView, @NonNull Button btnCancel,
+      @NonNull Button btnConfirmRequest, @NonNull TextView textDestiny,
+      @NonNull TextView textOrigin, @NonNull TextView textPrice,
+      @NonNull TextView textTimeDistance) {
     this.rootView = rootView;
-    this.aceptar = aceptar;
-    this.cancelar = cancelar;
-    this.imageView25 = imageView25;
-    this.imageView26 = imageView26;
-    this.imageView27 = imageView27;
-    this.imageView29 = imageView29;
-    this.imageView30 = imageView30;
-    this.textView14 = textView14;
-    this.textView15 = textView15;
-    this.textView16 = textView16;
-    this.textView17 = textView17;
-    this.textView18 = textView18;
+    this.btnCancel = btnCancel;
+    this.btnConfirmRequest = btnConfirmRequest;
+    this.textDestiny = textDestiny;
+    this.textOrigin = textOrigin;
+    this.textPrice = textPrice;
+    this.textTimeDistance = textTimeDistance;
   }
 
   @Override
@@ -104,81 +78,44 @@ public final class BottomSheetOffert2Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.aceptar;
-      Button aceptar = ViewBindings.findChildViewById(rootView, id);
-      if (aceptar == null) {
+      id = R.id.btnCancel;
+      Button btnCancel = ViewBindings.findChildViewById(rootView, id);
+      if (btnCancel == null) {
         break missingId;
       }
 
-      id = R.id.cancelar;
-      Button cancelar = ViewBindings.findChildViewById(rootView, id);
-      if (cancelar == null) {
+      id = R.id.btnConfirmRequest;
+      Button btnConfirmRequest = ViewBindings.findChildViewById(rootView, id);
+      if (btnConfirmRequest == null) {
         break missingId;
       }
 
-      id = R.id.imageView25;
-      ImageView imageView25 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView25 == null) {
+      id = R.id.textDestiny;
+      TextView textDestiny = ViewBindings.findChildViewById(rootView, id);
+      if (textDestiny == null) {
         break missingId;
       }
 
-      id = R.id.imageView26;
-      ImageView imageView26 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView26 == null) {
+      id = R.id.textOrigin;
+      TextView textOrigin = ViewBindings.findChildViewById(rootView, id);
+      if (textOrigin == null) {
         break missingId;
       }
 
-      id = R.id.imageView27;
-      ImageView imageView27 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView27 == null) {
+      id = R.id.textPrice;
+      TextView textPrice = ViewBindings.findChildViewById(rootView, id);
+      if (textPrice == null) {
         break missingId;
       }
 
-      id = R.id.imageView29;
-      ImageView imageView29 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView29 == null) {
+      id = R.id.textTimeDistance;
+      TextView textTimeDistance = ViewBindings.findChildViewById(rootView, id);
+      if (textTimeDistance == null) {
         break missingId;
       }
 
-      id = R.id.imageView30;
-      ImageView imageView30 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView30 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView14;
-      TextView textView14 = ViewBindings.findChildViewById(rootView, id);
-      if (textView14 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView15;
-      TextView textView15 = ViewBindings.findChildViewById(rootView, id);
-      if (textView15 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView16;
-      TextView textView16 = ViewBindings.findChildViewById(rootView, id);
-      if (textView16 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView17;
-      TextView textView17 = ViewBindings.findChildViewById(rootView, id);
-      if (textView17 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView18;
-      TextView textView18 = ViewBindings.findChildViewById(rootView, id);
-      if (textView18 == null) {
-        break missingId;
-      }
-
-      return new BottomSheetOffert2Binding((LinearLayout) rootView, aceptar, cancelar, imageView25,
-          imageView26, imageView27, imageView29, imageView30, textView14, textView15, textView16,
-          textView17, textView18);
+      return new BottomSheetOffert2Binding((LinearLayout) rootView, btnCancel, btnConfirmRequest,
+          textDestiny, textOrigin, textPrice, textTimeDistance);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

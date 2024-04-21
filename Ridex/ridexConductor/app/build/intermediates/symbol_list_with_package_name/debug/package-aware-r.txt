@@ -3040,6 +3040,9 @@ drawable back
 drawable background_especification
 drawable background_green_main
 drawable background_menu
+drawable baseline_add_circle_outline_24
+drawable baseline_add_location_alt_24
+drawable baseline_arrow_back_ios_24
 drawable btn_background_gray_rounded
 drawable btn_background_green_rounded
 drawable btn_background_primary
@@ -3118,6 +3121,7 @@ drawable input_background
 drawable input_background_secondary
 drawable license_back
 drawable license_front
+drawable line
 drawable lineatrazadapng
 drawable logo
 drawable m3_avd_hide_password
@@ -3262,7 +3266,6 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
-id aceptar
 id aclaracionesComision
 id aclaracionesTarjeta
 id actionDown
@@ -3330,6 +3333,8 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnBack
+id btnCancel
+id btnConfirmRequest
 id btnConnect
 id btnCrearCuenta
 id btnDisconnect
@@ -3357,7 +3362,6 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
-id cancelar
 id carryVelocity
 id cashout
 id center
@@ -3495,12 +3499,7 @@ id imageView15
 id imageView16
 id imageView17
 id imageView2
-id imageView25
-id imageView26
-id imageView27
-id imageView29
 id imageView3
-id imageView30
 id imageView4
 id imageView5
 id imageView6
@@ -3749,17 +3748,16 @@ id tarjeta
 id terrain
 id text
 id text2
+id textDestiny
 id textEnd
+id textOrigin
+id textPrice
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textTimeDistance
 id textTop
 id textView
-id textView14
-id textView15
-id textView16
-id textView17
-id textView18
 id textView2
 id textView3
 id textView4

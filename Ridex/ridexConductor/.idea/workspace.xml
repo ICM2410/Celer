@@ -25,6 +25,11 @@
           <theme>@style/Theme.MyApplication</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet_offert2.xml">
+        <config>
+          <theme>@style/Theme.MyApplication</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
@@ -40,7 +45,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[9PTCGQNZK7LNC67X]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\USUARIO\.android\avd\Pixel_6_Pro_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -109,11 +114,12 @@
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MERN/Proyectos/Ridex2/Celer/Ridex/ridexConductor&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/MERN/Proyectos/Ridex/Ridex/ridexConductor/app/src/main/res/drawable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\res\drawable" />
       <recent name="D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\java\com\app\myapplication\providers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -121,8 +127,8 @@
       <recent name="D:\MERN\Proyectos\Ridex\ridexConductor\app\src\main\res\font" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="com.app.myapplication.models" />
       <recent name="com.app.myapplication.providers" />
+      <recent name="com.app.myapplication.models" />
     </key>
   </component>
   <component name="RunManager">

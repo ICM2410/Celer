@@ -22,6 +22,9 @@ drawable back
 drawable background_especification
 drawable background_green_main
 drawable background_menu
+drawable baseline_add_circle_outline_24
+drawable baseline_add_location_alt_24
+drawable baseline_arrow_back_ios_24
 drawable btn_background_gray_rounded
 drawable btn_background_green_rounded
 drawable btn_background_primary
@@ -48,6 +51,7 @@ drawable input_background
 drawable input_background_secondary
 drawable license_back
 drawable license_front
+drawable line
 drawable lineatrazadapng
 drawable logo
 drawable mapa
@@ -69,7 +73,6 @@ font poppinsregular
 id BtnGotoCreateAccount
 id BtnPhoneVerification
 id Comision
-id aceptar
 id aclaracionesComision
 id aclaracionesTarjeta
 id bAceptar
@@ -79,6 +82,8 @@ id balanceSelected
 id balancetext
 id breakdown
 id btnBack
+id btnCancel
+id btnConfirmRequest
 id btnConnect
 id btnCrearCuenta
 id btnDisconnect
@@ -102,7 +107,6 @@ id btnSignUpFace
 id btnSignUpGmail
 id btn_GotoTakeProfilePhoto
 id button2
-id cancelar
 id cashout
 id config
 id configSelected
@@ -119,12 +123,7 @@ id imageView15
 id imageView16
 id imageView17
 id imageView2
-id imageView25
-id imageView26
-id imageView27
-id imageView29
 id imageView3
-id imageView30
 id imageView4
 id imageView5
 id imageView6
@@ -147,12 +146,11 @@ id scrollView2
 id slideup
 id spinner
 id tarjeta
+id textDestiny
+id textOrigin
+id textPrice
+id textTimeDistance
 id textView
-id textView14
-id textView15
-id textView16
-id textView17
-id textView18
 id textView2
 id textView3
 id textView4

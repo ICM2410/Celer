@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -53,9 +54,10 @@
             android:layout_gravity="center" />
 
         <TextView
+            android:id="@+id/textViewSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Viaje Confirmado"
+            android:text="Buscando Conductor"
             android:textSize="20dp"
             android:gravity="center"
             android:fontFamily="@font/poppinsmedium"
@@ -64,7 +66,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Buscando Conductor..."
+            android:text="Viaje Confirmado"
             android:textSize="12dp"
             android:gravity="center"
             android:fontFamily="@font/poppinsmedium"
