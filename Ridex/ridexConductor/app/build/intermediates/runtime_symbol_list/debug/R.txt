@@ -3356,7 +3356,6 @@ int id btnSignUp 0x7f090089
 int id btnSignUpFace 0x7f09008a
 int id btnSignUpGmail 0x7f09008b
 int id btn_GotoTakeProfilePhoto 0x7f09008c
-int id button2 0x7f09008d
 int id buttonPanel 0x7f09008e
 int id cache_measures 0x7f09008f
 int id callMeasure 0x7f090090
@@ -3496,7 +3495,6 @@ int id imageView13 0x7f090115
 int id imageView14 0x7f090116
 int id imageView15 0x7f090117
 int id imageView16 0x7f090118
-int id imageView17 0x7f090119
 int id imageView2 0x7f09011a
 int id imageView3 0x7f09011b
 int id imageView4 0x7f09011c
@@ -3644,7 +3642,6 @@ int id path 0x7f0901a9
 int id pathRelative 0x7f0901aa
 int id peekHeight 0x7f0901ab
 int id percent 0x7f0901ac
-int id perfil 0x7f0901ad
 int id pin 0x7f0901ae
 int id position 0x7f0901af
 int id postLayout 0x7f0901b0
@@ -3699,7 +3696,6 @@ int id sin 0x7f0901e0
 int id skipCollapsed 0x7f0901e1
 int id skipped 0x7f0901e2
 int id slide 0x7f0901e3
-int id slideup 0x7f0901e4
 int id snackbar_action 0x7f0901e5
 int id snackbar_text 0x7f0901e6
 int id snap 0x7f0901e7

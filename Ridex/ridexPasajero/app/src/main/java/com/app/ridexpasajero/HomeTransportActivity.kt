@@ -18,6 +18,7 @@ import com.app.ridexpasajero.databinding.ActivityHomeTransportBinding
 import com.app.ridexpasajero.models.DriverLocation
 import com.app.ridexpasajero.providers.GeoProvider
 import com.app.ridexpasajero.providers.AuthProvider
+import com.app.ridexpasajero.providers.BookingProvider
 import com.app.ridexpasajero.utils.CarMoveAnim
 import com.example.easywaylocation.EasyWayLocation
 import com.example.easywaylocation.Listener
@@ -54,6 +55,7 @@ class HomeTransportActivity : AppCompatActivity(), OnMapReadyCallback, Listener 
     private var markerDriver: Marker? = null;
     private val geoProvider = GeoProvider();
     private val authProvider = AuthProvider();
+    private val bookingProvider = BookingProvider();
 
     private var places: PlacesClient? = null
     private var autoCompleteOrigin: AutocompleteSupportFragment? = null
@@ -89,6 +91,8 @@ class HomeTransportActivity : AppCompatActivity(), OnMapReadyCallback, Listener 
         locationPermissions.launch(arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION))
 
         startGooglePlaces()
+
+        removeBooking()
 
         binding.btnWallet.setOnClickListener{
             var intent = Intent(baseContext, WalletActivity::class.java)
@@ -144,6 +148,10 @@ class HomeTransportActivity : AppCompatActivity(), OnMapReadyCallback, Listener 
                 }
             }
         }
+    }
+
+    private fun removeBooking(){
+        bookingProvider.remove()
     }
 
     private fun getNearbyDrivers(){

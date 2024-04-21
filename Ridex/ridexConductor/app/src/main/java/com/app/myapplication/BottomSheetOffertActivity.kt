@@ -1,5 +1,6 @@
 package com.app.myapplication
 
+import android.content.DialogInterface
 import android.content.Intent
 
 import android.os.Bundle
@@ -8,7 +9,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import com.app.myapplication.models.Booking
+import com.app.myapplication.models.Client
+import com.app.myapplication.providers.BookingProvider
+import com.app.myapplication.providers.GeoProvider
+import com.app.ridexpasajero.providers.AuthProvider
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 class BottomSheetOffertActivity : BottomSheetDialogFragment() {
@@ -18,6 +24,12 @@ class BottomSheetOffertActivity : BottomSheetDialogFragment() {
     private lateinit var textViewTimeDistance: TextView
     private lateinit var btnAccept: Button
     private lateinit var btnRechazar: Button
+    private val bookingProvider = BookingProvider();
+    private val geoProvider = GeoProvider();
+    private val authProvider = AuthProvider();
+    private lateinit var mapActivity: DisconnectedActivity
+
+    private lateinit var booking: Booking;
 
 
     override fun onCreateView(
@@ -28,6 +40,7 @@ class BottomSheetOffertActivity : BottomSheetDialogFragment() {
 
         val view = inflater.inflate(R.layout.bottom_sheet_offert2, container, false);
 
+
         textViewOrigin = view.findViewById(R.id.textOrigin);
         textViewDestination = view.findViewById(R.id.textDestiny);
         textViewTimeDistance = view.findViewById(R.id.textTimeDistance);
@@ -35,14 +48,67 @@ class BottomSheetOffertActivity : BottomSheetDialogFragment() {
         btnRechazar = view.findViewById(R.id.btnCancel);
 
         val data = arguments?.getString("booking")
-        val booking = Booking.fromJson(data!!)
+        booking = Booking.fromJson(data!!)!!
 
         textViewOrigin.text = booking?.origin
         textViewDestination.text = booking?.destination
         textViewTimeDistance.text = "${booking?.time} min - ${booking?.km} km"
 
+        btnAccept.setOnClickListener {
+            aceptarBooking(booking?.idClient!!)
+        }
+
+        btnRechazar.setOnClickListener {
+            cancelarBooking(booking?.idClient!!)
+        }
 
         return view
+    }
+
+    private fun aceptarBooking(idClient: String){
+
+        bookingProvider.updateStatus(idClient, "accept").addOnCompleteListener {
+            if(it.isSuccessful){
+                (activity as? DisconnectedActivity)?.easyWayLocation?.endUpdates()
+                geoProvider.removeLocaton(authProvider.getId())
+                goToMapTrip()
+            }
+            else{
+                if(context != null){
+                    Toast.makeText(context, "No se pudo aceptar el viaje", Toast.LENGTH_SHORT).show()
+
+                }
+
+            }
+        }
+
+    }
+
+    private fun goToMapTrip(){
+        val i = Intent(context, ConnectedActivity::class.java)
+        context?.startActivity(i)
+    }
+
+
+    private fun cancelarBooking(idClient: String){
+
+        bookingProvider.updateStatus(idClient, "cancel").addOnCompleteListener {
+            if(it.isSuccessful){
+                dismiss()
+
+                if(context != null){
+                    Toast.makeText(context, "Viaje Cancelado", Toast.LENGTH_SHORT).show()
+
+                }
+            }
+            else{
+                if(context != null){
+                    Toast.makeText(context, "No se pudo cancelar el viaje", Toast.LENGTH_SHORT).show()
+
+                }
+            }
+        }
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -63,5 +129,12 @@ class BottomSheetOffertActivity : BottomSheetDialogFragment() {
             val intent = Intent(activity, RideCancelActivity::class.java)
             startActivity(intent)
         }*/
+    }
+
+    override fun onDismiss(dialog: DialogInterface) {
+        super.onDismiss(dialog)
+        if(booking.idClient != null){
+            cancelarBooking(booking.idClient!!)
+        }
     }
 }

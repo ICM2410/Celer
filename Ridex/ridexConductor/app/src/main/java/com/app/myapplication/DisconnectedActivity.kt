@@ -45,7 +45,7 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
     private lateinit var binding: ActivityDisconnectedBinding
 
     private var googleMap: GoogleMap? = null;
-    private var easyWayLocation: EasyWayLocation? = null;
+    var easyWayLocation: EasyWayLocation? = null;
     private var myLocationLatLng: LatLng? = null;
     private var markerDriver: Marker? = null;
     private val geoProvider = GeoProvider();
@@ -141,8 +141,10 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
             if(snapshot != null){
                 if(snapshot.documents.size > 0){
                     val booking = snapshot.documents[0].toObject(Booking::class.java)
-                    Log.d("FIRESTORE", "Data: ${booking?.toJson()}")
-                    showModalBooking(booking!!)
+                    if(booking?.status == "create"){
+                        showModalBooking(booking!!)
+
+                    }
                 }
 
             }

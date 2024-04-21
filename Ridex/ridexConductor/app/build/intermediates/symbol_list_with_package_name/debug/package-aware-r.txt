@@ -3357,7 +3357,6 @@ id btnSignUp
 id btnSignUpFace
 id btnSignUpGmail
 id btn_GotoTakeProfilePhoto
-id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3497,7 +3496,6 @@ id imageView13
 id imageView14
 id imageView15
 id imageView16
-id imageView17
 id imageView2
 id imageView3
 id imageView4
@@ -3645,7 +3643,6 @@ id path
 id pathRelative
 id peekHeight
 id percent
-id perfil
 id pin
 id position
 id postLayout
@@ -3700,7 +3697,6 @@ id sin
 id skipCollapsed
 id skipped
 id slide
-id slideup
 id snackbar_action
 id snackbar_text
 id snap

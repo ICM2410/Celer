@@ -16,10 +16,7 @@ class OnrideActivity : AppCompatActivity() {
 
         bottomSheet.show(supportFragmentManager, "BottomSheeOntrip")
 
-        binding.btnShowSlideUp.setOnClickListener{
-            bottomSheet.show(supportFragmentManager, "BottomSheetrip")
 
-        }
 
 
     }

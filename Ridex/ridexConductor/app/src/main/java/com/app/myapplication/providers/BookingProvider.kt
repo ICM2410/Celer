@@ -2,6 +2,7 @@ package com.app.myapplication.providers
 
 import android.util.Log
 import com.app.myapplication.models.Booking
+import com.app.myapplication.models.Client
 import com.app.ridexpasajero.providers.AuthProvider
 import com.google.android.gms.tasks.Task
 import com.google.firebase.Firebase
@@ -22,6 +23,12 @@ class BookingProvider {
     fun getBooking(): Query{
         return db.whereEqualTo("idDriver", authProvider.getId())
 
+    }
+
+    fun updateStatus(idClient: String, status: String):Task<Void>{
+        return db.document(idClient).update("status", status).addOnFailureListener{ exception ->
+            Log.d("FIRESTORE", "ERROR ${exception.message}")
+        }
     }
 
 }

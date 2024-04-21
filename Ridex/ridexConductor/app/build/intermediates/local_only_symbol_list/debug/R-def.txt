@@ -106,7 +106,6 @@ id btnSignUp
 id btnSignUpFace
 id btnSignUpGmail
 id btn_GotoTakeProfilePhoto
-id button2
 id cashout
 id config
 id configSelected
@@ -121,7 +120,6 @@ id imageView13
 id imageView14
 id imageView15
 id imageView16
-id imageView17
 id imageView2
 id imageView3
 id imageView4
@@ -139,11 +137,9 @@ id linearLayout9
 id map
 id option1
 id option2
-id perfil
 id ride
 id rideVal
 id scrollView2
-id slideup
 id spinner
 id tarjeta
 id textDestiny

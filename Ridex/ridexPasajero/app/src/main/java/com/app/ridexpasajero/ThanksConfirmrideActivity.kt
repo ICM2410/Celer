@@ -3,6 +3,7 @@ package com.app.ridexpasajero
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import com.app.ridexpasajero.databinding.ActivityThanksConfirmrideBinding
 import com.app.ridexpasajero.models.Booking
@@ -11,10 +12,13 @@ import com.app.ridexpasajero.providers.BookingProvider
 import com.app.ridexpasajero.providers.GeoProvider
 import com.google.android.gms.maps.model.LatLng
 import com.google.firebase.firestore.GeoPoint
+import com.google.firebase.firestore.ListenerRegistration
 import org.imperiumlabs.geofirestore.callbacks.GeoQueryEventListener
 
 class ThanksConfirmrideActivity : AppCompatActivity() {
-    private  lateinit var binding: ActivityThanksConfirmrideBinding
+
+    private var listenerBooking: ListenerRegistration? = null
+    private lateinit var binding: ActivityThanksConfirmrideBinding
     private var extraOriginName = ""
     private var extraDestinationName = ""
     private var extraOriginLat = 0.0
@@ -29,6 +33,7 @@ class ThanksConfirmrideActivity : AppCompatActivity() {
 
     private val geoProvider = GeoProvider()
     private val authProvider = AuthProvider();
+    private val bookingProvider = BookingProvider();
 
     //Busqueda del Conductor
     private var radius = 0.1
@@ -38,7 +43,6 @@ class ThanksConfirmrideActivity : AppCompatActivity() {
 
     private var limitRadius = 20;
 
-    private val bookingProvider = BookingProvider()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -62,7 +66,49 @@ class ThanksConfirmrideActivity : AppCompatActivity() {
         destinationLatLng = LatLng(extraDestinationLat, extraDestinationLng)
 
         getClosestDrivers()
+        checkIfDriverAccept()
 
+    }
+
+    private fun checkIfDriverAccept(){
+        listenerBooking = bookingProvider.getBooking().addSnapshotListener{snapshot, e ->
+            if(e != null){
+                Log.d("FIRESTORE", "Error ${e.message}")
+                return@addSnapshotListener
+
+            }
+
+            if(snapshot != null && snapshot.exists()){
+                val booking = snapshot.toObject(Booking::class.java)
+
+                if(booking?.status == "accept"){
+                    Toast.makeText(this@ThanksConfirmrideActivity, "Viaje Aceptado", Toast.LENGTH_SHORT).show()
+
+                    listenerBooking?.remove()
+                    goToMapTrip()
+
+                }
+                else if(booking?.status == "cancel"){
+                    Toast.makeText(this@ThanksConfirmrideActivity, "Viaje Cancelado", Toast.LENGTH_SHORT).show()
+                    listenerBooking?.remove()
+
+                    goToMap()
+
+                }
+
+            }
+        }
+    }
+
+    private fun goToMapTrip(){
+        val i = Intent(this, OnrideActivity::class.java)
+        startActivity(i)
+    }
+
+    private fun goToMap(){
+        val i = Intent(this, HomeTransportActivity::class.java)
+        i.flags =Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        startActivity(i)
     }
 
     private fun createBooking(idDriver: String){
@@ -134,5 +180,10 @@ class ThanksConfirmrideActivity : AppCompatActivity() {
 
         })
 
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        listenerBooking?.remove()
     }
 }
