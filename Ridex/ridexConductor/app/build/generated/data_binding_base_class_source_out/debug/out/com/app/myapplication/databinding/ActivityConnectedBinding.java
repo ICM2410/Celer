@@ -4,20 +4,32 @@ package com.app.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.app.myapplication.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityConnectedBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityConnectedBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final Button btnFinishTrip;
+
+  @NonNull
+  public final Button btnStartTrip;
+
+  private ActivityConnectedBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button btnFinishTrip, @NonNull Button btnStartTrip) {
     this.rootView = rootView;
+    this.btnFinishTrip = btnFinishTrip;
+    this.btnStartTrip = btnStartTrip;
   }
 
   @Override
@@ -43,10 +55,25 @@ public final class ActivityConnectedBinding implements ViewBinding {
 
   @NonNull
   public static ActivityConnectedBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btnFinishTrip;
+      Button btnFinishTrip = ViewBindings.findChildViewById(rootView, id);
+      if (btnFinishTrip == null) {
+        break missingId;
+      }
 
-    return new ActivityConnectedBinding((ConstraintLayout) rootView);
+      id = R.id.btnStartTrip;
+      Button btnStartTrip = ViewBindings.findChildViewById(rootView, id);
+      if (btnStartTrip == null) {
+        break missingId;
+      }
+
+      return new ActivityConnectedBinding((ConstraintLayout) rootView, btnFinishTrip, btnStartTrip);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

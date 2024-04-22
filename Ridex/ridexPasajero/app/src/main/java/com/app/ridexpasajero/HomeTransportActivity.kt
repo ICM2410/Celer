@@ -15,6 +15,7 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import com.app.ridexpasajero.databinding.ActivityHomeTransportBinding
+import com.app.ridexpasajero.models.Booking
 import com.app.ridexpasajero.models.DriverLocation
 import com.app.ridexpasajero.providers.GeoProvider
 import com.app.ridexpasajero.providers.AuthProvider
@@ -151,7 +152,16 @@ class HomeTransportActivity : AppCompatActivity(), OnMapReadyCallback, Listener 
     }
 
     private fun removeBooking(){
-        bookingProvider.remove()
+        bookingProvider.getBooking().get().addOnSuccessListener { document ->
+
+            if(document.exists()){
+                val booking = document.toObject(Booking::class.java)
+                if(booking?.status == "create" || booking?.status == "cancel"){
+                    bookingProvider.remove()
+
+                }
+            }
+        }
     }
 
     private fun getNearbyDrivers(){

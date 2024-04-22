@@ -87,6 +87,7 @@ id btnConfirmRequest
 id btnConnect
 id btnCrearCuenta
 id btnDisconnect
+id btnFinishTrip
 id btnGotoCertificateInfo
 id btnGotoEnsuranceInfo
 id btnGotoLicenseInfo
@@ -105,6 +106,7 @@ id btnSaveProfilePhoto
 id btnSignUp
 id btnSignUpFace
 id btnSignUpGmail
+id btnStartTrip
 id btn_GotoTakeProfilePhoto
 id cashout
 id config

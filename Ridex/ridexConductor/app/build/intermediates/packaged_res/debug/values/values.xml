@@ -48,7 +48,7 @@
     <string name="google_api_key" translatable="false">AIzaSyBDiR5Zqplebr6Oc5BopJpskP8QsCHiqM0</string>
     <string name="google_app_id" translatable="false">1:252415296280:android:656240e62cbc0883e1946d</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBDiR5Zqplebr6Oc5BopJpskP8QsCHiqM0</string>
-    <string name="google_maps_key">AIzaSyDTEz7xpTebji1pvoAEHbOxFYF-lkvDM5g</string>
+    <string name="google_maps_key">AIzaSyBxBvr5hOLcZjWkEkwN3FfMAp_e_wwbj7c</string>
     <string name="google_storage_bucket" translatable="false">ridex-6d392.appspot.com</string>
     <string name="haveanaccount">¿Ya tienes una cuenta?</string>
     <string name="hintCelular">Tu número de celular</string>

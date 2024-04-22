@@ -244,7 +244,7 @@
 128-->D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:96:9-97:71
 129            android:name="com.google.android.geo.API_KEY"
 129-->D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:96:20-65
-130            android:value="AIzaSyDTEz7xpTebji1pvoAEHbOxFYF-lkvDM5g" />
+130            android:value="AIzaSyBxBvr5hOLcZjWkEkwN3FfMAp_e_wwbj7c" />
 130-->D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:97:13-68
 131
 132        <provider

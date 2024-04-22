@@ -3338,6 +3338,7 @@ id btnConfirmRequest
 id btnConnect
 id btnCrearCuenta
 id btnDisconnect
+id btnFinishTrip
 id btnGotoCertificateInfo
 id btnGotoEnsuranceInfo
 id btnGotoLicenseInfo
@@ -3356,6 +3357,7 @@ id btnSaveProfilePhoto
 id btnSignUp
 id btnSignUpFace
 id btnSignUpGmail
+id btnStartTrip
 id btn_GotoTakeProfilePhoto
 id buttonPanel
 id cache_measures

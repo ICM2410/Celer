@@ -3337,6 +3337,7 @@ int id btnConfirmRequest 0x7f090076
 int id btnConnect 0x7f090077
 int id btnCrearCuenta 0x7f090078
 int id btnDisconnect 0x7f090079
+int id btnFinishTrip 0x7f090262
 int id btnGotoCertificateInfo 0x7f09007a
 int id btnGotoEnsuranceInfo 0x7f09007b
 int id btnGotoLicenseInfo 0x7f09007c
@@ -3355,6 +3356,7 @@ int id btnSaveProfilePhoto 0x7f090088
 int id btnSignUp 0x7f090089
 int id btnSignUpFace 0x7f09008a
 int id btnSignUpGmail 0x7f09008b
+int id btnStartTrip 0x7f090263
 int id btn_GotoTakeProfilePhoto 0x7f09008c
 int id buttonPanel 0x7f09008e
 int id cache_measures 0x7f09008f

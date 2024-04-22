@@ -1,5 +1,6 @@
 package com.app.myapplication
 
+import android.app.Dialog
 import android.content.DialogInterface
 import android.content.Intent
 
@@ -16,6 +17,7 @@ import com.app.myapplication.providers.BookingProvider
 import com.app.myapplication.providers.GeoProvider
 import com.app.ridexpasajero.providers.AuthProvider
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.google.android.material.bottomsheet.BottomSheetDialog
 
 class BottomSheetOffertActivity : BottomSheetDialogFragment() {
 
@@ -65,19 +67,28 @@ class BottomSheetOffertActivity : BottomSheetDialogFragment() {
         return view
     }
 
+    override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
+        val dialog = super.onCreateDialog(savedInstanceState) as BottomSheetDialog
+        dialog.setCanceledOnTouchOutside(false)
+        return dialog
+    }
+
+
     private fun aceptarBooking(idClient: String){
 
         bookingProvider.updateStatus(idClient, "accept").addOnCompleteListener {
+            (activity as? DisconnectedActivity)?.timer?.cancel()
+
             if(it.isSuccessful){
                 (activity as? DisconnectedActivity)?.easyWayLocation?.endUpdates()
                 geoProvider.removeLocaton(authProvider.getId())
                 goToMapTrip()
             }
             else{
-                if(context != null){
-                    Toast.makeText(context, "No se pudo aceptar el viaje", Toast.LENGTH_SHORT).show()
+                /*if(context != null){
+                    Toast.makeText(activity, "No se pudo aceptar el viaje", Toast.LENGTH_SHORT).show()
 
-                }
+                }*/
 
             }
         }
@@ -86,6 +97,7 @@ class BottomSheetOffertActivity : BottomSheetDialogFragment() {
 
     private fun goToMapTrip(){
         val i = Intent(context, ConnectedActivity::class.java)
+        i.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         context?.startActivity(i)
     }
 
@@ -93,20 +105,8 @@ class BottomSheetOffertActivity : BottomSheetDialogFragment() {
     private fun cancelarBooking(idClient: String){
 
         bookingProvider.updateStatus(idClient, "cancel").addOnCompleteListener {
-            if(it.isSuccessful){
-                dismiss()
-
-                if(context != null){
-                    Toast.makeText(context, "Viaje Cancelado", Toast.LENGTH_SHORT).show()
-
-                }
-            }
-            else{
-                if(context != null){
-                    Toast.makeText(context, "No se pudo cancelar el viaje", Toast.LENGTH_SHORT).show()
-
-                }
-            }
+            (activity as? DisconnectedActivity)?.timer?.cancel()
+            dismiss()
         }
 
     }
@@ -133,8 +133,10 @@ class BottomSheetOffertActivity : BottomSheetDialogFragment() {
 
     override fun onDismiss(dialog: DialogInterface) {
         super.onDismiss(dialog)
-        if(booking.idClient != null){
+        (activity as? DisconnectedActivity)?.timer?.cancel()
+
+        /*if(booking.idClient != null){
             cancelarBooking(booking.idClient!!)
-        }
+        }*/
     }
 }

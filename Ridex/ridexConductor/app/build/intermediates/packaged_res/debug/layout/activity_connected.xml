@@ -6,14 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".ConnectedActivity">
 
-    <TextView
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <Button
+        android:id="@+id/btnStartTrip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MAP TRIP Activity"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/btn_background_primary"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Iniciar Viaje"
+        android:textColor="@color/white"
+        app:flow_verticalBias="0.9"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/map"
+        app:layout_constraintVertical_bias="0.9"
+        />
+
+    <Button
+        android:id="@+id/btnFinishTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/btn_background_green_rounded"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Finalizar Viaje"
+        android:textColor="@color/white"
+        app:flow_verticalBias="0.9"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/map"
+        app:layout_constraintVertical_bias="0.9"
+        android:backgroundTint="@color/gray"
+        android:visibility="gone"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
