@@ -135,19 +135,31 @@ class OnrideActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Direct
                     endLatLng = driverLocation
                 }
 
-                var l = document?.get("l") as List<*>
-                val lat = l[0] as Double
-                val lng = l[1] as Double
+                var l = document?.get("l")
+                Log.d("FIRESTORE", "LOCATION L:$l")
+                var list: List<Double>? = document?.get("l") as List<Double>?
+                Log.d("FIRESTORE", "LOCATION list:$list")
+                val lat: Double? = list?.get(0)
+                val lng: Double? = list?.get(1) as Double?
+                Log.d("FIRESTORE", "LOCATION lat: $lat")
 
 
-                driverLocation = LatLng(lat, lng)
 
+                if(l!=null){
+                    driverLocation = LatLng(lat!!, lng!!)
 
-                if(!isDriverLocationFound){
-                    isDriverLocationFound = true
+                    markerDriver?.remove()
                     addDriverMarker(driverLocation!!)
-                    easyDrawRoute(driverLocation!!, originLatLng!!)
+                    if(!isDriverLocationFound){
+                        isDriverLocationFound = true
+                        addDriverMarker(driverLocation!!)
+                        easyDrawRoute(driverLocation!!, originLatLng!!)
+                    }
+
                 }
+
+
+
 
                 if(endLatLng != null){
                     CarMoveAnim.carAnim(markerDriver!!, endLatLng!!, driverLocation!!)

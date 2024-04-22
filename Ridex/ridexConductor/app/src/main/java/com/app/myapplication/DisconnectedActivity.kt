@@ -67,6 +67,8 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
 
     }
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDisconnectedBinding.inflate(layoutInflater)
@@ -96,6 +98,23 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
 
         }
 
+        binding.btnLogout.setOnClickListener{
+            goToMain()
+        }
+
+        binding.btnProfile.setOnClickListener{
+            val intent = Intent(this, Perfil::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
+        }
+
+    }
+
+    private fun goToMain(){
+        authProvider.logout();
+        val intent = Intent(this, SignInActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        startActivity(intent)
     }
 
     val locationPermissions = registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()){permission ->

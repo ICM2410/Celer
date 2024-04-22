@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,16 +21,47 @@ public final class ActivityDisconnectedBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final LinearLayout btnConfig;
+
+  @NonNull
   public final Button btnConnect;
 
   @NonNull
   public final Button btnDisconnect;
 
+  @NonNull
+  public final LinearLayout btnHistorial;
+
+  @NonNull
+  public final LinearLayout btnHome;
+
+  @NonNull
+  public final Button btnLogout;
+
+  @NonNull
+  public final LinearLayout btnProfile;
+
+  @NonNull
+  public final LinearLayout btnWallet;
+
+  @NonNull
+  public final LinearLayout linearLayout13;
+
   private ActivityDisconnectedBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnConnect, @NonNull Button btnDisconnect) {
+      @NonNull LinearLayout btnConfig, @NonNull Button btnConnect, @NonNull Button btnDisconnect,
+      @NonNull LinearLayout btnHistorial, @NonNull LinearLayout btnHome, @NonNull Button btnLogout,
+      @NonNull LinearLayout btnProfile, @NonNull LinearLayout btnWallet,
+      @NonNull LinearLayout linearLayout13) {
     this.rootView = rootView;
+    this.btnConfig = btnConfig;
     this.btnConnect = btnConnect;
     this.btnDisconnect = btnDisconnect;
+    this.btnHistorial = btnHistorial;
+    this.btnHome = btnHome;
+    this.btnLogout = btnLogout;
+    this.btnProfile = btnProfile;
+    this.btnWallet = btnWallet;
+    this.linearLayout13 = linearLayout13;
   }
 
   @Override
@@ -59,6 +91,12 @@ public final class ActivityDisconnectedBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnConfig;
+      LinearLayout btnConfig = ViewBindings.findChildViewById(rootView, id);
+      if (btnConfig == null) {
+        break missingId;
+      }
+
       id = R.id.btnConnect;
       Button btnConnect = ViewBindings.findChildViewById(rootView, id);
       if (btnConnect == null) {
@@ -71,8 +109,44 @@ public final class ActivityDisconnectedBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDisconnectedBinding((ConstraintLayout) rootView, btnConnect,
-          btnDisconnect);
+      id = R.id.btnHistorial;
+      LinearLayout btnHistorial = ViewBindings.findChildViewById(rootView, id);
+      if (btnHistorial == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_home;
+      LinearLayout btnHome = ViewBindings.findChildViewById(rootView, id);
+      if (btnHome == null) {
+        break missingId;
+      }
+
+      id = R.id.btnLogout;
+      Button btnLogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogout == null) {
+        break missingId;
+      }
+
+      id = R.id.btnProfile;
+      LinearLayout btnProfile = ViewBindings.findChildViewById(rootView, id);
+      if (btnProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.btnWallet;
+      LinearLayout btnWallet = ViewBindings.findChildViewById(rootView, id);
+      if (btnWallet == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout13;
+      LinearLayout linearLayout13 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout13 == null) {
+        break missingId;
+      }
+
+      return new ActivityDisconnectedBinding((ConstraintLayout) rootView, btnConfig, btnConnect,
+          btnDisconnect, btnHistorial, btnHome, btnLogout, btnProfile, btnWallet, linearLayout13);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

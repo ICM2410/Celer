@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.app.myapplication.app-mergeDebugResources-41:/values-ko/values-ko.xml",
+            "outputFile": "com.app.myapplication.app-mergeDebugResources-45:/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USUARIO\\.gradle\\caches\\transforms-3\\f7910153a680fce6fddbcfce49bfb0cb\\transformed\\appcompat-1.6.1\\res\\values-ko\\values-ko.xml",
@@ -86,6 +86,23 @@
                         "startOffsets": "6118,6347,6440,6543",
                         "endColumns": "85,92,102,93",
                         "endOffsets": "6199,6435,6538,6632"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\USUARIO\\.gradle\\caches\\transforms-3\\c15ec34e332ee6d685a190a344090ebf\\transformed\\ucrop-2.2.6\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,112,164",
+                        "endColumns": "56,51,46",
+                        "endOffsets": "107,159,206"
+                    },
+                    "to": {
+                        "startLines": "132,133,134",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "10895,10952,11004",
+                        "endColumns": "56,51,46",
+                        "endOffsets": "10947,10999,11046"
                     }
                 },
                 {

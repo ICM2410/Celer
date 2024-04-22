@@ -6,6 +6,14 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" required="false"
+        tools:ignore="MissingPrefix" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage"/>
+
+
+
 
     <application
         android:allowBackup="true"
@@ -17,6 +25,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+        <activity
+            android:name=".Perfil"
+            android:exported="false" />
         <activity
             android:name=".ThanksLicensePhotoActivity"
             android:exported="false" />
@@ -55,34 +66,34 @@
             android:exported="false" />
         <activity
             android:name=".WalletActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".RideCancelActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EarningsActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EarningDetailsActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".DisconnectedActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".ConnectedActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".CashoutSuccesfullActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".CashoutFailActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".CashoutActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".BottomSheetOffertActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -93,9 +104,9 @@
             </intent-filter>
         </activity>
 
-        <meta-data android:name="com.google.android.geo.API_KEY"
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBxBvr5hOLcZjWkEkwN3FfMAp_e_wwbj7c" />
-
     </application>
 
 </manifest>

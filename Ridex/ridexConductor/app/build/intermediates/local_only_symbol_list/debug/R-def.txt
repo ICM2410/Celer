@@ -25,6 +25,7 @@ drawable background_menu
 drawable baseline_add_circle_outline_24
 drawable baseline_add_location_alt_24
 drawable baseline_arrow_back_ios_24
+drawable baseline_car_crash_24
 drawable btn_background_gray_rounded
 drawable btn_background_green_rounded
 drawable btn_background_primary
@@ -38,9 +39,11 @@ drawable exitoso
 drawable facebook
 drawable gmail
 drawable grafica
+drawable historial
 drawable home
 drawable home2
 drawable home_client
+drawable homegreen
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icon_pin
@@ -61,8 +64,10 @@ drawable my_location_white
 drawable nextarrow
 drawable nextarrow_white
 drawable or
+drawable settings
 drawable thanks
 drawable uber_car
+drawable user
 drawable usuarioimagen
 drawable welcome
 font popinsblack
@@ -83,6 +88,7 @@ id balancetext
 id breakdown
 id btnBack
 id btnCancel
+id btnConfig
 id btnConfirmRequest
 id btnConnect
 id btnCrearCuenta
@@ -96,9 +102,13 @@ id btnGotoLogin
 id btnGotoProfilePhotoInfo
 id btnGotoRequiredSteps
 id btnGotoTakeLicensePhotoBack
+id btnGuardar
+id btnHistorial
 id btnIniciarSesion
 id btnLogin
+id btnLogout
 id btnNextGotoProfilePhotoInfo
+id btnProfile
 id btnRetakeProfilePhoto
 id btnSaveLicenseBackPhoto
 id btnSaveLicenseFrontPhoto
@@ -107,8 +117,11 @@ id btnSignUp
 id btnSignUpFace
 id btnSignUpGmail
 id btnStartTrip
+id btnWallet
 id btn_GotoTakeProfilePhoto
+id btn_home
 id cashout
+id circleImageProfile
 id config
 id configSelected
 id configtext
@@ -131,10 +144,12 @@ id imageView7
 id imageView8
 id imageView9
 id linearLayout
+id linearLayout13
 id linearLayout2
 id linearLayout3
 id linearLayout4
 id linearLayout5
+id linearLayout6
 id linearLayout9
 id map
 id option1
@@ -157,6 +172,8 @@ id textView6
 id textView7
 id textView8
 id textView9
+id textViewName
+id textViewNumber
 id tips
 id tipsVal
 id titleCashout
@@ -173,6 +190,7 @@ layout activity_disconnected
 layout activity_earningdetails
 layout activity_earnings
 layout activity_main
+layout activity_perfil
 layout activity_phone_verification
 layout activity_required_steps
 layout activity_ridecancel
