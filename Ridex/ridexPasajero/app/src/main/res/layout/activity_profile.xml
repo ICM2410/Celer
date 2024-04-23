@@ -64,20 +64,25 @@
         app:layout_constraintVertical_bias="0.02">
 
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
-            android:src="@drawable/avatar" />
+            android:src="@drawable/avatar"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/greenPrimary"
+            />
 
         <EditText
+            android:id="@+id/textViewName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@drawable/input_background"
             android:fontFamily="@font/poppinsregular"
             android:hint="@string/fullname"
-            android:text="Santiago Ramirez"
+            android:text=""
             android:paddingHorizontal="20dp"
             android:paddingVertical="15dp"
             android:textColorHint="@color/lightGray" />
@@ -91,52 +96,27 @@
             android:paddingHorizontal="20dp"
             android:paddingVertical="15dp">
 
-            <Spinner
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColorHint="@color/lightGray"
-                android:entries="@array/numeros"
 
-                />
 
             <EditText
+                android:id="@+id/textViewNumber"
+
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:inputType="number"
                 android:layout_weight="3"
                 android:background="@drawable/input_background_secondary"
                 android:fontFamily="@font/poppinsregular"
                 android:hint="@string/hintCelular"
-                android:text="3185467389"
+                android:text=""
                 android:textColorHint="@color/lightGray"
 
                 />
 
         </LinearLayout>
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/input_background"
-            android:fontFamily="@font/poppinsregular"
-            android:hint="@string/hintEmail"
-            android:paddingHorizontal="20dp"
-            android:paddingVertical="15dp"
-            android:text="correo@correo.com"
-            android:textColorHint="@color/lightGray" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/input_background"
-            android:fontFamily="@font/poppinsregular"
-            android:hint="@string/street"
-            android:paddingHorizontal="20dp"
-            android:paddingVertical="15dp"
-            android:text="Calle 45 # 6 - 02"
-            android:textColorHint="@color/lightGray" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -146,13 +126,7 @@
 
             >
 
-            <Spinner
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="20dp"
-                android:paddingVertical="19dp"
-                android:textColorHint="@color/lightGray"
-                android:entries="@array/ciudades"/>
+
         </LinearLayout>
 
 

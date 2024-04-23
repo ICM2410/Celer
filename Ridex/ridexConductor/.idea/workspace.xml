@@ -5,6 +5,16 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_car_view.xml">
+        <config>
+          <theme>@style/Theme.MyApplication</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cashout.xml">
+        <config>
+          <theme>@style/Theme.MyApplication</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_connected.xml">
         <config>
           <theme>@style/Theme.MyApplication</theme>
@@ -125,7 +135,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[1f04ae24]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\USUARIO\.android\avd\Pixel_6_Pro_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -207,6 +217,9 @@
       <recent name="D:\MERN\Proyectos\Ridex\ridexConductor\app\src\main\res\font" />
     </key>
     <key name="android.template.1812881106">
+      <recent name="com.app.myapplication" />
+    </key>
+    <key name="android.template.1131993772">
       <recent name="com.app.myapplication" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">

@@ -18,6 +18,7 @@ class DriverProvider {
 
     val db = Firebase.firestore.collection("Drivers")
     var storage = FirebaseStorage.getInstance().getReference().child("profile")
+    var storage2 = FirebaseStorage.getInstance().getReference().child("carpics")
 
     fun create(driver:Driver):Task<Void>{
         return db.document(driver.id!!).set(driver)
@@ -35,8 +36,24 @@ class DriverProvider {
         }
     }
 
+    fun uploadImageCar(id:String, file: File): StorageTask<UploadTask.TaskSnapshot>{
+        var fromfile = Uri.fromFile(file)
+
+        val ref = storage2.child("${id}.jpg")
+        storage2 = ref
+        val uploadTask = ref.putFile(fromfile)
+
+        return uploadTask.addOnFailureListener {
+            Log.d("STORAGE", "ERROR")
+        }
+    }
+
     fun getImageUrl():Task<Uri>{
         return storage.downloadUrl
+    }
+
+    fun getCarImageUrl():Task<Uri>{
+        return storage2.downloadUrl
     }
 
     fun getDriver(idDriver:String): Task<DocumentSnapshot>{
@@ -48,6 +65,26 @@ class DriverProvider {
         map["name"] = driver?.name!!
         map["phone"] = driver?.phone!!
         map["image"] = driver?.image!!
+        /*map["color"] = driver?.color!!
+        map["color"] = driver?.color!!
+        map["color"] = driver?.color!! map["brandcar"] = driver?.brandcar!!
+        map["capacidad"] = driver?.capacidad!!
+        map["color"] = driver?.color!!
+        map["combustible"] = driver?.combustible!!
+        */
+
+        return db.document(driver?.id!!).update(map)
+    }
+
+    fun updateCarInfo(driver: Driver):Task<Void>{
+        val map: MutableMap<String, Any> = HashMap()
+        map["modelo"] = driver?.modelo!!
+        map["color"] = driver?.color!!
+        map["imageCar"] = driver?.imageCar!!
+        map["capacidad"] = driver?.capacidad!!
+        map["brandcar"] = driver?.brandcar!!
+        map["placa"] = driver?.placa!!
+
         /*map["color"] = driver?.color!!
         map["color"] = driver?.color!!
         map["color"] = driver?.color!! map["brandcar"] = driver?.brandcar!!

@@ -88,6 +88,7 @@ id balancetext
 id breakdown
 id btnBack
 id btnCancel
+id btnCar
 id btnConfig
 id btnConfirmRequest
 id btnConnect
@@ -117,7 +118,6 @@ id btnSignUp
 id btnSignUpFace
 id btnSignUpGmail
 id btnStartTrip
-id btnWallet
 id btn_GotoTakeProfilePhoto
 id btn_home
 id cashout
@@ -159,8 +159,13 @@ id rideVal
 id scrollView2
 id spinner
 id tarjeta
+id textBrandCar
+id textCapacidad
+id textColor
 id textDestiny
+id textModelo
 id textOrigin
+id textPlaca
 id textPrice
 id textTimeDistance
 id textView
@@ -182,6 +187,7 @@ id txtEmail
 id txtNombre
 id txtNumero
 id txtPassword
+layout activity_car_view
 layout activity_cashout
 layout activity_cashoutfail
 layout activity_cashoutsuccesfull

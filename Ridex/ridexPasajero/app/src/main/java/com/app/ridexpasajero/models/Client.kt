@@ -8,7 +8,7 @@ data class Client (
     val name: String? = null,
     val email: String? = null,
     val phone: String? = null,
-    val image: String? = null
+    var image: String? = null
 ) {
 
 

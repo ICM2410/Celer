@@ -3430,6 +3430,7 @@ int id browser_actions_menu_items 0x7f090073
 int id browser_actions_menu_view 0x7f090074
 int id btnBack 0x7f090075
 int id btnCancel 0x7f090076
+int id btnCar 0x7f09028d
 int id btnConfig 0x7f090077
 int id btnConfirmRequest 0x7f090078
 int id btnConnect 0x7f090079
@@ -3459,7 +3460,6 @@ int id btnSignUp 0x7f090090
 int id btnSignUpFace 0x7f090091
 int id btnSignUpGmail 0x7f090092
 int id btnStartTrip 0x7f090093
-int id btnWallet 0x7f090094
 int id btn_GotoTakeProfilePhoto 0x7f090095
 int id btn_home 0x7f090096
 int id buttonPanel 0x7f090097
@@ -3872,9 +3872,14 @@ int id tarjeta 0x7f09022c
 int id terrain 0x7f09022d
 int id text 0x7f09022e
 int id text2 0x7f09022f
+int id textBrandCar 0x7f09028e
+int id textCapacidad 0x7f09028f
+int id textColor 0x7f090290
 int id textDestiny 0x7f090230
 int id textEnd 0x7f090231
+int id textModelo 0x7f090291
 int id textOrigin 0x7f090232
+int id textPlaca 0x7f090292
 int id textPrice 0x7f090233
 int id textSpacerNoButtons 0x7f090234
 int id textSpacerNoTitle 0x7f090235
@@ -4080,6 +4085,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_car_view 0x7f0c0090
 int layout activity_cashout 0x7f0c001c
 int layout activity_cashoutfail 0x7f0c001d
 int layout activity_cashoutsuccesfull 0x7f0c001e

@@ -11,7 +11,7 @@ data class Driver (
     val email: String? = null,
     val phone: String? = null,
     var image: String? = null,
-    val imageCar: String? = null,
+    var imageCar: String? = null,
     val maxPower: String? = null,
     val modelo: String? = null,
     val capacidad: String? = null,

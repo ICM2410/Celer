@@ -3431,6 +3431,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnBack
 id btnCancel
+id btnCar
 id btnConfig
 id btnConfirmRequest
 id btnConnect
@@ -3460,7 +3461,6 @@ id btnSignUp
 id btnSignUpFace
 id btnSignUpGmail
 id btnStartTrip
-id btnWallet
 id btn_GotoTakeProfilePhoto
 id btn_home
 id buttonPanel
@@ -3873,9 +3873,14 @@ id tarjeta
 id terrain
 id text
 id text2
+id textBrandCar
+id textCapacidad
+id textColor
 id textDestiny
 id textEnd
+id textModelo
 id textOrigin
+id textPlaca
 id textPrice
 id textSpacerNoButtons
 id textSpacerNoTitle
@@ -4081,6 +4086,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_car_view
 layout activity_cashout
 layout activity_cashoutfail
 layout activity_cashoutsuccesfull

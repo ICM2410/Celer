@@ -1,98 +1,106 @@
 [
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_cashout.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_cashout.xml"
+        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_car_view.xml",
+        "source": "com.app.myapplication.app-main-49:/layout/activity_car_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_cashoutfail.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_cashoutfail.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_take_license_photo_info.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_license_photo_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_earnings.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_earnings.xml"
     },
     {
         "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_disconnected.xml",
         "source": "com.app.myapplication.app-main-49:/layout/activity_disconnected.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_perfil.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_perfil.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_set_password.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_set_password.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_take_license_photo_frontal_confirmation.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_take_license_photo_frontal_confirmation.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_connected.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_connected.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_ridecancel.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_ridecancel.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_cashoutsuccesfull.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_cashoutsuccesfull.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_take_license_photo_back_confirmation.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_take_license_photo_back_confirmation.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\bottom_sheet_offert2.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\bottom_sheet_offert2.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_take_license_photo_info.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_take_license_photo_info.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_take_profile_photo_confirmation.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_profile_photo_confirmation.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_sign_up.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_sign_up.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_wallet.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_wallet.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_thanks_license_photo.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_thanks_license_photo.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_cashout.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_cashout.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_cashoutsuccesfull.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_cashoutsuccesfull.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_take_profile_photo_info.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_profile_photo_info.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_take_profile_photo_info.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_take_profile_photo_info.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_thanks_profile_photo.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_thanks_profile_photo.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_wallet.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_wallet.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_take_license_photo_back_confirmation.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_license_photo_back_confirmation.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_connected.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_connected.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_required_steps.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_required_steps.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/bottom_sheet_offert2.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/bottom_sheet_offert2.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_sign_in.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_take_profile_photo_confirmation.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_take_profile_photo_confirmation.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_disconnected.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_disconnected.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_set_password.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_set_password.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_ridecancel.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_ridecancel.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_required_steps.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_required_steps.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_take_license_photo_frontal_confirmation.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_license_photo_frontal_confirmation.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_earningdetails.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_earningdetails.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_thanks_profile_photo.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_thanks_profile_photo.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_perfil.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_perfil.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_earnings.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_earnings.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_phone_verification.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_phone_verification.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_phone_verification.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_phone_verification.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_thanks_license_photo.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_thanks_license_photo.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_sign_in.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_sign_in.xml"
-    },
-    {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_main.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_cashoutfail.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/activity_cashoutfail.xml"
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_earningdetails.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_earningdetails.xml"
     }
 ]

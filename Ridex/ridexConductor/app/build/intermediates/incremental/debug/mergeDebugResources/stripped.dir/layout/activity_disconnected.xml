@@ -135,7 +135,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/btnWallet"
+            android:id="@+id/btnCar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
