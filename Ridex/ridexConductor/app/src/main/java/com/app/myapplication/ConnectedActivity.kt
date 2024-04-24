@@ -70,6 +70,9 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
     private var isLocationEnabled = false;
     private var isCloseToOrigin = false;
 
+    private var modalTrip = BottomSheetTripActivity();
+
+
     private val timer = object : CountDownTimer(20000, 1000){
         override fun onTick(counter: Long) {
             Log.d("TIMER", "Counter: ${counter}")
@@ -104,6 +107,7 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
 
         binding.btnStartTrip.setOnClickListener{updateToStarted()}
         binding.btnFinishTrip.setOnClickListener{updateToFinish()}
+        binding.btnInfo.setOnClickListener{showModalInfo()}
 
        /* binding.btnConnect.setOnClickListener{
             connectDriver()
@@ -113,6 +117,22 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
             disconnectDriver()
 
         }*/
+
+    }
+
+    private fun showModalInfo(){
+
+        if(booking != null){
+            val bundle = Bundle()
+            bundle.putString("booking", booking?.toJson())
+            modalTrip.arguments = bundle
+            modalTrip.isCancelable = false
+            modalTrip.show(supportFragmentManager, "BottomSheetTripInfo")
+        }
+        else{
+            Toast.makeText(this, "No se pudo cargar la informacion.", Toast.LENGTH_SHORT).show()
+        }
+
 
     }
 

@@ -3114,6 +3114,7 @@ drawable background_menu
 drawable baseline_add_circle_outline_24
 drawable baseline_add_location_alt_24
 drawable baseline_arrow_back_ios_24
+drawable baseline_call_24
 drawable baseline_car_crash_24
 drawable btn_background_gray_rounded
 drawable btn_background_green_rounded
@@ -3193,6 +3194,7 @@ drawable icon_pin
 drawable icon_taxi
 drawable icons_location_person
 drawable icons_pin
+drawable info
 drawable input_background
 drawable input_background_secondary
 drawable license_back
@@ -3279,7 +3281,9 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable or
+drawable realprofileimg
 drawable settings
+drawable star
 drawable test_level_drawable
 drawable thanks
 drawable tooltip_frame_dark
@@ -3448,6 +3452,7 @@ id btnGotoRequiredSteps
 id btnGotoTakeLicensePhotoBack
 id btnGuardar
 id btnHistorial
+id btnInfo
 id btnIniciarSesion
 id btnLogin
 id btnLogout
@@ -3597,6 +3602,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageCall
+id imageCircleView
 id imageView
 id imageView1
 id imageView10
@@ -3879,6 +3886,7 @@ id textColor
 id textDestiny
 id textEnd
 id textModelo
+id textName
 id textOrigin
 id textPlaca
 id textPrice
@@ -4114,6 +4122,7 @@ layout amu_info_window
 layout amu_text_bubble
 layout amu_webview
 layout bottom_sheet_offert2
+layout bottom_sheet_trip
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

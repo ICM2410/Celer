@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -23,12 +24,16 @@ public final class ActivityConnectedBinding implements ViewBinding {
   public final Button btnFinishTrip;
 
   @NonNull
+  public final ImageView btnInfo;
+
+  @NonNull
   public final Button btnStartTrip;
 
   private ActivityConnectedBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnFinishTrip, @NonNull Button btnStartTrip) {
+      @NonNull Button btnFinishTrip, @NonNull ImageView btnInfo, @NonNull Button btnStartTrip) {
     this.rootView = rootView;
     this.btnFinishTrip = btnFinishTrip;
+    this.btnInfo = btnInfo;
     this.btnStartTrip = btnStartTrip;
   }
 
@@ -65,13 +70,20 @@ public final class ActivityConnectedBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnInfo;
+      ImageView btnInfo = ViewBindings.findChildViewById(rootView, id);
+      if (btnInfo == null) {
+        break missingId;
+      }
+
       id = R.id.btnStartTrip;
       Button btnStartTrip = ViewBindings.findChildViewById(rootView, id);
       if (btnStartTrip == null) {
         break missingId;
       }
 
-      return new ActivityConnectedBinding((ConstraintLayout) rootView, btnFinishTrip, btnStartTrip);
+      return new ActivityConnectedBinding((ConstraintLayout) rootView, btnFinishTrip, btnInfo,
+          btnStartTrip);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

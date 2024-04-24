@@ -81,6 +81,7 @@ class OnrideActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Direct
 
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityOnrideBinding.inflate(layoutInflater)
@@ -102,6 +103,8 @@ class OnrideActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Direct
 
 
     }
+
+
 
     val locationPermissions = registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()){permission ->
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N){

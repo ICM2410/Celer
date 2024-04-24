@@ -24,6 +24,9 @@ class CarViewActivity : AppCompatActivity() {
     val driverProvider = DriverProvider();
     val authProvider = AuthProvider();
 
+    var carImageNull: String?=null
+
+
     private var imageFile: File? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -104,6 +107,8 @@ class CarViewActivity : AppCompatActivity() {
 
         }
         else{
+            driver.imageCar = carImageNull
+
             driverProvider.updateCarInfo(driver).addOnCompleteListener {
                 if(it.isSuccessful){
                     Toast.makeText(this@CarViewActivity, "Datos Actualizados Correctamente", Toast.LENGTH_SHORT).show()
@@ -134,6 +139,8 @@ class CarViewActivity : AppCompatActivity() {
                 if(driver?.imageCar != null){
                     if(driver.imageCar != ""){
                         Glide.with(this).load(driver.imageCar).into(binding.circleImageProfile)
+                        carImageNull = driver.imageCar
+
                     }
                 }
 

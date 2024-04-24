@@ -24,6 +24,9 @@ class Perfil : AppCompatActivity() {
     val driverProvider = DriverProvider();
     val authProvider = AuthProvider();
 
+    var driverImageNull: String?=null
+
+
     private var imageFile: File? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -96,6 +99,8 @@ class Perfil : AppCompatActivity() {
 
         }
         else{
+            driver.image = driverImageNull
+
             driverProvider.updateDriverInfo(driver).addOnCompleteListener {
                 if(it.isSuccessful){
                     Toast.makeText(this@Perfil, "Datos Actualizados Correctamente", Toast.LENGTH_SHORT).show()
@@ -122,6 +127,8 @@ class Perfil : AppCompatActivity() {
                 if(driver?.image != null){
                     if(driver.image != ""){
                         Glide.with(this).load(driver.image).into(binding.circleImageProfile)
+                        driverImageNull = driver.image
+
                     }
                 }
 

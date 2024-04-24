@@ -25,6 +25,7 @@ drawable background_menu
 drawable baseline_add_circle_outline_24
 drawable baseline_add_location_alt_24
 drawable baseline_arrow_back_ios_24
+drawable baseline_call_24
 drawable baseline_car_crash_24
 drawable btn_background_gray_rounded
 drawable btn_background_green_rounded
@@ -50,6 +51,7 @@ drawable icon_pin
 drawable icon_taxi
 drawable icons_location_person
 drawable icons_pin
+drawable info
 drawable input_background
 drawable input_background_secondary
 drawable license_back
@@ -64,7 +66,9 @@ drawable my_location_white
 drawable nextarrow
 drawable nextarrow_white
 drawable or
+drawable realprofileimg
 drawable settings
+drawable star
 drawable thanks
 drawable uber_car
 drawable user
@@ -105,6 +109,7 @@ id btnGotoRequiredSteps
 id btnGotoTakeLicensePhotoBack
 id btnGuardar
 id btnHistorial
+id btnInfo
 id btnIniciarSesion
 id btnLogin
 id btnLogout
@@ -126,6 +131,8 @@ id config
 id configSelected
 id configtext
 id detalles
+id imageCall
+id imageCircleView
 id imageView
 id imageView1
 id imageView10
@@ -164,6 +171,7 @@ id textCapacidad
 id textColor
 id textDestiny
 id textModelo
+id textName
 id textOrigin
 id textPlaca
 id textPrice
@@ -212,6 +220,7 @@ layout activity_thanks_license_photo
 layout activity_thanks_profile_photo
 layout activity_wallet
 layout bottom_sheet_offert2
+layout bottom_sheet_trip
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw style
