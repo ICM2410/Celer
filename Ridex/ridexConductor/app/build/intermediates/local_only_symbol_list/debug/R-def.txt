@@ -223,6 +223,7 @@ layout bottom_sheet_offert2
 layout bottom_sheet_trip
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw dark_style
 raw style
 string accept
 string aclaraciones

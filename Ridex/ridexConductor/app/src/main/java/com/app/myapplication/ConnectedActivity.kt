@@ -7,11 +7,16 @@ import android.content.res.Resources
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.drawable.Drawable
+import android.hardware.Sensor
+import android.hardware.SensorEvent
+import android.hardware.SensorEventListener
+import android.hardware.SensorManager
 import android.location.Location
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
 import android.widget.Toast
@@ -42,6 +47,7 @@ import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.firebase.firestore.ListenerRegistration
+import java.util.Locale
 
 class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, DirectionUtil.DirectionCallBack {
 
@@ -72,6 +78,14 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
 
     private var modalTrip = BottomSheetTripActivity();
 
+    private lateinit var sensorManager : SensorManager
+    private lateinit var lightSensor : Sensor
+    private lateinit var lightEventListener : SensorEventListener
+
+    private lateinit var sensorManagerT : SensorManager
+    private lateinit var tempSensor : Sensor
+    private lateinit var tempEventListener : SensorEventListener
+
 
     private val timer = object : CountDownTimer(20000, 1000){
         override fun onTick(counter: Long) {
@@ -91,6 +105,15 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
         super.onCreate(savedInstanceState)
         binding = ActivityConnectedBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
+        lightSensor = sensorManager .getDefaultSensor(Sensor.TYPE_LIGHT)!!
+        lightEventListener = createLightSensorListener()
+
+
+        sensorManagerT = getSystemService(SENSOR_SERVICE) as SensorManager
+        tempSensor = sensorManager .getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE)!!
+        tempEventListener = createTempSensorListener()
 
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment;
         mapFragment.getMapAsync(this)
@@ -307,16 +330,6 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
         googleMap?.isMyLocationEnabled = false;
 
         try {
-            val success = googleMap?.setMapStyle(
-                MapStyleOptions.loadRawResourceStyle(this, R.raw.style)
-
-            )
-            if(!success!!){
-                Log.d("MAPAS", "No se pudo encontrar el estilo")
-
-            }
-
-
         } catch (e:Resources.NotFoundException){
             Log.d("MAPAS", "Error ${e.toString()}")
 
@@ -391,5 +404,78 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
     ) {
         directionUtil.drawPath(WAY_POINT_TAG)
 
+    }
+    fun createLightSensorListener() : SensorEventListener{
+        val ret : SensorEventListener = object : SensorEventListener {
+            override fun onSensorChanged(event: SensorEvent?) {
+                if (event != null ) {
+                    if (event. values [0] < 5000){
+                        googleMap?.setMapStyle(MapStyleOptions.loadRawResourceStyle(baseContext, R.raw.dark_style))
+                    } else {
+                        googleMap?.setMapStyle(MapStyleOptions.loadRawResourceStyle(baseContext, R.raw.style))
+                    }
+                }
+            }
+            override fun onAccuracyChanged(p0: Sensor?, p1: Int) { }
+
+        }
+        return ret
+
+    }
+
+
+    fun createTempSensorListener() : SensorEventListener {
+        val ret : SensorEventListener = object : SensorEventListener {
+            lateinit var tts: TextToSpeech
+            var lastTemperature: Float = 0.0f // Variable para almacenar la última temperatura registrada
+
+            override fun onSensorChanged(event: SensorEvent?) {
+                if (event != null && event.sensor.type == Sensor.TYPE_AMBIENT_TEMPERATURE) {
+                    val temperature = event.values[0]
+
+                    // Inicializar TextToSpeech solo una vez
+                    if (!this::tts.isInitialized) {
+                        tts = TextToSpeech(applicationContext) { status ->
+                            if (status != TextToSpeech.ERROR) {
+                                tts.language = Locale("spa", "ESP")
+                            }
+                        }
+                    }
+
+                    // Verificar si ha habido un cambio significativo en la temperatura
+                    if (Math.abs(temperature - lastTemperature) >= 10.0) {
+                        if (temperature > 26) {
+                            val message = "La temperatura es alta. Te recomiendo encender el aire acondicionado o abrir las ventanas."
+                            tts.speak(message, TextToSpeech.QUEUE_FLUSH, null, null)
+                        } else if (temperature < 10) {
+                            val message = "La temperatura es baja. Te recomiendo encender la calefacción."
+                            tts.speak(message, TextToSpeech.QUEUE_FLUSH, null, null)
+                        }
+                        lastTemperature = temperature // Actualizar la última temperatura registrada
+                    }
+                }
+            }
+
+            override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) { }
+        }
+        return ret
+    }
+
+
+
+
+    override fun onResume() {
+        super.onResume()
+        sensorManager.registerListener(lightEventListener, lightSensor,
+            SensorManager.
+            SENSOR_DELAY_NORMAL)
+        sensorManagerT.registerListener(tempEventListener, tempSensor,
+            SensorManager.
+            SENSOR_DELAY_NORMAL)
+    }
+    override fun onPause() {
+        super.onPause()
+        sensorManager.unregisterListener(lightEventListener)
+        sensorManager.unregisterListener(tempEventListener)
     }
 }
