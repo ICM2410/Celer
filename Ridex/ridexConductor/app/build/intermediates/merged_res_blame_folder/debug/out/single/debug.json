@@ -12,12 +12,12 @@
         "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/my_location_white.png"
     },
     {
-        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_btn_background_green_rounded.xml.flat",
-        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/btn_background_green_rounded.xml"
-    },
-    {
         "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_btn_background_secondary.xml.flat",
         "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/btn_background_secondary.xml"
+    },
+    {
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_btn_background_green_rounded.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/btn_background_green_rounded.xml"
     },
     {
         "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_ic_launcher_background.xml.flat",
@@ -80,16 +80,16 @@
         "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/my_location_green.png"
     },
     {
-        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_sign_in.xml.flat",
-        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_sign_in.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/raw_style.json.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/raw/style.json"
     },
     {
         "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_nextarrow.png.flat",
         "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/nextarrow.png"
     },
     {
-        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/raw_style.json.flat",
-        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/raw/style.json"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_sign_in.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_sign_in.xml"
     },
     {
         "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_connected.xml.flat",
@@ -116,12 +116,12 @@
         "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/license_back.png"
     },
     {
-        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_background_menu.xml.flat",
-        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/background_menu.xml"
-    },
-    {
         "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_user.png.flat",
         "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/user.png"
+    },
+    {
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_background_menu.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/background_menu.xml"
     },
     {
         "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_disconnected.xml.flat",
@@ -260,6 +260,10 @@
         "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/btn_background_gray_rounded.xml"
     },
     {
+        "merged": "com.app.myapplication.app-merged_res-47:/raw_dark_style.json.flat",
+        "source": "com.app.myapplication.app-main-49:/raw/dark_style.json"
+    },
+    {
         "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_baseline_call_24.xml.flat",
         "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/baseline_call_24.xml"
     },
@@ -338,10 +342,6 @@
     {
         "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_home.jpg.flat",
         "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/home.jpg"
-    },
-    {
-        "merged": "com.app.myapplication.app-merged_res-47:/raw_style.json.flat",
-        "source": "com.app.myapplication.app-main-49:/raw/style.json"
     },
     {
         "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-mdpi_ic_launcher.webp.flat",
