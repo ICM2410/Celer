@@ -1,434 +1,434 @@
 [
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_home2.jpg.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/home2.jpg"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_set_password.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_set_password.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_avatar.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/avatar.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_take_license_photo_frontal_confirmation.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_license_photo_frontal_confirmation.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_my_location_white.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/my_location_white.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_thanks.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\thanks.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_btn_background_green_rounded.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/btn_background_green_rounded.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_input_background.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\input_background.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_btn_background_secondary.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/btn_background_secondary.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_earningdetails.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_earningdetails.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_perfil.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\font_poppinsextrabold.ttf.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\font\\poppinsextrabold.ttf"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_usuarioimagen.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/usuarioimagen.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_thanks_profile_photo.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_thanks_profile_photo.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_star.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/star.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_background_especification.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\background_especification.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_cancelado.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/cancelado.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_line.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\line.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_take_profile_photo_info.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_take_profile_photo_info.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_usuarioimagen.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\usuarioimagen.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_baseline_add_location_alt_24.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/baseline_add_location_alt_24.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_cashoutsuccesfull.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_cashoutsuccesfull.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_license_front.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/license_front.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_sign_up.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_cashoutsuccesfull.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_cashoutsuccesfull.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_home2.jpg.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\home2.jpg"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_check_circle.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/check_circle.png"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-47:/layout_bottom_sheet_trip.xml.flat",
-        "source": "com.app.myapplication.app-main-49:/layout/bottom_sheet_trip.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_phone_verification.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_phone_verification.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\xml\\backup_rules.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_realprofileimg.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/realprofileimg.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_settings.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\settings.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_thanks.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/thanks.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_connected.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_connected.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_bottom_sheet_trip.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/bottom_sheet_trip.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_icon_taxi.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\icon_taxi.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_my_location_green.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/my_location_green.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_my_location.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\my_location.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_sign_in.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_city.jpg.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\city.jpg"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_nextarrow.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/nextarrow.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_main.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/raw_style.json.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/raw/style.json"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_bottom_sheet_offert2.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\bottom_sheet_offert2.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_connected.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_connected.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_bottom_sheet_trip.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\bottom_sheet_trip.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_input_background.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/input_background.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_or.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/or.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_background_green_main.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\background_green_main.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_baseline_arrow_back_ios_24.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/baseline_arrow_back_ios_24.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_btn_background_primary.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\btn_background_primary.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_license_back.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/license_back.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_take_license_photo_back_confirmation.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_license_photo_back_confirmation.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_background_menu.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/background_menu.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_exitoso.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\exitoso.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_user.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/user.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_historial.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\historial.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_disconnected.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_disconnected.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_my_location_white.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\my_location_white.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_exitoso.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/exitoso.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_baseline_add_circle_outline_24.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\baseline_add_circle_outline_24.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_home_client.jpg.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/home_client.jpg"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_uber_car.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\uber_car.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_take_license_photo_info.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_take_license_photo_info.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_home.jpg.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\home.jpg"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_info.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/info.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_estrellas.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\estrellas.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_realprofileimg.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\realprofileimg.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_required_steps.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_required_steps.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_btn_background_secondary.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\btn_background_secondary.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_take_license_photo_back_confirmation.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_take_license_photo_back_confirmation.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_icons_pin.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\icons_pin.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_icon_pin.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/icon_pin.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_license_front.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\license_front.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_cashoutfail.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_cashoutfail.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_required_steps.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_required_steps.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_nextarrow_white.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/nextarrow_white.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_settings.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/settings.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\font_popinsblack.ttf.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\font\\popinsblack.ttf"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_apple.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/apple.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_cashout.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_cashout.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_btn_background_red.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/btn_background_red.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_avatar.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\avatar.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_cashout.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_cashout.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_apple3.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\apple3.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_input_background_secondary.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/input_background_secondary.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_welcome.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\welcome.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_apple3.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/apple3.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_back.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\back.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_line.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/line.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_btn_background_gray_rounded.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\btn_background_gray_rounded.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_car_view.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_car_view.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_apple.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\apple.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_earnings.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_earnings.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_btn_background_green_rounded.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\btn_background_green_rounded.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_icon_taxi.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/icon_taxi.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_cashoutfail.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_cashoutfail.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_facebook.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/facebook.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\logo.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_star.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\star.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_grafica.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/grafica.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_my_location.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/my_location.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_background_menu.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\background_menu.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_icons_pin.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/icons_pin.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_phone_verification.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_phone_verification.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_thanks_license_photo.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_thanks_license_photo.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_take_profile_photo_confirmation.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_profile_photo_confirmation.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_main.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_thanks_license_photo.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_thanks_license_photo.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/font_poppinsmedium.ttf.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/font/poppinsmedium.ttf"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_baseline_add_location_alt_24.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\baseline_add_location_alt_24.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_avatar_sinborde.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/avatar_sinborde.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_grafica.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\grafica.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/font_poppinsregular.ttf.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/font/poppinsregular.ttf"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_facebook.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\facebook.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_wallet.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_wallet.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_homegreen.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/homegreen.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_gmail.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\gmail.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_btn_background_gray_rounded.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/btn_background_gray_rounded.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_btn_background_red.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\btn_background_red.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_baseline_call_24.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/baseline_call_24.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_baseline_arrow_back_ios_24.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\baseline_arrow_back_ios_24.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_welcome.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/welcome.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_mapa.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\mapa.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_bottom_sheet_offert2.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/bottom_sheet_offert2.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_nextarrow.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\nextarrow.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_btn_background_primary.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/btn_background_primary.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\font_popinsbold.ttf.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\font\\popinsbold.ttf"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/font_poppinsextrabold.ttf.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/font/poppinsextrabold.ttf"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_avatar_sinborde.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\avatar_sinborde.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_lineatrazadapng.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/lineatrazadapng.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_city.jpg.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/city.jpg"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_background_green_main.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/background_green_main.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_license_back.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\license_back.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_set_password.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_set_password.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_baseline_car_crash_24.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\baseline_car_crash_24.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_gmail.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/gmail.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_disconnected.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_disconnected.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_earningdetails.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_earningdetails.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_or.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\or.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/font_popinsblack.ttf.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/font/popinsblack.ttf"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_earnings.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_earnings.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_ridecancel.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_ridecancel.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_ridecancel.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_ridecancel.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_mapa.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/mapa.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_user.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\user.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_my_location_green.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\my_location_green.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_homegreen.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\homegreen.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_background_especification.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/background_especification.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_baseline_call_24.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\baseline_call_24.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_baseline_car_crash_24.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/baseline_car_crash_24.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_sign_in.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_home.jpg.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/home.jpg"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.app.myapplication.app-merged_res-47:/raw_style.json.flat",
+        "source": "com.app.myapplication.app-main-49:/raw/style.json"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\font_poppinsmedium.ttf.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\font\\poppinsmedium.ttf"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\xml\\data_extraction_rules.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_home_client.jpg.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\home_client.jpg"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_sign_up.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_check_circle.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\check_circle.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_take_license_photo_info.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_license_photo_info.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/font_popinsbold.ttf.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/font/popinsbold.ttf"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_apple2.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\apple2.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_back.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/back.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_info.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\info.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_take_profile_photo_info.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_profile_photo_info.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_wallet.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_wallet.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_nextarrow_white.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\nextarrow_white.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_icon_pin.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\icon_pin.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\font_poppinsregular.ttf.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\font\\poppinsregular.ttf"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_icons_location_person.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/icons_location_person.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_input_background_secondary.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\input_background_secondary.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/xml_backup_rules.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_perfil.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_perfil.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_cancelado.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\cancelado.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_baseline_add_circle_outline_24.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/baseline_add_circle_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_lineatrazadapng.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\lineatrazadapng.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_historial.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/historial.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_take_profile_photo_confirmation.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_take_profile_photo_confirmation.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\drawable_icons_location_person.png.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\drawable\\icons_location_person.png"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_take_license_photo_frontal_confirmation.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_take_license_photo_frontal_confirmation.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\raw_style.json.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\raw\\style.json"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_apple2.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/apple2.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_estrellas.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/estrellas.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_logo.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/logo.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\layout_activity_car_view.xml.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_car_view.xml"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/drawable_uber_car.png.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/drawable/uber_car.png"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-merged_res-47:/layout_activity_thanks_profile_photo.xml.flat",
+        "source": "/Users/juanf.brinez/.gradle/daemon/8.2/com.app.myapplication.app-main-49:/layout/activity_thanks_profile_photo.xml"
     }
 ]

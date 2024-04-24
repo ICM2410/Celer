@@ -68,7 +68,7 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
     private lateinit var directionUtil: DirectionUtil
 
     private var isLocationEnabled = false;
-    private var isCloseToOrigin = false;
+    private var isCloseToOrigin = true;
 
     private var modalTrip = BottomSheetTripActivity();
 
@@ -369,10 +369,8 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
 
         if(booking != null && originLatLng != null){
             var distance = getDistanceBetween(myLocationLatLng!!, originLatLng!!)
+            isCloseToOrigin = true
 
-            if(distance <= 300){
-                isCloseToOrigin = true
-            }
         }
 
         if(!isLocationEnabled){
