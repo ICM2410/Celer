@@ -8,12 +8,12 @@
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_cashoutfail.xml"
     },
     {
-        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_earnings.xml",
-        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_earnings.xml"
-    },
-    {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_take_license_photo_info.xml",
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_take_license_photo_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_earnings.xml",
+        "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_earnings.xml"
     },
     {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_set_password.xml",
@@ -72,8 +72,8 @@
         "source": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-main-49:\\layout\\activity_disconnected.xml"
     },
     {
-        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/bottom_sheet_trip.xml",
-        "source": "com.app.myapplication.app-main-49:/layout/bottom_sheet_trip.xml"
+        "merged": "com.app.myapplication.app-mergeDebugResources-46:/layout/activity_connected.xml",
+        "source": "com.app.myapplication.app-main-49:/layout/activity_connected.xml"
     },
     {
         "merged": "C:\\Users\\USUARIO\\.gradle\\daemon\\8.2\\com.app.myapplication.app-mergeDebugResources-46:\\layout\\activity_ridecancel.xml",

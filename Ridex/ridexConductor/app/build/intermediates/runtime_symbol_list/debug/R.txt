@@ -3903,8 +3903,10 @@ int id textView6 0x7f09023e
 int id textView7 0x7f09023f
 int id textView8 0x7f090240
 int id textView9 0x7f090241
+int id textViewDistance 0x7f090297
 int id textViewName 0x7f090242
 int id textViewNumber 0x7f090243
+int id textViewTimer 0x7f090298
 int id text_input_end_icon 0x7f090244
 int id text_input_error_icon 0x7f090245
 int id text_input_start_icon 0x7f090246

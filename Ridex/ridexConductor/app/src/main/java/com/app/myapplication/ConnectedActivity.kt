@@ -12,6 +12,8 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import android.view.View
 import android.widget.Toast
@@ -68,9 +70,42 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
     private lateinit var directionUtil: DirectionUtil
 
     private var isLocationEnabled = false;
-    private var isCloseToOrigin = false;
+    private var isCloseToOrigin = true;
 
     private var modalTrip = BottomSheetTripActivity();
+
+    //Distancia
+    private var meters = 0.0;
+    private var km = 0.0;
+    private var currentLocation = Location("");
+    private var previousLocation = Location("");
+    private var isStartedTrip = false;
+
+    //Temporizador
+    private var counter = 0;
+    private var min = 0;
+    private var handler = Handler(Looper.myLooper()!!);
+    private var runnable = Runnable{
+        kotlin.run {
+            counter++;
+            if(counter == 60){
+                min = min + (counter /60);
+                counter = 0;
+
+                if(min == 0){
+                    binding.textViewTimer.text = "$counter seg"
+
+                }else
+                {
+                    binding.textViewTimer.text = "$min min $counter seg"
+
+                }
+            }
+
+
+            startTimer()
+        }
+    }
 
 
     private val timer = object : CountDownTimer(20000, 1000){
@@ -285,6 +320,7 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
     override fun onDestroy() {
         super.onDestroy()
         easyWayLocation?.endUpdates();
+        handler.removeCallbacks(runnable)
 
     }
 
@@ -324,16 +360,23 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
         }
     }
 
+    private fun startTimer(){
+        handler.postDelayed(runnable, 1000);
+
+    }
+
     private fun updateToStarted(){
         if(isCloseToOrigin){
             bookingProvider.updateStatus(booking?.idClient!!, "started").addOnCompleteListener {
                 if(it.isSuccessful){
                     if(destinationLatLng != null){
+                        isStartedTrip = true;
                         googleMap?.clear()
                         addMarker()
                         easyDrawRoute(destinationLatLng!!)
                         markerOrigin?.remove()
                         addDestinationMarker()
+                        startTimer()
 
                     }
                     showButtonFinish()
@@ -344,9 +387,13 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
         }
     }
 
+
+
     private fun updateToFinish(){
             bookingProvider.updateStatus(booking?.idClient!!, "finished").addOnCompleteListener {
                 if(it.isSuccessful){
+                    handler.removeCallbacks(runnable)
+                    isStartedTrip = false;
                     val intent = Intent(this, DisconnectedActivity::class.java)
                     intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                     startActivity(intent)
@@ -359,6 +406,15 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
 
     override fun currentLocation(location: Location) {
         myLocationLatLng = LatLng(location.latitude, location.longitude)
+
+        currentLocation = location;
+
+        if(isStartedTrip){
+            meters = meters + previousLocation.distanceTo(currentLocation);
+            km = meters / 1000;
+            binding.textViewDistance.text ="${String.format("%.1f", km)} km ";
+        }
+        previousLocation = location;
 
         googleMap?.moveCamera(CameraUpdateFactory.newCameraPosition(
             CameraPosition.builder().target(myLocationLatLng!!).zoom(17f).build()

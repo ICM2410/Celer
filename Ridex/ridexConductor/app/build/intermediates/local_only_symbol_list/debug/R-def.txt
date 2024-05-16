@@ -185,8 +185,10 @@ id textView6
 id textView7
 id textView8
 id textView9
+id textViewDistance
 id textViewName
 id textViewNumber
+id textViewTimer
 id tips
 id tipsVal
 id titleCashout

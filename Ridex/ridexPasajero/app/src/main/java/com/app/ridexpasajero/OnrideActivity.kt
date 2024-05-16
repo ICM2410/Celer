@@ -79,6 +79,7 @@ class OnrideActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Direct
     private var isDriverLocationFound = false;
     private var isBookingLoaded = false;
 
+    private var modalTrip = BottomSheetTrip();
 
 
 
@@ -100,6 +101,26 @@ class OnrideActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Direct
         easyWayLocation = EasyWayLocation(this, locationRequest, false, false, this )
         locationPermissions.launch(arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION))
 
+        binding.btnInfo.setOnClickListener{showModalInfo()}
+
+
+
+
+
+    }
+
+    private fun showModalInfo(){
+
+        if(booking != null){
+            val bundle = Bundle()
+            bundle.putString("booking", booking?.toJson())
+            modalTrip.arguments = bundle
+            modalTrip.isCancelable = false
+            modalTrip.show(supportFragmentManager, "BottomSheetTripInfo")
+        }
+        else{
+            Toast.makeText(this, "No se pudo cargar la informacion.", Toast.LENGTH_SHORT).show()
+        }
 
 
     }

@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -29,12 +30,21 @@ public final class ActivityConnectedBinding implements ViewBinding {
   @NonNull
   public final Button btnStartTrip;
 
+  @NonNull
+  public final TextView textViewDistance;
+
+  @NonNull
+  public final TextView textViewTimer;
+
   private ActivityConnectedBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnFinishTrip, @NonNull ImageView btnInfo, @NonNull Button btnStartTrip) {
+      @NonNull Button btnFinishTrip, @NonNull ImageView btnInfo, @NonNull Button btnStartTrip,
+      @NonNull TextView textViewDistance, @NonNull TextView textViewTimer) {
     this.rootView = rootView;
     this.btnFinishTrip = btnFinishTrip;
     this.btnInfo = btnInfo;
     this.btnStartTrip = btnStartTrip;
+    this.textViewDistance = textViewDistance;
+    this.textViewTimer = textViewTimer;
   }
 
   @Override
@@ -82,8 +92,20 @@ public final class ActivityConnectedBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textViewDistance;
+      TextView textViewDistance = ViewBindings.findChildViewById(rootView, id);
+      if (textViewDistance == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewTimer;
+      TextView textViewTimer = ViewBindings.findChildViewById(rootView, id);
+      if (textViewTimer == null) {
+        break missingId;
+      }
+
       return new ActivityConnectedBinding((ConstraintLayout) rootView, btnFinishTrip, btnInfo,
-          btnStartTrip);
+          btnStartTrip, textViewDistance, textViewTimer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
