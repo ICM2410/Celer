@@ -7,6 +7,10 @@ import android.content.res.Resources
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.drawable.Drawable
+import android.hardware.Sensor
+import android.hardware.SensorEvent
+import android.hardware.SensorEventListener
+import android.hardware.SensorManager
 import android.location.Location
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -79,14 +83,24 @@ class OnrideActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Direct
     private var isDriverLocationFound = false;
     private var isBookingLoaded = false;
 
+<<<<<<< HEAD
     private var modalTrip = BottomSheetTrip();
 
 
+=======
+    private lateinit var sensorManager : SensorManager
+    private lateinit var lightSensor : Sensor
+    private lateinit var lightEventListener : SensorEventListener
+>>>>>>> 95740329fdd2b722b96593f77338590a8bfdd70c
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityOnrideBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        lightEventListener = createLightSensorListener()
+
+        sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
+        lightSensor = sensorManager .getDefaultSensor(Sensor.TYPE_LIGHT)!!
 
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment;
         mapFragment.getMapAsync(this)
@@ -327,16 +341,6 @@ class OnrideActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Direct
         googleMap?.isMyLocationEnabled = false;
 
         try {
-            val success = googleMap?.setMapStyle(
-                MapStyleOptions.loadRawResourceStyle(this, R.raw.style)
-
-            )
-            if(!success!!){
-                Log.d("MAPAS", "No se pudo encontrar el estilo")
-
-            }
-
-
         } catch (e:Resources.NotFoundException){
             Log.d("MAPAS", "Error ${e.toString()}")
 
@@ -365,4 +369,34 @@ class OnrideActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Direct
         directionUtil.drawPath(WAY_POINT_TAG)
 
     }
+
+    fun createLightSensorListener() : SensorEventListener{
+        val ret : SensorEventListener = object : SensorEventListener {
+            override fun onSensorChanged(event: SensorEvent?) {
+                if (event != null ) {
+                    if (event. values [0] < 5000){
+                        googleMap?.setMapStyle(MapStyleOptions.loadRawResourceStyle(baseContext, R.raw.dark_style))
+                    } else {
+                        googleMap?.setMapStyle(MapStyleOptions.loadRawResourceStyle(baseContext, R.raw.style))
+                    }
+                }
+            }
+            override fun onAccuracyChanged(p0: Sensor?, p1: Int) { }
+
+        }
+        return ret
+    }
+
+    override fun onResume() {
+        super.onResume()
+        sensorManager.registerListener(lightEventListener, lightSensor,
+            SensorManager.
+            SENSOR_DELAY_NORMAL)
+    }
+    override fun onPause() {
+        super.onPause()
+        sensorManager.unregisterListener(lightEventListener)
+    }
+
+
 }

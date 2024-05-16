@@ -4218,6 +4218,7 @@ menu ucrop_menu_activity
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw dark_style
 raw firebase_common_keep
 raw style
 string abc_action_bar_home_description
