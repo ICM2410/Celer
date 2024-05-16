@@ -4,6 +4,10 @@ import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.Resources
+import android.hardware.Sensor
+import android.hardware.SensorEvent
+import android.hardware.SensorEventListener
+import android.hardware.SensorManager
 import android.location.Geocoder
 
 import android.location.Location
@@ -72,11 +76,19 @@ class HomeTransportActivity : AppCompatActivity(), OnMapReadyCallback, Listener 
 
     private val driverLocations = ArrayList<DriverLocation>();
 
+    private lateinit var sensorManager : SensorManager
+    private lateinit var lightSensor : Sensor
+    private lateinit var lightEventListener : SensorEventListener
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeTransportBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
+        lightSensor = sensorManager .getDefaultSensor(Sensor.TYPE_LIGHT)!!
+        lightEventListener = createLightSensorListener()
 
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment;
         mapFragment.getMapAsync(this)
@@ -387,7 +399,9 @@ class HomeTransportActivity : AppCompatActivity(), OnMapReadyCallback, Listener 
 
     override fun onResume() {
         super.onResume()
-
+        sensorManager.registerListener(lightEventListener, lightSensor,
+            SensorManager.
+            SENSOR_DELAY_NORMAL)
     }
 
     override fun onDestroy() {
@@ -416,14 +430,6 @@ class HomeTransportActivity : AppCompatActivity(), OnMapReadyCallback, Listener 
         googleMap?.isMyLocationEnabled = false;
 
         try {
-            val success = googleMap?.setMapStyle(
-                MapStyleOptions.loadRawResourceStyle(this, R.raw.style)
-
-            )
-            if(!success!!){
-                Log.d("MAPAS", "No se pudo encontrar el estilo")
-
-            }
 
 
         } catch (e: Resources.NotFoundException){
@@ -455,4 +461,27 @@ class HomeTransportActivity : AppCompatActivity(), OnMapReadyCallback, Listener 
 
     override fun locationCancelled() {
     }
+    fun createLightSensorListener() : SensorEventListener{
+        val ret : SensorEventListener = object : SensorEventListener {
+        override fun onSensorChanged(event: SensorEvent?) {
+                if (event != null ) {
+                    if (event. values [0] < 5000){
+                        googleMap?.setMapStyle(MapStyleOptions.loadRawResourceStyle(baseContext, R.raw.dark_style))
+                    } else {
+                        googleMap?.setMapStyle(MapStyleOptions.loadRawResourceStyle(baseContext, R.raw.style))
+                    }
+                }
+        }
+        override fun onAccuracyChanged(p0: Sensor?, p1: Int) { }
+
+    }
+        return ret
+
+    }
+
+    override fun onPause() {
+        super.onPause()
+        sensorManager.unregisterListener(lightEventListener)
+    }
+
 }

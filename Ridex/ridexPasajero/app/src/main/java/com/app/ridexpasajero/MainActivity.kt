@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnSkiptoLocation.setOnClickListener{
-            var intent = Intent(baseContext, AllowLocationActivity::class.java)
+            var intent = Intent(baseContext, WelcomeActivity::class.java)
             startActivity(intent)
         }
 

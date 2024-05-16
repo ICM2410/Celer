@@ -144,14 +144,14 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
         binding.btnFinishTrip.setOnClickListener{updateToFinish()}
         binding.btnInfo.setOnClickListener{showModalInfo()}
 
-       /* binding.btnConnect.setOnClickListener{
-            connectDriver()
+        /* binding.btnConnect.setOnClickListener{
+             connectDriver()
 
-        }
-        binding.btnDisconnect.setOnClickListener{
-            disconnectDriver()
+         }
+         binding.btnDisconnect.setOnClickListener{
+             disconnectDriver()
 
-        }*/
+         }*/
 
     }
 
@@ -390,15 +390,15 @@ class ConnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener, Dir
 
 
     private fun updateToFinish(){
-            bookingProvider.updateStatus(booking?.idClient!!, "finished").addOnCompleteListener {
-                if(it.isSuccessful){
-                    handler.removeCallbacks(runnable)
-                    isStartedTrip = false;
-                    val intent = Intent(this, DisconnectedActivity::class.java)
-                    intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                    startActivity(intent)
-                }
+        bookingProvider.updateStatus(booking?.idClient!!, "finished").addOnCompleteListener {
+            if(it.isSuccessful){
+                handler.removeCallbacks(runnable)
+                isStartedTrip = false;
+                val intent = Intent(this, DisconnectedActivity::class.java)
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                startActivity(intent)
             }
+        }
     }
 
     override fun locationOn() {

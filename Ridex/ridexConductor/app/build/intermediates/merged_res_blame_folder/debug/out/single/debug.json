@@ -288,16 +288,20 @@
         "source": "com.app.myapplication.app-main-49:/drawable/avatar_sinborde.png"
     },
     {
-        "merged": "com.app.myapplication.app-merged_res-47:/drawable_license_front.png.flat",
-        "source": "com.app.myapplication.app-main-49:/drawable/license_front.png"
-    },
-    {
         "merged": "com.app.myapplication.app-merged_res-47:/drawable_nextarrow.png.flat",
         "source": "com.app.myapplication.app-main-49:/drawable/nextarrow.png"
     },
     {
+        "merged": "com.app.myapplication.app-merged_res-47:/drawable_license_front.png.flat",
+        "source": "com.app.myapplication.app-main-49:/drawable/license_front.png"
+    },
+    {
         "merged": "com.app.myapplication.app-merged_res-47:/layout_activity_disconnected.xml.flat",
         "source": "com.app.myapplication.app-main-49:/layout/activity_disconnected.xml"
+    },
+    {
+        "merged": "com.app.myapplication.app-merged_res-47:/raw_dark_style.json.flat",
+        "source": "com.app.myapplication.app-main-49:/raw/dark_style.json"
     },
     {
         "merged": "com.app.myapplication.app-merged_res-47:/drawable_home.jpg.flat",

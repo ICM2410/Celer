@@ -13,12 +13,12 @@ class InduccionTresActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnContinue.setOnClickListener{
-            var intent = Intent(baseContext, AllowLocationActivity::class.java)
+            var intent = Intent(baseContext, WelcomeActivity::class.java)
             startActivity(intent)
         }
 
         binding.btnSkiptoLocation.setOnClickListener{
-            var intent = Intent(baseContext, AllowLocationActivity::class.java)
+            var intent = Intent(baseContext, WelcomeActivity::class.java)
             startActivity(intent)
         }
 
