@@ -3203,6 +3203,7 @@ drawable license_front
 drawable line
 drawable lineatrazadapng
 drawable logo
+drawable logo2
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle

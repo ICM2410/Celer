@@ -60,6 +60,7 @@ drawable license_front
 drawable line
 drawable lineatrazadapng
 drawable logo
+drawable logo2
 drawable mapa
 drawable my_location
 drawable my_location_green

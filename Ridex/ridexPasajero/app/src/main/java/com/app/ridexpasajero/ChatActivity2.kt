@@ -51,11 +51,11 @@ class ChatActivity2 : AppCompatActivity() {
                         actualizarUI(message)
                     }
                 } else {
-                    Toast.makeText(baseContext, "No existe el documento", Toast.LENGTH_SHORT).show()
+                    //Toast.makeText(baseContext, "No existe el documento", Toast.LENGTH_SHORT).show()
                 }
             }
         } else {
-            Toast.makeText(baseContext, "Ha ocurrido un error al obtener el id del chat", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(baseContext, "Ha ocurrido un error al obtener el id del chat", Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -104,10 +104,10 @@ class ChatActivity2 : AppCompatActivity() {
                         "owner" to updatedOwner,
                         "chat" to updatedChat
                     )).addOnSuccessListener {
-                        Toast.makeText(this, "Mensaje enviado", Toast.LENGTH_SHORT).show()
+                        //Toast.makeText(this, "Mensaje enviado", Toast.LENGTH_SHORT).show()
                         binding.editTextText.text.clear()
                     }.addOnFailureListener {
-                        Toast.makeText(this, "Error al enviar el mensaje", Toast.LENGTH_SHORT).show()
+                       // Toast.makeText(this, "Error al enviar el mensaje", Toast.LENGTH_SHORT).show()
                     }
                 }
             } else {
@@ -122,14 +122,14 @@ class ChatActivity2 : AppCompatActivity() {
 
                 ref.set(initialData)
                     .addOnSuccessListener {
-                        Toast.makeText(this, "Documento creado y mensaje enviado", Toast.LENGTH_SHORT).show()
+                        //Toast.makeText(this, "Documento creado y mensaje enviado", Toast.LENGTH_SHORT).show()
                         binding.editTextText.text.clear()
                     }.addOnFailureListener {
-                        Toast.makeText(this, "Error al crear el documento", Toast.LENGTH_SHORT).show()
+                        //Toast.makeText(this, "Error al crear el documento", Toast.LENGTH_SHORT).show()
                     }
             }
         }.addOnFailureListener {
-            Toast.makeText(this, "Error al obtener el documento", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this, "Error al obtener el documento", Toast.LENGTH_SHORT).show()
         }
     }
 }
