@@ -204,6 +204,14 @@
             android:src="@drawable/baseline_call_24"
             android:layout_gravity="center"/>
 
+        <ImageView
+            android:id="@+id/imageChat"
+            android:layout_marginLeft="20dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/baseline_chat_24"
+            android:layout_gravity="center"/>
+
 
     </LinearLayout>
 

@@ -24,6 +24,9 @@ public final class BottomSheetTripBinding implements ViewBinding {
   public final ImageView imageCall;
 
   @NonNull
+  public final ImageView imageChat;
+
+  @NonNull
   public final ImageView imageCircleView;
 
   @NonNull
@@ -36,10 +39,11 @@ public final class BottomSheetTripBinding implements ViewBinding {
   public final TextView textOrigin;
 
   private BottomSheetTripBinding(@NonNull LinearLayout rootView, @NonNull ImageView imageCall,
-      @NonNull ImageView imageCircleView, @NonNull TextView textDestiny, @NonNull TextView textName,
-      @NonNull TextView textOrigin) {
+      @NonNull ImageView imageChat, @NonNull ImageView imageCircleView,
+      @NonNull TextView textDestiny, @NonNull TextView textName, @NonNull TextView textOrigin) {
     this.rootView = rootView;
     this.imageCall = imageCall;
+    this.imageChat = imageChat;
     this.imageCircleView = imageCircleView;
     this.textDestiny = textDestiny;
     this.textName = textName;
@@ -79,6 +83,12 @@ public final class BottomSheetTripBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageChat;
+      ImageView imageChat = ViewBindings.findChildViewById(rootView, id);
+      if (imageChat == null) {
+        break missingId;
+      }
+
       id = R.id.imageCircleView;
       ImageView imageCircleView = ViewBindings.findChildViewById(rootView, id);
       if (imageCircleView == null) {
@@ -103,8 +113,8 @@ public final class BottomSheetTripBinding implements ViewBinding {
         break missingId;
       }
 
-      return new BottomSheetTripBinding((LinearLayout) rootView, imageCall, imageCircleView,
-          textDestiny, textName, textOrigin);
+      return new BottomSheetTripBinding((LinearLayout) rootView, imageCall, imageChat,
+          imageCircleView, textDestiny, textName, textOrigin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

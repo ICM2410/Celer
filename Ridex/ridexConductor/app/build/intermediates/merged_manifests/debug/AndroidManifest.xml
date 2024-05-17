@@ -67,6 +67,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
+            android:name="com.app.myapplication.ChatActivity"
+            android:exported="false" />
+        <activity
             android:name="com.app.myapplication.CarViewActivity"
             android:exported="false" />
         <activity

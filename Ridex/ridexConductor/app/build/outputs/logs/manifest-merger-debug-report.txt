@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:2:1-119:12
-INJECTED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:2:1-119:12
-INJECTED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:2:1-119:12
-INJECTED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:2:1-119:12
+ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:2:1-122:12
+INJECTED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:2:1-122:12
+INJECTED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:2:1-122:12
+INJECTED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:2:1-122:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\USUARIO\.gradle\caches\transforms-3\be7926fd6eea9a0889beb021035f33c0\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\USUARIO\.gradle\caches\transforms-3\69a441a0435274e720be05ba5602f9b4\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\USUARIO\.gradle\caches\transforms-3\ccb0548c3e0ed27e73465f31aade944a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -189,8 +189,8 @@ ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidMani
 	android:name
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:19:9-65
 application
-ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:22:5-117:19
-INJECTED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:22:5-117:19
+ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:22:5-120:19
+INJECTED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:22:5-120:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\USUARIO\.gradle\caches\transforms-3\69a441a0435274e720be05ba5602f9b4\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\USUARIO\.gradle\caches\transforms-3\69a441a0435274e720be05ba5602f9b4\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\USUARIO\.gradle\caches\transforms-3\ccb0548c3e0ed27e73465f31aade944a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -289,172 +289,178 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\USUARIO\.gradle\caches
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:30:9-51
 	android:dataExtractionRules
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:24:9-65
-activity#com.app.myapplication.CarViewActivity
+activity#com.app.myapplication.ChatActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:33:13-44
-activity#com.app.myapplication.Perfil
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:33:13-41
+activity#com.app.myapplication.CarViewActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:36:13-35
-activity#com.app.myapplication.ThanksLicensePhotoActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:36:13-44
+activity#com.app.myapplication.Perfil
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:39:13-55
-activity#com.app.myapplication.TakeLicensePhotoFrontalConfirmationActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:39:13-35
+activity#com.app.myapplication.ThanksLicensePhotoActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:42:13-72
-activity#com.app.myapplication.TakeLicensePhotoBackConfirmationActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:42:13-55
+activity#com.app.myapplication.TakeLicensePhotoFrontalConfirmationActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:45:13-69
-activity#com.app.myapplication.TakeLicensePhotoInfoActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:45:13-72
+activity#com.app.myapplication.TakeLicensePhotoBackConfirmationActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:48:13-57
-activity#com.app.myapplication.ThanksProfilePhotoActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:48:13-69
+activity#com.app.myapplication.TakeLicensePhotoInfoActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:51:13-55
-activity#com.app.myapplication.TakeProfilePhotoConfirmationActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:51:13-57
+activity#com.app.myapplication.ThanksProfilePhotoActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:54:13-65
-activity#com.app.myapplication.TakeProfilePhotoInfoActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:54:13-55
+activity#com.app.myapplication.TakeProfilePhotoConfirmationActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:56:9-58:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:57:13-57
-activity#com.app.myapplication.RequiredStepsActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:57:13-65
+activity#com.app.myapplication.TakeProfilePhotoInfoActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:59:9-61:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:60:13-50
-activity#com.app.myapplication.SetPasswordActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:60:13-57
+activity#com.app.myapplication.RequiredStepsActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:62:9-64:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:64:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:63:13-48
-activity#com.app.myapplication.PhoneVerificationActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:63:13-50
+activity#com.app.myapplication.SetPasswordActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:65:9-67:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:66:13-54
-activity#com.app.myapplication.SignUpActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:66:13-48
+activity#com.app.myapplication.PhoneVerificationActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:68:9-70:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:70:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:69:13-43
-activity#com.app.myapplication.SignInActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:69:13-54
+activity#com.app.myapplication.SignUpActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:71:9-73:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:73:13-37
 	android:name
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:72:13-43
-activity#com.app.myapplication.WalletActivity
+activity#com.app.myapplication.SignInActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:74:9-76:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:76:13-37
 	android:name
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:75:13-43
-activity#com.app.myapplication.RideCancelActivity
+activity#com.app.myapplication.WalletActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:77:9-79:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:79:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:78:13-47
-activity#com.app.myapplication.EarningsActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:78:13-43
+activity#com.app.myapplication.RideCancelActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:80:9-82:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:82:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:81:13-45
-activity#com.app.myapplication.EarningDetailsActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:81:13-47
+activity#com.app.myapplication.EarningsActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:83:9-85:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:85:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:84:13-51
-activity#com.app.myapplication.DisconnectedActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:84:13-45
+activity#com.app.myapplication.EarningDetailsActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:86:9-88:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:88:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:87:13-49
-activity#com.app.myapplication.ConnectedActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:87:13-51
+activity#com.app.myapplication.DisconnectedActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:89:9-91:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:91:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:90:13-46
-activity#com.app.myapplication.CashoutSuccesfullActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:90:13-49
+activity#com.app.myapplication.ConnectedActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:92:9-94:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:94:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:93:13-54
-activity#com.app.myapplication.CashoutFailActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:93:13-46
+activity#com.app.myapplication.CashoutSuccesfullActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:95:9-97:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:97:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:96:13-48
-activity#com.app.myapplication.CashoutActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:96:13-54
+activity#com.app.myapplication.CashoutFailActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:98:9-100:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:100:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:99:13-44
-activity#com.app.myapplication.BottomSheetOffertActivity
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:99:13-48
+activity#com.app.myapplication.CashoutActivity
 ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:101:9-103:40
 	android:exported
 		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:103:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:102:13-54
-activity#com.app.myapplication.MainActivity
-ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:104:9-112:20
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:102:13-44
+activity#com.app.myapplication.BottomSheetOffertActivity
+ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:104:9-106:40
 	android:exported
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:106:13-36
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:106:13-37
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:105:13-41
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:105:13-54
+activity#com.app.myapplication.MainActivity
+ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:107:9-115:20
+	android:exported
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:109:13-36
+	android:name
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:108:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:107:13-111:29
+ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:110:13-114:29
 action#android.intent.action.MAIN
-ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:108:17-69
+ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:111:17-69
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:108:25-66
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:111:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:110:17-77
+ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:113:17-77
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:110:27-74
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:113:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:114:9-116:71
+ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:117:9-119:71
 	android:value
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:116:13-68
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:119:13-68
 	android:name
-		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:115:13-58
+		ADDED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml:118:13-58
 uses-sdk
 INJECTED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\MERN\Proyectos\Ridex\Ridex\ridexConductor\app\src\main\AndroidManifest.xml

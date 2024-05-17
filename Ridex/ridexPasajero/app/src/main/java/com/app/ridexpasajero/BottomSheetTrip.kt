@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import com.app.ridexpasajero.models.Booking
 import com.app.ridexpasajero.models.Client
@@ -37,6 +38,7 @@ class BottomSheetTrip :  BottomSheetDialogFragment() {
     var imageViewClient: ImageView? = null
     var imageViewPhone: ImageView?=null
     var imageViewCar: ImageView?=null
+    var imageViewChat: ImageView?=null
 
     val REQUEST_PHONE_CALL = 30
 
@@ -58,6 +60,8 @@ class BottomSheetTrip :  BottomSheetDialogFragment() {
         textViewBrand =view.findViewById(R.id.textCarBrand)
         textViewModelo=view.findViewById(R.id.textModelo)
         textViewPlaca=view.findViewById(R.id.textPlaca)
+        imageViewPhone = view.findViewById(R.id.imageCall)
+        imageViewChat = view.findViewById(R.id.imageChat)
 
         val data = arguments?.getString("booking")
         booking = Booking.fromJson(data!!)!!
@@ -74,6 +78,16 @@ class BottomSheetTrip :  BottomSheetDialogFragment() {
                 call(client?.phone!!)
             }
         }
+
+        imageViewChat?.setOnClickListener {
+            val intent = Intent(requireActivity(), ChatActivity2::class.java)
+            if(booking.id != null){
+                intent.putExtra("idBooking",booking.id);
+
+            }
+            startActivity(intent)
+        }
+
         getClient()
 
 

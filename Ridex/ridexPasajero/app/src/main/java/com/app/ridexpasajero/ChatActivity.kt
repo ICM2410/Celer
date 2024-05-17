@@ -18,11 +18,5 @@ class ChatActivity : AppCompatActivity() {
         }
 
 
-
-
-
-
-
-
     }
 }

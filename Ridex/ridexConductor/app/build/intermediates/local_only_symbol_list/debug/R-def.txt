@@ -27,6 +27,7 @@ drawable baseline_add_location_alt_24
 drawable baseline_arrow_back_ios_24
 drawable baseline_call_24
 drawable baseline_car_crash_24
+drawable baseline_chat_24
 drawable btn_background_gray_rounded
 drawable btn_background_green_rounded
 drawable btn_background_primary
@@ -131,7 +132,10 @@ id config
 id configSelected
 id configtext
 id detalles
+id editTextText
+id enviar
 id imageCall
+id imageChat
 id imageCircleView
 id imageView
 id imageView1
@@ -159,6 +163,7 @@ id linearLayout5
 id linearLayout6
 id linearLayout9
 id map
+id messagesContainer
 id option1
 id option2
 id ride
@@ -201,6 +206,8 @@ layout activity_car_view
 layout activity_cashout
 layout activity_cashoutfail
 layout activity_cashoutsuccesfull
+layout activity_chat
+layout activity_chat2
 layout activity_connected
 layout activity_disconnected
 layout activity_earningdetails

@@ -3116,6 +3116,7 @@ drawable baseline_add_location_alt_24
 drawable baseline_arrow_back_ios_24
 drawable baseline_call_24
 drawable baseline_car_crash_24
+drawable baseline_chat_24
 drawable btn_background_gray_rounded
 drawable btn_background_green_rounded
 drawable btn_background_primary
@@ -3550,6 +3551,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextText
 id edit_query
 id edit_text_id
 id elastic
@@ -3558,6 +3560,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id enviar
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3603,6 +3606,7 @@ id ignore
 id ignoreRequest
 id image
 id imageCall
+id imageChat
 id imageCircleView
 id imageView
 id imageView1
@@ -3690,6 +3694,7 @@ id matrix
 id menu_crop
 id menu_loader
 id message
+id messagesContainer
 id middle
 id mini
 id month_grid
@@ -4100,6 +4105,8 @@ layout activity_car_view
 layout activity_cashout
 layout activity_cashoutfail
 layout activity_cashoutsuccesfull
+layout activity_chat
+layout activity_chat2
 layout activity_connected
 layout activity_disconnected
 layout activity_earningdetails

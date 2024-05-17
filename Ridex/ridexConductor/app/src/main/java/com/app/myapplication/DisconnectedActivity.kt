@@ -126,6 +126,10 @@ class DisconnectedActivity : AppCompatActivity(), OnMapReadyCallback, Listener {
             startActivity(intent)
         }
 
+        binding.btnConfig.setOnClickListener{
+
+        }
+
     }
 
     private fun goToMain(){
